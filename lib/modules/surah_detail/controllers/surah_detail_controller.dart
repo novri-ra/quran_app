@@ -4,6 +4,7 @@ import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
 import '../../../core/network/api_service.dart';
 import '../../../core/storage/storage_service.dart';
+import '../../bookmark/controllers/bookmark_controller.dart';
 
 class SurahDetailController extends GetxController {
   final ApiService _apiService = ApiService();
@@ -39,6 +40,12 @@ class SurahDetailController extends GetxController {
   // Menyimpan posisi bacaan terakhir ke Local Storage (Hive)
   void saveBookmark(int nomorSurat, int nomorAyat) {
     _storageService.saveLastRead(nomorSurat, nomorAyat);
+
+    // Memberitahu BookmarkController agar me-refresh UI
+    if (Get.isRegistered<BookmarkController>()) {
+      Get.find<BookmarkController>().loadBookmark();
+    }
+
     Get.snackbar(
       'Berhasil',
       'Telah ditandai sebagai terakhir dibaca',
