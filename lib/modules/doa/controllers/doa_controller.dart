@@ -45,7 +45,7 @@ class DoaController extends GetxController {
       filteredDoaList.value = doaList;
     } else {
       filteredDoaList.value = doaList.where((doa) {
-        final namaDoa = (doa['doa'] ?? '').toString().toLowerCase();
+        final namaDoa = (doa['nama'] ?? '').toString().toLowerCase();
         return namaDoa.contains(query.toLowerCase());
       }).toList();
     }
