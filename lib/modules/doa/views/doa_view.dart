@@ -59,7 +59,7 @@ class DoaView extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           Text(
-                            doa['doa'] ?? 'Nama Doa',
+                            doa['nama'] ?? 'Nama Doa',
                             style: const TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -68,7 +68,7 @@ class DoaView extends StatelessWidget {
                           ),
                           const Divider(height: 24),
                           Text(
-                            doa['ayat'] ?? '',
+                            doa['ar'] ?? '',
                             textAlign: TextAlign.right,
                             style: const TextStyle(
                               fontSize: 24,
@@ -79,7 +79,7 @@ class DoaView extends StatelessWidget {
                           ),
                           const SizedBox(height: 12),
                           Text(
-                            doa['latin'] ?? '',
+                            doa['tr'] ?? '',
                             style: TextStyle(
                               fontStyle: FontStyle.italic,
                               color: Get.isDarkMode
@@ -89,7 +89,7 @@ class DoaView extends StatelessWidget {
                           ),
                           const SizedBox(height: 8),
                           Text(
-                            doa['artinya'] ?? '',
+                            doa['idn'] ?? '',
                             style: TextStyle(
                               fontSize: 14,
                               color: Get.isDarkMode
