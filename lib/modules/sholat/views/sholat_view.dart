@@ -20,6 +20,32 @@ class SholatView extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            // --- Tombol Deteksi Lokasi Otomatis ---
+            Obx(
+              () => controller.isDetectingLocation.value
+                  ? const Center(
+                      child: Padding(
+                        padding: EdgeInsets.all(16.0),
+                        child: CircularProgressIndicator(),
+                      ),
+                    )
+                  : ElevatedButton.icon(
+                      onPressed: controller.autoDetectLocation,
+                      icon: const Icon(Icons.my_location),
+                      label: const Text('Gunakan Lokasi Saat Ini'),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.teal,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(vertical: 14),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12),
+                        ),
+                      ),
+                    ),
+            ),
+
+            const SizedBox(height: 24),
+
             // --- Dropdown Provinsi ---
             Obx(
               () => controller.isLoadingProvinsi.value
