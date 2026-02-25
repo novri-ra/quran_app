@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/widgets/banner_ad_widget.dart';
 import '../controllers/quran_controller.dart';
 
 class SurahListView extends GetView<QuranController> {
@@ -84,6 +85,8 @@ class SurahListView extends GetView<QuranController> {
               );
             }),
           ),
+          // Widget Iklan AdMob
+          const BannerAdWidget(),
         ],
       ),
     );

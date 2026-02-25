@@ -17,10 +17,11 @@ Folder inti dari aplikasi dirancang sangat rapi sehingga memisahkan fitur (modul
 
 A. Core (lib/core/)
 Menghimpun layanan vital yang bisa digunakan secara global oleh berbagai fitur lain:
-- ApiService: Menangani koneksi ke `https://equran.id`. Menyediakan endpoints untuk mengambil daftar Surat (`/api/v2/surat`), detail per-Surat beserta ayat (`/api/v2/surat/{id}`), daftar Doa & Dzikir harian (`/api/doa`), serta sekumpulan endpoint hierarkis Jadwal Shalat (`/api/v1/sholat/provinsi`, `/kabupaten`, `/jadwal`). Modul ini juga menangani proses streaming dan pengunduhan file Murottal menggunakan `Dio` ke sistem file lokal.
+- ApiService: Menangani koneksi ke MyQuran API (`https://api.myquran.com/v2/`). Menyediakan endpoints untuk mengambil daftar semua Kota (`/sholat/kota/semua`) dan Jadwal Shalat spesifik bulanan (`/sholat/jadwal/{id}/{tahun}/{bulan}`). Modul ini juga menangani proses streaming dan pengunduhan file Murottal menggunakan `Dio` ke sistem file lokal.
+- Offline Data: Data lengkap 114 Surat Al-Quran (`surat.json`) dan daftar Doa & Dzikir Harian (`doa.json`) dibaca langsung dari `rootBundle` lokal sebagai sistem Offline First, mempercepat pemuatan aplikasi.
 - StorageService: Inisialisasi Hive box untuk secara permanen mencatat:
   1. Ayat terakhir yang dibaca (fitur Bookmark).
-  2. Riwayat unduhan URL Audio Murottal di memori lokal.
+  2. Riwayat unduhan URL Audio Murottal di memori lokal (tersimpan via relative path untuk cegah error pathing OS).
   3. Preferensi pengguna (seperti status Tema Gelap / Dark Mode).
 
 B. Fitur / Modules (lib/modules/)
@@ -35,7 +36,7 @@ Tiap layar UI dibekali oleh satu Controller khusus:
 - Doa & Dzikir (DoaView & DoaController):
   Membentuk daftar doa observabel dengan dukungan fitur pencarian nama doa lokal. Setiap Card doa menonjolkan teks Arab (`fontFamily: Nabi`), teks Latin, dan terjemahan.
 - Jadwal Shalat & Imsakiyah (SholatView & SholatController):
-  Menerapkan mekanisme API bertingkat: memilih Provinsi -> memicu muat daftar Kabupaten -> memicu unduh Tabel Jadwal Shalat Bulanan. Setelah jadwal diunduh, sistem cerdas memfilternya berdasarkan tanggal hari ini (Auto-Focus Hari Ini). Data ditampilkan eksklusif tanpa refresh halaman secara sinkron (Obx).
+  Menerapkan mekanisme API pencarian Kota: Tersedia fitur Autocomplete Dropdown Search untuk menavigasi 500+ kota/kabupaten. Dilengkapi dengan auto-deteksi koordinat pengguna via paket `geolocator` dan `geocoding`. Data jadwal akan diunduh dan sistem secara cerdas memfilternya berdasarkan tanggal hari ini (Auto-Focus Hari Ini). Data ditampilkan eksklusif tanpa refresh sinkron (Obx).
 - Pengaturan / Settings (SettingsView & ThemeController):
   Manajemen Tema Gelap (Dark Mode) persisten dengan memanfaatkan StorageService, switch otomatis dari sistem ke kontras gelap nyaman di mata.
 
@@ -98,8 +99,8 @@ D. DoaView (`lib/modules/doa/views/doa_view.dart`)
 - Setiap Card memiliki judul latin warna teal, pemisah linier `Divider`, lafaz teks arab font `Nabi` perataan kanan, dan diikuti latin italic serta teks terjemahan.
 
 E. SholatView (`lib/modules/sholat/views/sholat_view.dart`)
-- Struktur: Menggunakan form Input reaktif `DropdownButtonFormField` untuk "Pilihan Provinsi", disusul letak Dropdown "Pilihan Kabupaten/Kota" yang status enabled/disabled-nya disetir dinamis (hanya aktif jika controller list kabupaten tak lagi kosong).
-- Hasil Card Jadwal Shalat: Mengeluarkan output kalendar waktu presisi hari ini secara runut vertikal dari jam "Imsak", "Subuh", dsb hingga "Isya", diatur tata letak `Row(mainAxisAlignment.spaceBetween)` agar simetris kiri-kanan.
+- Struktur: Menggunakan tombol GPS otomatis dan form Input reaktif `Autocomplete` untuk "Pencarian Kota/Kabupaten", yang mencegah _lag_ walau memiliki dataset ratusan kota.
+- Hasil Card Jadwal Shalat: Mengeluarkan output kalendar waktu presisi hari ini secara runut vertikal dari jam "Imsak", "Subuh", dsb hingga "Isya", diatur tata letak `Row(mainAxisAlignment.spaceBetween)` agar simetris kiri-kanan. Terdapat status layar Error State jika API gagal dimuat.
 
 ---
 STRUKTUR KUSTOMISASI TAMBAHAN SAAT INI (KOSMETIK & DESAIN):
@@ -121,16 +122,21 @@ A. BUGS (Kendala Logika)
 1. State Desync Bookmark: Menyimpan bookmark baru tidak memicu `BookmarkController` memuat ulang data ke UI secara dinamis.
 2. Risiko Path Audio Lokal: Aplikasi saat ini menyimpan Absolute Path (`/data/user/0/...`) Murottal di Hive. Jika OS update dan nama folder sandbox berubah, file tak akan bisa diputar. Harus diubah ke Relative Path.
 
-B. IMPROVEMENTS (Peningkatan Esensial)
-1. Optimasi Lazy Load: Saat aplikasi dibuka, IndexedStack membuat Quran, Doa, dan Sholat memanggil API berbarengan secara boros.
-2. Tombol Coba Lagi: Dibutuhkan mekanisme "Coba Lagi" (Retry) ketika API gagal dimuat akibat putusnya koneksi internet.
-3. Slider Progress Bar: Murottal butuh slider visual/Seek Bar karena pengguna kesulitan menggeser durasi maju/mundur.
-4. Ekspansi Kalender Shalat: Data Sholat saat ini membuang array satu bulan penuh karena terfokus hanya hari ini.
+1. Status Offline First Database List Surat & Doa Harian
+2. Integrasi API Baru Jadwal Shalat (MyQuran API)
+3. Deteksi Lokasi Otomatis (Geolocator & Reverse Geocoding)
+4. Pencarian Kota Autocomplete Material 3 (Menghindari Dropdown Freeze)
+5. Refaktor Penyimpanan Audio Hive ke Nama Berkas Relatif
+6. Algoritma Navigation Indexed Stack (Lazy Load)
+7. Komponen Error State dengan _Refresh Button_
+8. Progress Slider Audio Murottal dan Animasi Transisi Halus
 
-C. TODO LIST FASE 8 (Pekerjaan yang Tersisa)
-- [ ] Memperbaiki State Desync UI Bookmark (Load ulang pasca save).
-- [ ] Refaktor Caching Audio URL ke Hive (Simpan hanya basenamenya).
-- [ ] Menerapkan tombol "Coba Lagi" bila koneksi mati di tiap fitur.
-- [ ] Mencegah Spike Jaringan dengan Lazy Load API pada MainNavigation.
-- [ ] Menambahkan Slider Progress Bar & Timer di SurahDetail Murottal Player.
-- [ ] UI/UX Polish (Penyesuaian transisi, margin, ripple effect).
+C. TODO LIST FASE 8 (SELESAI KESELURUHAN)
+- [x] Memperbaiki State Desync UI Bookmark (Load ulang pasca save).
+- [x] Refaktor Caching Audio URL ke Hive (Simpan hanya basenamenya).
+- [x] Menerapkan tombol "Coba Lagi" bila koneksi mati di tiap fitur.
+- [x] Mencegah Spike Jaringan dengan Lazy Load API pada MainNavigation.
+- [x] Menambahkan Slider Progress Bar & Timer di SurahDetail Murottal Player.
+- [x] UI/UX Polish (Transisi material 3, padding, ripple effect, autocomplete search kota).
+- [x] Pengimplementasian Offline Data (`surat.json` & `doa.json`).
+- [x] Auto Tracking GPS dan perbaikan MyQuran API Endpoint.

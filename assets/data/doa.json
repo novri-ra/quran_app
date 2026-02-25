@@ -2,23 +2,24 @@
 status: "success",
 total: 227,
 data: [
-        {
+{
 id: 1,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Sebelum Tidur 1",
 ar: "بِاسْمِكَ رَبِّيْ وَضَعْتُ جَنْبِيْ، وَبِكَ أَرْفَعُهُ، إِنْ أَمْسَكْتَ نَفْسِيْ فَارْحَمْهَا، وَإِنْ أَرْسَلْتَهَا فَاحْفَظْهَا بِمَا تَحْفَظُ بِهِ عِبَادَكَ الصَّالِحِيْنَ",
 tr: "Bismika robbii wa dho'tu janbii, wa bika arfa'uhu, in amsakta nafsii farhamhaa, wa in arsaltahaa fahfazhhaa bimaa tahfazhu bihi 'ibaadakash-sholihiin.",
 idn: "Dengan nama Engkau, wahai Tuhanku, aku meletakkan lambungku. Dan dengan namaMu pula aku bangun daripadanya. Apabila Engkau menahan rohku (mati), maka berilah rahmat padanya. Tapi apabila Engkau melepaskannya, maka peliharalah, sebagaimana Engkau memelihara hamba-hambaMu yang shalih.",
-tentang: "HR. Al-Bukhari 11/126, Muslim 4/2084."Apabila seseorang di antara kalian bangkit dari tempat tidurnya kemudian ingin kembali lagi, hendaknya ia mengibaskan ujung kainnya 3x, dan menyebut nama Allah, karena ia tidak tahu apa yang ditinggalkannya di atas tempat tidur setelah ia bangkit. Apabila ia ingin berbaring, maka hendaknya ia membaca: (doa di atas)."
+tentang: "HR. Al-Bukhari 11/126, Muslim 4/2084.
+"Apabila seseorang di antara kalian bangkit dari tempat tidurnya kemudian ingin kembali lagi, hendaknya ia mengibaskan ujung kainnya 3x, dan menyebut nama Allah, karena ia tidak tahu apa yang ditinggalkannya di atas tempat tidur setelah ia bangkit. Apabila ia ingin berbaring, maka hendaknya ia membaca: (doa di atas)."
 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 2,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Sebelum Tidur 2",
@@ -28,9 +29,7 @@ idn: "Dengan Nama-Mu ya Allah, aku mati dan aku hidup.",
 tentang: "HR. Bukhari 6324.
 
 Keterangan:
-Orang yang sedang tidur, sejatinya sedang Allah wafatkan. Allah berfirman: "Allah mewafatkan jiwa (orang) ketika matinya dan (mewafatkan) jiwa (orang) yang belum mati di waktu tidurnya. Maka Dia tahan jiwa (orang) yang telah Dia tetapkan kematiannya (sehingga tidak bangun dari tidurnya) dan Dia melepaskan jiwa yang lain sampai waktu yang ditetapkan." (Az-Zumar [
-                39
-            ]: 42).
+Orang yang sedang tidur, sejatinya sedang Allah wafatkan. Allah berfirman: "Allah mewafatkan jiwa (orang) ketika matinya dan (mewafatkan) jiwa (orang) yang belum mati di waktu tidurnya. Maka Dia tahan jiwa (orang) yang telah Dia tetapkan kematiannya (sehingga tidak bangun dari tidurnya) dan Dia melepaskan jiwa yang lain sampai waktu yang ditetapkan." (Az-Zumar [39]: 42).
 
 Karena itulah, ketika hendak tidur, kita membaca: (doa di atas). Maknanya, aku mati ketika tidur dan aku hidup ketika bangun.
 Allahu a'lam.
@@ -38,13 +37,13 @@ Allahu a'lam.
 Hadis Selengkapnya:
 Dari Hudzaifah radhiyallahu 'anhu, beliau mengatakan: "Apabila Rasulullah shallallahu 'alaihi wa sallam hendak tidur, beliau membaca: (doa di atas)."
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/320686431364755",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/320686431364755",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 3,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Bila Takut Dan Kesepian Ketika Tidur",
@@ -55,11 +54,11 @@ tentang: "HR. Abu Dawud 4/12. Dan lihat Shahih At-Tirmidzi 3/171.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 4,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Membalikkan Tubuh Ketika Tidur Malam",
@@ -72,11 +71,11 @@ Beliau membaca doa ini ketika berbalik dari satu sisi ke sisi lain pada malam ha
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 5,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Bila Terjaga Di Malam Hari",
@@ -93,14 +92,13 @@ Ya Allah, ampunilah dosaku.
 Atau dia berdoa (dengan doa yang lain), maka akan dikabulkan doanya, jika dia berwudhu dan melaksanakan shalat maka akan diterima shalatnya."
 
 HR. al-Bukhari 1103, Abu Dawud 5060, at-Tirmidzi 3414 dan Ibnu Majah 3878, shahih.
-Imam Ibnu Baththal Rahimahullah berkata,
-            "Bagi orang sampai kepadanya hadits ini, sepantasnya dia berusaha mengamalkannya dan mengikhlaskan niatnya (ketika mengamalkannya) untuk Allah Ta'ala." (dinukil oleh Imam Ibnu Hajar Rahimahullah dalam kitab Fathul Baari 3/41).",
+Imam Ibnu Baththal Rahimahullah berkata, "Bagi orang sampai kepadanya hadits ini, sepantasnya dia berusaha mengamalkannya dan mengikhlaskan niatnya (ketika mengamalkannya) untuk Allah Ta'ala." (dinukil oleh Imam Ibnu Hajar Rahimahullah dalam kitab Fathul Baari 3/41).",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 6,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Bangun Tidur 1",
@@ -110,11 +108,11 @@ idn: "Segala puji bagi Allah, yang membangunkan kami setelah ditidurkanNya dan k
 tentang: "HR. Al-Bukhari dalam Fathul Baari 11/113, Muslim 4/2083.
 Sumber: Hisnul Muslim.",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 7,
 grup: "Doa Sebelum dan Sesudah Tidur",
 nama: "Doa Bangun Tidur 2",
@@ -125,11 +123,11 @@ tentang: "HR. At-Tirmidzi 5/473 dan lihat Shahih At-Tirmidzi 3/144.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "tidur",
-                "malam"
-            ]
-        },
-        {
+"tidur",
+"malam"
+]
+},
+{
 id: 8,
 grup: "Doa di Kamar Mandi",
 nama: "Doa Masuk Kamar Mandi",
@@ -140,10 +138,10 @@ tentang: "HR. Al-Bukhari 1/45 dan Muslim 1/283. Sedang tambahan bismillaah pada 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "kamar mandi"
-            ]
-        },
-        {
+"kamar mandi"
+]
+},
+{
 id: 9,
 grup: "Doa di Kamar Mandi",
 nama: "Doa Keluar Kamar Mandi",
@@ -152,10 +150,10 @@ tr: "Ghufroonak.",
 idn: "Aku minta ampun kepadaMu.",
 tentang: "HR. Seluruh penyusun kitab Sunan, kecuali An-Nasai yang meriwayatkan dalam 'Amalul Yaumi wal Lailah, lihat Takhrij Zaadul Ma'aad 2/387.",
 tag: [
-                "kamar mandi"
-            ]
-        },
-        {
+"kamar mandi"
+]
+},
+{
 id: 10,
 grup: "Doa Saat Wudhu",
 nama: "Doa Sebelum Wudhu",
@@ -166,10 +164,10 @@ tentang: "HR. Abu Dawud, Ibnu Majah dan Ahmad. Lihat Irwa'ul Ghalil 1/122.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "wudhu"
-            ]
-        },
-        {
+"wudhu"
+]
+},
+{
 id: 11,
 grup: "Doa Saat Wudhu",
 nama: "Doa Setelah Wudhu",
@@ -180,10 +178,10 @@ tentang: "HR. Muslim 1/209.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "wudhu"
-            ]
-        },
-        {
+"wudhu"
+]
+},
+{
 id: 12,
 grup: "Doa Berpakaian",
 nama: "Doa Mengenakan Pakaian",
@@ -192,10 +190,10 @@ tr: "Alhamdulillaahil-ladzii kasaanii haadzats-tsauba wa rozaqoniihi min ghoiri 
 idn: "Segala puji bagi Allah yang memberi pakaian ini kepadaku sebagai rezeki dariNya tanpa daya dan kekuatan dariku.",
 tentang: "HR. Seluruh penyusun kitab Sunan, kecuali An-Nasai, lihat kitab Irwa'ul Ghalil 7/47. Sumber: Hisnul Muslim.",
 tag: [
-                "pakaian"
-            ]
-        },
-        {
+"pakaian"
+]
+},
+{
 id: 13,
 grup: "Doa Berpakaian",
 nama: "Doa Mengenakan Pakaian Baru",
@@ -206,10 +204,10 @@ tentang: "HR. Abu Dawud, At-Tirmidzi, Al-Baghawi dan lihat Mukhtashar Syamaailit
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "pakaian"
-            ]
-        },
-        {
+"pakaian"
+]
+},
+{
 id: 14,
 grup: "Doa Berpakaian",
 nama: "Doa Melepas/Meletekkan Pakaian",
@@ -220,10 +218,10 @@ tentang: "HR. Ibnu Majah 2/1178, Al-Baghawi 12/41 dan lihat Shahih Ibnu Majah 2/
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "pakaian"
-            ]
-        },
-        {
+"pakaian"
+]
+},
+{
 id: 15,
 grup: "Doa Perlindungan",
 nama: "Doa berlindung dari keburukan",
@@ -232,11 +230,11 @@ tr: "Allaahumma innii a'uudzu bika min zawaali ni'matik, wa tahawwuli 'aafiyatik
 idn: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari hilangnya nikmat yang telah Engkau berikan, dari berubahnya kesehatan yang telah Engkau anugerahkan, dari siksa-Mu yang datang secara tiba-tiba, dan dari segala kemurkaan-Mu.",
 tentang: "HR.Muslim no.2739",
 tag: [
-                "perlindungan",
-                "keburukan"
-            ]
-        },
-        {
+"perlindungan",
+"keburukan"
+]
+},
+{
 id: 16,
 grup: "Doa Perlindungan",
 nama: "Doa berlindung dari sifat malas. lemah, pikun, kikir dan siksa kubur",
@@ -245,11 +243,11 @@ tr: "Allaahumma innii a'uudzu bika minal kasali, wa a'uudzu bika minal jubni, wa
 idn: "Ya Allah, aku meminta perlindungan pada-Mu dari rasa malas, aku meminta perlindungan pada-Mu dari lemahnya hati, aku meminta perlindungan pada-Mu dari usia tua (yang sulit untuk beramal) dan aku meminta perlindungan pada-Mu dari sifat kikir (pelit)",
 tentang: "HR. Bukhari. Bukhari: 83-Kitab Ad Da'awaat, 41-Bab Meminta Perlindungan dari Umur yang Sulit Untuk Beramal.",
 tag: [
-                "perlindungan",
-                "sifat buruk"
-            ]
-        },
-        {
+"perlindungan",
+"sifat buruk"
+]
+},
+{
 id: 17,
 grup: "Doa Perlindungan",
 nama: "Doa berlindung dari syirik",
@@ -258,11 +256,11 @@ tr: "Allaahumma innii a'uudzu bika an usyrika bika wa anaa a'lam, wa astagh-firu
 idn: "Ya Allah, aku berlindung kepada-Mu dari menyekutukan-Mu sedangkan aku mengetahuinya, dan aku memohon ampun terhadap apa yang tidak aku ketahui.",
 tentang: "HR. Ahmad dan imam yang lain 4/403, lihat Shahihul Jami' 3/233, dan Shahihut Targhrib wat Tarhib oleh Al-Albani 1/19.",
 tag: [
-                "perlindungan",
-                "syirik"
-            ]
-        },
-        {
+"perlindungan",
+"syirik"
+]
+},
+{
 id: 18,
 grup: "Doa Menghadapi Fenomena Alam",
 nama: "Doa ketika angin ribut, halilintar dan hujan",
@@ -271,10 +269,10 @@ tr: "Allaahumma innii as-aluka khoirohaa wa a'uudzu bika min syarrihaa.",
 idn: "Ya Allah, sesungguhnya aku mohon kepadaMu kebaikan angin ini, dan aku berlindung kepadaMu dari kejelekannya",
 tentang: "HR. Abu Dawud 4/326, Ibnu Majah 2/1228, dan lihatlah kitab Shahih Ibnu Majah 2/305.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 19,
 grup: "Doa Menghadapi Fenomena Alam",
 nama: "Doa minta hujan",
@@ -285,10 +283,10 @@ tentang: "HR. Abu Dawud 1/303, dinyatakan shahih oleh Al-Albani dalam Shahih Abi
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 20,
 grup: "Doa Menghadapi Fenomena Alam",
 nama: "Doa ketika hujan",
@@ -303,12 +301,12 @@ Keterangan:
 Doa ini dibaca ketika hujan turun dalam curah normal.
 
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/188127331287333",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/188127331287333",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 21,
 grup: "Doa Menghadapi Fenomena Alam",
 nama: "Doa Ketika Hujan Lebat, Atau Agar Hujan Berhenti",
@@ -317,12 +315,12 @@ tr: "Allaahumma hawaalainaa wa laa 'alainaa.",
 idn: "Ya Allah, turunkanlah hujan di sekitar kami, bukan yang merusak kami.",
 tentang: "HR. al-Bukhari, Sahih al-Bukhari 1015.
 
-Sumber: https: //muslim.or.id/19836-doa-saat-banjir-melanda-dan-hujan-tak-kunjung-reda.html",
+Sumber: https://muslim.or.id/19836-doa-saat-banjir-melanda-dan-hujan-tak-kunjung-reda.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 22,
 grup: "Doa Pernikahan",
 nama: "Doa Kepada Pengantin",
@@ -331,12 +329,12 @@ tr: "Baarokallaahu laka wa baaroka 'alaika wa jama'a bainakumaa fii khoirin.",
 idn: "Semoga Allah memberkahimu di waktu bahagia dan memberkahimu di waktu susah, dan semoga Allah menyatukan kalian berdua dalam kebaikan.",
 tentang: "HR. Abu Dawud no. 2130.
 
-Sumber: http: //muslim.or.id/22459-bila-di-undang-ke-walimah-nikah.html",
+Sumber: http://muslim.or.id/22459-bila-di-undang-ke-walimah-nikah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 23,
 grup: "Doa Pernikahan",
 nama: "Doa Pengantin Pria Kepada Pasangannya",
@@ -349,10 +347,10 @@ Apabila seseorang di antara kamu kawin dengan seorang perempuan atau membeli bud
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 24,
 grup: "Doa Pernikahan",
 nama: "Doa Bersetubuh (Jima')",
@@ -363,12 +361,12 @@ tentang: "HR. Al-Bukhari 6/141 dan Muslim 2/1028 dari sahabat Abdullah bin Abbas
 Dalam hadits tersebut disebutkan bahwa seandainya Allah mengkaruniakan anak, maka syaithan tidak akan bisa mencelakakan anak tersebut. Al Qadhi menjelaskan maksudnya adalah syaithan tidak akan bisa merasukinya. Sebagaimana dinukilkan dari Al Minhaj.
 
 
-Sumber: Hisnul Muslim dan https: //www.facebook.com/doa.dzikir.shahih.harian/posts/357411314358933",
+Sumber: Hisnul Muslim dan https://www.facebook.com/doa.dzikir.shahih.harian/posts/357411314358933",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 25,
 grup: "Doa Saat Sakit",
 nama: "Doa Ketika Sakit",
@@ -384,12 +382,12 @@ Hadis selengkapnya:
 Dari Utsman bin Abil 'Ash radhiyallahu 'anhu, bahwa beliau mengadu kepada Nabi shallallahu 'alaihi wa sallam karena rasa sakit yang ada di badannya. Kemudian Nabi shallallahu 'alaihi wa sallam memberi nasihat kepadanya: "Letakkan tanganmu di bagian tubuh yang sakit, dan ucapkanlah: (doa di atas)."
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/225870794179653",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/225870794179653",
 tag: [
-                "sakit"
-            ]
-        },
-        {
+"sakit"
+]
+},
+{
 id: 26,
 grup: "Doa Saat Sakit",
 nama: "Doa Nabi Ayyub ketika sakit",
@@ -397,12 +395,12 @@ ar: "رَبِّ إِنِّي مَسَّنِيَ الضُّرُّ وَأَنْت�
 tr: "Robbi innii massaniyadh-dhurru wa anta arhamur-roohimiin",
 idn: "Ya Allah, sesungguhnya aku telah ditimpa penyakit, dan Engkau adalah Tuhan Yang Maha Penyayang di antara semua penyayang.",
 tentang: "Di atas adalah doa Nabi Ayyub 'alaihis salam di puncak sakitnya.
-Sumber: http: //www.facebook.com/doa.dzikir.shahih",
+Sumber: http://www.facebook.com/doa.dzikir.shahih",
 tag: [
-                "sakit"
-            ]
-        },
-        {
+"sakit"
+]
+},
+{
 id: 27,
 grup: "Doa untuk Orang Sakit",
 nama: "Doa Kepada Orang Sakit",
@@ -414,12 +412,12 @@ Hadis selengkapnya:
 Dari A'isyah radhiyallahu 'anha, beliau menceritakan: Apabila ada di antara kami yang sakit maka Nabi shallallahu 'alaihi wa sallam mengusapkan tangan kanan beliau, kemudian membaca: (doa di atas).
 
 
-Sumber: https: //konsultasisyariah.com/24268-orang-tua-pintu-surga-paling-tengah.html",
+Sumber: https://konsultasisyariah.com/24268-orang-tua-pintu-surga-paling-tengah.html",
 tag: [
-                "sakit"
-            ]
-        },
-        {
+"sakit"
+]
+},
+{
 id: 28,
 grup: "Doa Menjelang Wafat",
 nama: "Doa ketika sakit menjelang kematian/tanpa harapan hidup",
@@ -432,12 +430,12 @@ Jika seseorang sudah merasakan dekatnya ajal, dia harus menjaga lisannya dan ter
 Aisyah radhiyallahu 'anha, menuturkan: Saya mendengar Rasulullah shallallahu 'alaihi wa sallam mengucapkan kalimat berikut sambil bersandar di dadaku: (doa di atas). Dan itulah detik-detik kematian Nabi shallallahu 'alaihi wa sallam. Meskipun beliau manusia yang paling sempurna, beliau tetap memohon ampunan kepada Allah dan kasih sayang Allah.
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/235659089867490",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/235659089867490",
 tag: [
-                "sakit"
-            ]
-        },
-        {
+"sakit"
+]
+},
+{
 id: 29,
 grup: "Doa Jenazah",
 nama: "Mengajari (Talqin) Orang Yang Akan Meninggal Dunia",
@@ -457,12 +455,12 @@ Jika si sakit sudah mengucapkannya, maka jangan diajak bicara sedikitpun dan jan
 Hendaknya yang mentalqin adalah orang terdekat si sakit, seperti ibunya, ayahnya, kakaknya, suaminya, istrinya atau yang lainnya. Artinya, tidak harus tokoh masyarakat.
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/243017882464944",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/243017882464944",
 tag: [
-                "jenazah"
-            ]
-        },
-        {
+"jenazah"
+]
+},
+{
 id: 30,
 grup: "Doa Jenazah",
 nama: "Doa Memejamkan Mata Jenazah",
@@ -475,12 +473,12 @@ Setelah meninggal, hendaknya mata jenazah dipejamkan dan didoakan kebaikan untuk
 Dari Ummu Salamah radhiyallahu 'anha, Nabi shallallahu 'alaihi wa sallam menjenguk Abu Salamah ketika meninggal, sementara matanya terbelalak, kemudian Nabi shallallahu 'alaihi wa sallam memejamkannya. Lalu beliau bersabda: "Sesungguhnya ruh apabila dicabut, dia diikuti oleh mata." Akhirnya keluarga Abu Salamah banyak berteriak histeris. Mendengar itu, Nabi shallallahu 'alaihi wa sallam berpesan kepada mereka: "Janganlah kalian mendoakan keburukan untuk diri kalian, berdoalah yang baik. Sesungguhnya malaikat MENGAMINKAN apa yang kalian ucapkan." (Malaikat mengaminkan doa pentakziah). Lalu Nabi shallallahu 'alaihi wa sallam berdoa: (doa di atas).
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih",
 tag: [
-                "jenazah"
-            ]
-        },
-        {
+"jenazah"
+]
+},
+{
 id: 31,
 grup: "Doa Jenazah",
 nama: "Doa Belasungkawa (Ta'ziyah)",
@@ -493,24 +491,18 @@ tentang: "Apabila seseorang berkata seperti berikut, maka itu adalah suatu perka
 
 A'zhomallaahu ajroka, wa ahsana 'azaa-aka wa ghofara limayyitik.
 
-Semoga Allah memperbesar pahalamu dan memperbagus dalam menghiburmu dan semoga diampuni mayatmu. [
-                2
-            ]
+Semoga Allah memperbesar pahalamu dan memperbagus dalam menghiburmu dan semoga diampuni mayatmu. [2]
 
 
-[
-                1
-            ] HR. Al-Bukhari 2/80, Muslim 2/636.
-[
-                2
-            ] An-Nawawi, Al-Adzkar, hal. 126.
+[1] HR. Al-Bukhari 2/80, Muslim 2/636.
+[2] An-Nawawi, Al-Adzkar, hal. 126.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "jenazah"
-            ]
-        },
-        {
+"jenazah"
+]
+},
+{
 id: 32,
 grup: "Doa Jenazah",
 nama: "Doa Memasukkan Jenazah Ke Liang Kubur",
@@ -521,10 +513,10 @@ tentang: "HR. Abu Dawud 3/314 dengan sanad yang shahih.
 
 Sumber: Hisnul Muslim",
 tag: [
-                "jenazah"
-            ]
-        },
-        {
+"jenazah"
+]
+},
+{
 id: 33,
 grup: "Doa Jenazah",
 nama: "Doa Setelah Jenazah Dimakamkan",
@@ -537,12 +529,12 @@ Doa ini dibaca oleh semua pengiring jenazah setelah pemakaman sempurna, sambil b
 Adalah Nabi Shallallahu'alaihi wasallam apabila selesai memakamkan mayat, beliau berdiri di atasnya (di samping makam) lalu bersabda: "Mintalah ampun kepada Allah untuk saudaramu, dan mohonkan agar dia teguh dan tahan hati (ketika ditanya oleh dua malaikat), sesungguhnya dia sekarang sedang ditanya."
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/263488677084531",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/263488677084531",
 tag: [
-                "jenazah"
-            ]
-        },
-        {
+"jenazah"
+]
+},
+{
 id: 34,
 grup: "Doa Jenazah",
 nama: "Doa Ziarah Kubur",
@@ -553,10 +545,10 @@ tentang: "HR. Muslim 2/671 dan Ibnu Majah. Lafal hadits di atas milik Ibnu Majah
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "jenazah"
-            ]
-        },
-        {
+"jenazah"
+]
+},
+{
 id: 35,
 grup: "Doa Saat Sedih dan Sulit",
 nama: "Doa Ketika Sedih, Gundah Atau Galau",
@@ -567,11 +559,11 @@ tentang: "HR. Ahmad 1/391. Menurut pendapat Al-Albani, hadits tersebut adalah sa
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "sedih",
-                "sulit"
-            ]
-        },
-        {
+"sedih",
+"sulit"
+]
+},
+{
 id: 36,
 grup: "Doa Saat Sedih dan Sulit",
 nama: "Doa Ketika Mengalami Kesulitan / Minta diberi Kemudahan",
@@ -582,11 +574,11 @@ tentang: "HR. Ibnu Hibban dalam kitab Shahih-nya no. 2427 (Mawaarid), Ibnus Sunn
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "sedih",
-                "sulit"
-            ]
-        },
-        {
+"sedih",
+"sulit"
+]
+},
+{
 id: 37,
 grup: "Doa Saat Sedih dan Sulit",
 nama: "Doa Nabi Yunus Ketika Mengalami Kesulitan",
@@ -608,13 +600,13 @@ Doa ini tidak berisi permintaan, tapi murni pujian untuk Allah dan pengakuan ter
 Allahu a'lam.
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/220655811367818",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/220655811367818",
 tag: [
-                "sedih",
-                "sulit"
-            ]
-        },
-        {
+"sedih",
+"sulit"
+]
+},
+{
 id: 38,
 grup: "Doa Saat Mendapat Kabar",
 nama: "Doa Bila Tertimpa Musibah",
@@ -625,11 +617,11 @@ tentang: "HR. Muslim 2/632.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "musibah",
-                "kabar"
-            ]
-        },
-        {
+"musibah",
+"kabar"
+]
+},
+{
 id: 39,
 grup: "Doa Saat Mendapat Kabar",
 nama: "Doa Bila Melihat Orang Lain Tertimpa Musibah, Cobaan Atau Penyakit",
@@ -650,13 +642,13 @@ Diterangkan pula di halaman selanjutnya dalam kitab yang sama, baiknya doa tadi 
 Moga Allah beri taufik untuk mengamalkan doa di atas.
 
 
-Sumber: https: //rumaysho.com/14975-doa-ketika-melihat-yang-lain-tertimpa-musibah-atau-penyakit.html",
+Sumber: https://rumaysho.com/14975-doa-ketika-melihat-yang-lain-tertimpa-musibah-atau-penyakit.html",
 tag: [
-                "musibah",
-                "kabar"
-            ]
-        },
-        {
+"musibah",
+"kabar"
+]
+},
+{
 id: 40,
 grup: "Doa Saat Mendapat Kabar",
 nama: "Bacaan Bila Ada Sesuatu Yang  Menyusahkan",
@@ -667,10 +659,10 @@ tentang: "HR. Ibnu Sunni dalam kitab 'Amalul Yaum wal Lailah, Al-Hakim menshahih
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 41,
 grup: "Doa Saat Mendapat Kabar",
 nama: "Bacaan Bila Ada Sesuatu Yang Menyenangkan",
@@ -681,11 +673,11 @@ tentang: "HR. Ibnu Sunni dalam kitab 'Amalul Yaum wal Lailah, Al-Hakim menshahih
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "musibah",
-                "kabar"
-            ]
-        },
-        {
+"musibah",
+"kabar"
+]
+},
+{
 id: 42,
 grup: "Doa Saat Mendapat Kabar",
 nama: "Bila Ada Sesuatu Yang Menggembirakan",
@@ -696,10 +688,10 @@ tentang: "HR. Ashhabus Sunan, kecuali An-Nasai, lihat Shahih Ibnu Majah 1/233 da
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 43,
 grup: "Doa Terkait Harta dan Hutang",
 nama: "Doa agar terbebas hutang",
@@ -708,11 +700,11 @@ tr: "Allaahummakfinii bihalaalika 'an haroomika, wa aghninii bifadhlika 'amman s
 idn: "Ya Allah, cukupilah aku dengan rezekiMu yang halal (hingga aku terhindar) dari yang haram. Jadikanlah aku kaya dengan karuniaMu (hingga aku tidak minta) kepada selainMu.",
 tentang: "HR. Abdullah bin Ahmad dalam Zawa-idul Musnad No. 1319; At-Tirmidzi No. 3563 dan Al-Hakim 1/537. At-Tirmidzi mengatakannya sebagai hadis hasan, dan dihasankan pula oleh Syaikh Al-Albani. Sedangkan Al-Hakim mensahihkannya.",
 tag: [
-                "hutang",
-                "rezeki"
-            ]
-        },
-        {
+"hutang",
+"rezeki"
+]
+},
+{
 id: 44,
 grup: "Doa Terkait Harta dan Hutang",
 nama: "Doa Kepada Orang Yang Menawarkan Hartanya Untukmu",
@@ -723,11 +715,11 @@ tentang: "HR. Al-Bukhari dengan Fathul Baari 4/88.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "harta",
-                "hutang"
-            ]
-        },
-        {
+"harta",
+"hutang"
+]
+},
+{
 id: 45,
 grup: "Doa Terkait Harta dan Hutang",
 nama: "Doa Kepada Orang Yang Meminjami Ketika Membayar Hutang",
@@ -738,11 +730,11 @@ tentang: "HR. An-Nasai dalam 'Amalul Yaum wal Lailah, hal. 300, Ibnu Majah 2/809
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "harta",
-                "hutang"
-            ]
-        },
-        {
+"harta",
+"hutang"
+]
+},
+{
 id: 46,
 grup: "Doa Terkait Harta dan Hutang",
 nama: "Doa Ketika Sempit Rizki",
@@ -750,19 +742,18 @@ ar: "اَللَّهُمَّ إِنِّي أَسْأَلُكَ مِنْ فَضْ�
 tr: "Allaahumma innii as-aluka min fadhlika wa rohmatik, fa-innahu laa yamlikuhaa illaa anta.",
 idn: "Ya Allah, aku memohon kepada-Mu akan sebagian karunia-Mu dan rahmat-Mu, karena sesungguhnya tidak ada yang memilikinya kecuali Engkau.",
 tentang: "HR. Abu Nu'aim dalam al Hilyah dan Thabrani dalam al Mu'jam al Kabir. Al Haitsami mengatakan, "Diriwayatkan oleh Thabrani dan para perawinya adalah perawi kitab shahih selain Muhammad bin Ziyad al Burjumi dan dia adalah perawi yang tsiqoh." Al Albani dalam Silsilah Shahihah no 1543 mengatakan, "Sanadnya menurutku shahih." Dalam Shahih al Jami' no 1278 al albani juga mengatakan "shahih."
-Dari Murrah dari Abdullah bin Mas'ud,
-            "Nabi mendapatkan tamu. Beliau lantas mengutus seseorang untuk menemui para isteri beliau, barangkali ada yang punya makanan, namun ternyata tidak ada satu pun isteri beliau yang punya makanan yang bisa disuguhkan kepada tamu Nabi. Nabi lantas berdoa: (doa di atas). Tak lama setelah itu beliau mendapatkan daging kambing panggang. Nabi lantas berkomentar, 'Ini adalah sebagian dari karunia-Nya. Kami sedang menunggu rahmat-Nya.'"
+Dari Murrah dari Abdullah bin Mas'ud, "Nabi mendapatkan tamu. Beliau lantas mengutus seseorang untuk menemui para isteri beliau, barangkali ada yang punya makanan, namun ternyata tidak ada satu pun isteri beliau yang punya makanan yang bisa disuguhkan kepada tamu Nabi. Nabi lantas berdoa: (doa di atas). Tak lama setelah itu beliau mendapatkan daging kambing panggang. Nabi lantas berkomentar, 'Ini adalah sebagian dari karunia-Nya. Kami sedang menunggu rahmat-Nya.'"
 
 Hadits di atas diberi judul bab oleh Ibnu Abi Syaibah dalam al Mushannaf sebagai berikut: "Manakala seorang itu kelaparan atau mengalami kesempitan rizki bacaan doa seperti apa yang mesti dia ucapkan".
 
 
-Sumber: http: //pengusahamuslim.com/doa-sempit-rizki-1674",
+Sumber: http://pengusahamuslim.com/doa-sempit-rizki-1674",
 tag: [
-                "harta",
-                "hutang"
-            ]
-        },
-        {
+"harta",
+"hutang"
+]
+},
+{
 id: 47,
 grup: "Doa Terkait Harta dan Hutang",
 nama: "Doa Ketika Orang-Orang Telah Sibuk Dengan Harta",
@@ -788,13 +779,13 @@ tentang: "HR. At-Thabrani dalam al-Mu'jamil Kabiir, no. 7135.
 Rasulullah shallallahu 'alaihi wasallam bersabda, “Wahai Syaddad bin Aus, apabila kamu melihat orang menimbun emas dan perak, maka kamu timbunlah kalimat-kalimat ini: (doa di atas).”
 
 
-Sumber: https: //bbg-alilmu.com/archives/25195",
+Sumber: https://bbg-alilmu.com/archives/25195",
 tag: [
-                "harta",
-                "hutang"
-            ]
-        },
-        {
+"harta",
+"hutang"
+]
+},
+{
 id: 48,
 grup: "Doa Perjalanan",
 nama: "Doa Naik Kendaraan",
@@ -803,10 +794,10 @@ tr: "Bismillaah, alhamdulillaah, (subhaanal-ladzii sakh-khoro lanaa haadzaa wa m
 idn: "Dengan nama Allah, segala puji bagi Allah, (Maha Suci Tuhan yang menundukkan kendaraan ini untuk kami, padahal kami sebelumnya tidak mampu menguasainya. Dan sesungguhnya kami akan kembali kepada Tuhan kami (di hari Kiamat)). Segala puji bagi Allah (3x), Allah Maha Besar (3x), Maha Suci Engkau ya Allah, sesungguhnya aku menganiaya diriku, maka ampunilah aku. Sesungguhnya tidak ada yang mengampuni dosa-dosa kecuali Engkau.",
 tentang: "HR. Abu Dawud 3/34, At-Tirmidzi 5/501, dan lihat Shahih At-Tirmidzi 3/156. Sumber: Hisnul Muslim",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 49,
 grup: "Doa Perjalanan",
 nama: "Doa Musafir Kepada Orang Yang Ditinggalkan",
@@ -817,10 +808,10 @@ tentang: "HR. Ahmad 2/403, Ibnu Majah 2/943, dan lihat Shahih Ibnu Majah 2/133.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 50,
 grup: "Doa Perjalanan",
 nama: "Doa Orang Mukim Kepada Musafir",
@@ -831,10 +822,10 @@ tentang: "HR. At-Tirmidzi 2/7, At-Tirmidzi 5/499, dan lihat Shahih At-Tirmidzi 2
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 51,
 grup: "Doa Perjalanan",
 nama: "Doa Bepergian",
@@ -854,10 +845,10 @@ HR. Muslim 2/998.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 52,
 grup: "Doa Perjalanan",
 nama: "Doa Musafir Menjelang Subuh",
@@ -868,10 +859,10 @@ tentang: "HR. Muslim 4/2086, Syarah An-Nawawi 17/39.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 53,
 grup: "Doa Perjalanan",
 nama: "Doa Singgah Di Suatu Tempat, Baik Dalam Bepergian Ataupun Tidak",
@@ -882,12 +873,12 @@ tentang: "HR. Tirmidzi 3437 dan An Nasai 5433.
 Dari Khaulah binti Hakim, bahwasanya Rasulullah shallallahu ‘alaihi wasallam bersabda, “Barang siapa yang singgah di sebuah tempat kemudian ia mengatakan: (doa di atas), niscaya tidak akan ada yang memudharatkannya.”
 
 
-Sumber: https: //muslim.or.id/19063-dzikir-dan-doa-mohon-perlindungan-dari-bahaya.html",
+Sumber: https://muslim.or.id/19063-dzikir-dan-doa-mohon-perlindungan-dari-bahaya.html",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 54,
 grup: "Doa Perjalanan",
 nama: "Doa Masuk Desa Atau Kota",
@@ -898,10 +889,10 @@ tentang: "HR. Al-Hakim, menurut pendapatnya, hadits tersebut adalah sahih. Imam 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 55,
 grup: "Doa Perjalanan",
 nama: "Doa Masuk Pasar, Mall, Terminal, Bandara Dan Pusat Keramaian Lainnya",
@@ -924,12 +915,12 @@ Memperbanyak dzikir juga berlaku ketika anda memasuki daerah yang umumnya manusi
 Manfaatkan kesempatan besar di tengah kelengahan masyarakat, untuk mendapatkan pahala yang berharga di sisi Allah. Karena itu, biasakan lisan anda untuk selalu basah dengan dzikir.
 
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/146376235462443",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/146376235462443",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 56,
 grup: "Doa Perjalanan",
 nama: "Doa Bila Binatang Atau Kendaraan Tergelincir",
@@ -940,10 +931,10 @@ tentang: "HR. Abu Dawud 4/296 dan Al-Albani menyatakan, hadits tersebut shahih d
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 57,
 grup: "Doa Perjalanan",
 nama: "Doa Pulang Dari Bepergian",
@@ -956,10 +947,10 @@ tentang: "HR. Al-Bukhari 7/163, Muslim 2/980.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "perjalanan"
-            ]
-        },
-        {
+"perjalanan"
+]
+},
+{
 id: 58,
 grup: "Doa Berlindung dari setan",
 nama: "Doa Berlindung/Menghilangkan Gangguan Setan",
@@ -970,10 +961,10 @@ tentang: "HR. Abu Dawud 1/206, At-Tirmidzi, lihat Shahih At-Tirmidzi 1/77, dan l
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 59,
 grup: "Doa Berlindung dari setan",
 nama: "Doa Menghilangkan Gangguan Setan Ketika Shalat Atau Membaca Al-Qur'an",
@@ -984,10 +975,10 @@ tentang: "HR. Muslim 4/1729. Dari hadits Utsman bin Al Aash, ia berkata: "Aku la
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 60,
 grup: "Doa memohon surga dan berlindung dari neraka",
 nama: "Doa Memohon Surga Dan Berlindung Dari Neraka",
@@ -996,17 +987,15 @@ tr: "Allaahumma innii as-alukal jannah, wa a'uudzu bika minan-naar.",
 idn: "Ya Allah, aku mohon kepada-Mu surga, dan aku berlindung kepada-Mu dari neraka.",
 tentang: "HR. Abu Daud no. 792, Ibnu Majah no. 910, dan Ahmad (3/474). Syaikh Al Albani mengatakan bahwa hadits ini shahih.
 Hadits selengkapnya:
-Dari Abu Sholih, dari beberapa sahabat Nabi shallallahu 'alaihi wa sallam, beliau shallallahu 'alaihi wa sallam pernah bertanya kepada seseorang,
-            "Doa apa yang engkau baca di dalam shalat?""Aku membaca tahiyyat, lalu aku ucapkan (doa di atas).""Aku sendiri tidak mengetahui kalau engkau mendengungkannya begitu pula Mu'adz," jawab orang tersebut. Kemudian Nabi shallallahu 'alaihi wa sallam bersabda,
-            "Kami sendiri memohon surga (atau berlindung dari neraka)."
+Dari Abu Sholih, dari beberapa sahabat Nabi shallallahu 'alaihi wa sallam, beliau shallallahu 'alaihi wa sallam pernah bertanya kepada seseorang, "Doa apa yang engkau baca di dalam shalat?" "Aku membaca tahiyyat, lalu aku ucapkan (doa di atas)." "Aku sendiri tidak mengetahui kalau engkau mendengungkannya begitu pula Mu'adz," jawab orang tersebut. Kemudian Nabi shallallahu 'alaihi wa sallam bersabda, "Kami sendiri memohon surga (atau berlindung dari neraka)."
 
 
-Sumber: http: //rumaysho.com/belajar-islam/tafsir-al-quran/3504-sifat-ibadurrahman-3-berlindung-dari-siksa-neraka.html",
+Sumber: http://rumaysho.com/belajar-islam/tafsir-al-quran/3504-sifat-ibadurrahman-3-berlindung-dari-siksa-neraka.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 61,
 grup: "Doa memohon surga dan berlindung dari neraka",
 nama: "Doa Memohon Surga, Berlindung Dari Neraka Dan Mohon Takdir Baik",
@@ -1015,12 +1004,12 @@ tr: "Allaahumma innii as-alukal jannata wa maa qorroba ilaihaa min qoulin au 'am
 idn: "Ya Allah, aku memohon kepada-Mu surga dan segala hal yang mendekatkan kepadanya, dari perkataan maupun perbuatan. Dan aku berlindung kepada-Mu dari neraka dan dari segala hal yang mendekatkan kepadanya, dari perkataan maupun perbuatan. Dan aku mohon kepada-Mu agar Engkau jadikan setiap yang Engkau takdirkan bagiku adalah baik.",
 tentang: "HR. Ibnu Majah no. 3846 dan Ahmad 1/172. Syaikh Al Albani mengatakan bahwa hadits ini shohih.
 
-Sumber: http: //rumaysho.com/belajar-islam/tafsir-al-quran/3699-sifat-ibadurrahman-8-akhir-yang-mulia-bagi-ibadurrahman.html",
+Sumber: http://rumaysho.com/belajar-islam/tafsir-al-quran/3699-sifat-ibadurrahman-8-akhir-yang-mulia-bagi-ibadurrahman.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 62,
 grup: "Doa memohon surga dan berlindung dari neraka",
 nama: "Doa Berlindung Dari Neraka",
@@ -1029,10 +1018,10 @@ tr: "Robbanash-rif 'annaa 'adzaaba jahannam, inna 'adzaabahaa kaana ghorooman, i
 idn: "Ya Tuhan kami, jauhkan azab jahannam dari kami, sesungguhnya azabnya itu adalah kebinasaan yang kekal. Sesungguhnya jahannam itu seburuk-buruk tempat menetap dan tempat kediaman. (Al Furqan [25]: 65-66).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 63,
 grup: "Doa memohon akhlak mulia",
 nama: "Doa Memohon Akhlak Mulia",
@@ -1043,10 +1032,10 @@ tentang: "HR. Ahmad, dishahihkan oleh Asy Syaikh Al Albani.
 
 Sumber: BBG Al-Ilmu (BlackBerry Group)",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 64,
 grup: "Doa memohon akhlak mulia",
 nama: "Doa Memohon Akhlak Dan Amal Yang Baik",
@@ -1057,10 +1046,10 @@ tentang: "HR. An Nasa'i.
 
 Sumber: BBG Al-Ilmu (BlackBerry Group)",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 65,
 grup: "Doa memohon akhlak mulia",
 nama: "Doa Berlindung Dari Kemungkaran Akhlak, Amal Dan Hawa Nafsu",
@@ -1078,12 +1067,12 @@ Doa ini juga mencakup meminta perlindungan pada keinginan atau nafsu yang mungka
 Doa berlindung dari keinginan atau nafsu yang mungkar mencakup berlindung dari aqidah yang jelek, niatan-niatan yang batil dan pemikiran yang sesat.
 Doa ini mendorong kita agar berakhlak yang mulia dan beramal yang sholih.
 
-Sumber: http: //rumaysho.com/belajar-islam/amalan/3078-doa-berlindung-dari-akhlak-amal-dan-hawa-nafsu-yang-mungkar.html",
+Sumber: http://rumaysho.com/belajar-islam/amalan/3078-doa-berlindung-dari-akhlak-amal-dan-hawa-nafsu-yang-mungkar.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 66,
 grup: "Doa Terkait Orang Tua",
 nama: "Doa Memohon Ampun diri sendiri dan orang tua (Doa Nabil Ibrahim)",
@@ -1092,11 +1081,11 @@ tr: "Robbanagh-fir lii wa liwaalidayya wa lil mu'miniina yauma yaquumul hisaab."
 idn: "Ya Tuhan kami, beri ampunlah aku dan kedua ibu bapakku dan sekalian orang-orang mukmin pada hari terjadinya hisab (hari kiamat).",
 tentang: "(QS. Ibrahim [14]: 41)",
 tag: [
-                "ampunan",
-                "orang tua"
-            ]
-        },
-        {
+"ampunan",
+"orang tua"
+]
+},
+{
 id: 67,
 grup: "Doa Terkait Orang Tua",
 nama: "Doa Memohon Ampun Untuk Diri Sendiri, Orang Tua Dan Kaum Mukminin (Doa Nabi Nuh)",
@@ -1105,10 +1094,10 @@ tr: "Robbigh-fir lii wa liwaalidayya wa liman dakhola baitiya mu'minan wa lil mu
 idn: "Ya Tuhanku! Ampunilah aku, ibu bapakku, orang yang masuk ke rumahku dengan beriman dan semua orang yang beriman laki-laki dan perempuan. Dan janganlah Engkau tambahkan bagi orang-orang yang zalim itu selain kebinasaan.",
 tentang: "(QS. Nuh [71]: 28).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 68,
 grup: "Doa Terkait Orang Tua",
 nama: "Doa Memohon Kasih Sayang Untuk Orang Tua",
@@ -1117,10 +1106,10 @@ tr: "Robbir-hamhumaa kamaa robbayaanii shoghiiroo.",
 idn: "Wahai Tuhanku, kasihilah mereka keduanya, sebagaimana mereka berdua telah mendidik aku waktu kecil.",
 tentang: "(QS. Al-Isra' [17]: 24).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 69,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Doa Memohon Istri Dan Anak Sebagai Penyenang Hati",
@@ -1130,38 +1119,29 @@ idn: "Ya Rabb kami, anugrahkanlah kepada kami isteri-isteri kami dan keturunan k
 tentang: "Sangat dianjurkan jika seorang muslim memperbanyak doa ini untuk memperbaiki istri, keturunan dan dirinya sendiri.
 
 Penjelasan ulama:
-Ibnu Katsir berkata,
-            "Mereka (hamba yang beriman) berdoa kepada Allah agar mendapatkan keturunan yang taat kepada Allah dan menyembah Allah semata tidak berbuat syirik kepada-Nya." Masya Allah… Tafsiran yang sangat bagus. Yang orang beriman harap adalah mendapatkan keturunan yang rajin ibadah dan bertauhid kepada Allah, bukan keturunan yang berbuat syirik.
+Ibnu Katsir berkata, "Mereka (hamba yang beriman) berdoa kepada Allah agar mendapatkan keturunan yang taat kepada Allah dan menyembah Allah semata tidak berbuat syirik kepada-Nya." Masya Allah… Tafsiran yang sangat bagus. Yang orang beriman harap adalah mendapatkan keturunan yang rajin ibadah dan bertauhid kepada Allah, bukan keturunan yang berbuat syirik.
 
-Ibnu 'Abbas berkata,
-            "Yaitu mereka (ibadurrahman) meminta agar mendapatkan keturunan yang gemar beramal ketaatan sehingga sejuklah mata mereka di dunia dan akhirat."
+Ibnu 'Abbas berkata, "Yaitu mereka (ibadurrahman) meminta agar mendapatkan keturunan yang gemar beramal ketaatan sehingga sejuklah mata mereka di dunia dan akhirat."
 
-'Ikrimah berkata,
-            "Yaitu mereka (orang yang beriman) tidaklah menginginkan keturunan yang memiliki paras cantik, akan tetapi yang mereka inginkan adalah keturunan yang taat."
+'Ikrimah berkata, "Yaitu mereka (orang yang beriman) tidaklah menginginkan keturunan yang memiliki paras cantik, akan tetapi yang mereka inginkan adalah keturunan yang taat."
 
-Al Hasan Al Bashri ditanya mengenai ayat di atas. Beliau pun berkata,
-            "Yang ingin dilihat Allah pada hamba muslim dari istri, saudara, dan sahabat karibnya adalah mereka semua taat pada Allah. Wallahi, demi Allah, tidak ada sesuatu yang lebih menyenangkan pandangan mata seorang muslim melebihi ketaatan pada Allah yang ia lihat pada anak, cucu, saudara dan sahabat karibnya."
+Al Hasan Al Bashri ditanya mengenai ayat di atas. Beliau pun berkata, "Yang ingin dilihat Allah pada hamba muslim dari istri, saudara, dan sahabat karibnya adalah mereka semua taat pada Allah. Wallahi, demi Allah, tidak ada sesuatu yang lebih menyenangkan pandangan mata seorang muslim melebihi ketaatan pada Allah yang ia lihat pada anak, cucu, saudara dan sahabat karibnya."
 
-Ibnu Juraij berkata mengenai ayat tersebut,
-            "Hamba beriman meminta pada Allah agar keturunannya dapat beribadah dan memperbagus ibadahnya kepada Allah, tidak berbuat maksiat dan tindak kejahatan."
+Ibnu Juraij berkata mengenai ayat tersebut, "Hamba beriman meminta pada Allah agar keturunannya dapat beribadah dan memperbagus ibadahnya kepada Allah, tidak berbuat maksiat dan tindak kejahatan."
 
-'Abdurrahman bin Zaid bin Aslam berkata,
-            "Orang beriman meminta kepada Allah agar istri-istrinya dan keturunannya mendapatkan hidayah Islam."
+'Abdurrahman bin Zaid bin Aslam berkata, "Orang beriman meminta kepada Allah agar istri-istrinya dan keturunannya mendapatkan hidayah Islam."
 
-Sedangkan ayat,
-            "Dan jadikanlah kami imam bagi orang-orang yang bertakwa":
-Ibnu 'Abbas, Al Hasan Al Bashri, Qotada, As Sudi, Ar Robi' bin Anas menafsirkan ayat tersebut,
-            "Ya Allah, jadikanlah kami sebagai imam yang dapat menunjuki dalam kebaikan."
+Sedangkan ayat, "Dan jadikanlah kami imam bagi orang-orang yang bertakwa":
+Ibnu 'Abbas, Al Hasan Al Bashri, Qotada, As Sudi, Ar Robi' bin Anas menafsirkan ayat tersebut, "Ya Allah, jadikanlah kami sebagai imam yang dapat menunjuki dalam kebaikan."
 
-Ada pula ulama yang mengatakan bahwa maksudnya adalah ia meminta pada Allah agar ia sendiri mendapatkan petunjuk dan sebagai pengajak kepada kebaikan. Hamba Allah yang mewariskan kebaikan pada keturunannya, inilah yang dipuji dalam hadits,
-            "Jika seseorang meninggal dunia, maka terputuslah amalannya kecuali tiga perkara (yaitu): sedekah jariyah, ilmu yang dimanfaatkan, atau doa anak yang sholeh." (HR. Muslim no. 1631). Orang tua yang menunjuki anak dan keturunannya dalam kebaikan, ia termasuk dalam hadits ini.
+Ada pula ulama yang mengatakan bahwa maksudnya adalah ia meminta pada Allah agar ia sendiri mendapatkan petunjuk dan sebagai pengajak kepada kebaikan. Hamba Allah yang mewariskan kebaikan pada keturunannya, inilah yang dipuji dalam hadits, "Jika seseorang meninggal dunia, maka terputuslah amalannya kecuali tiga perkara (yaitu): sedekah jariyah, ilmu yang dimanfaatkan, atau doa anak yang sholeh." (HR. Muslim no. 1631). Orang tua yang menunjuki anak dan keturunannya dalam kebaikan, ia termasuk dalam hadits ini.
 
-Sumber: http: //rumaysho.com/belajar-islam/tafsir-al-quran/3690-sifat-ibadurrahman-7-meminta-anugerah-istri-dan-anak-sebagai-penyejuk-mata.html",
+Sumber: http://rumaysho.com/belajar-islam/tafsir-al-quran/3690-sifat-ibadurrahman-7-meminta-anugerah-istri-dan-anak-sebagai-penyejuk-mata.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 70,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Doa Memohon Banyak Harta, Anak, Panjang Umur, Dibaguskan Amal Dan Diampuni Dosa (Doa Nabi Muhammad)",
@@ -1170,12 +1150,12 @@ tr: "Allaahumma ak-tsir maalii wa waladii, wa baarik lii fiimaa a'thoitanii, wa 
 idn: "Ya Allah, perbanyaklah harta dan anakku, serta berkahilah karunia yang Engkau beri. Panjangkanlah umurku dalam ketaatan kepada-Mu, dan baguskanlah amalku serta ampunilah dosa-dosaku.",
 tentang: "HR. Bukhari no. 6334 dan Muslim no. 2480.
 
-Sumber: http: //rumaysho.com/amalan/doa-minta-kaya-dan-lepas-dari-utang-10221.html",
+Sumber: http://rumaysho.com/amalan/doa-minta-kaya-dan-lepas-dari-utang-10221.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 71,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Doa Memohon Anak Shaleh (Doa Nabi Ibrahim)",
@@ -1183,19 +1163,17 @@ ar: "رَبِّ هَبْ لِي مِنَ الصَّالِحِينَ",
 tr: "Robbi hab lii minash-shoolihiin.",
 idn: "Ya Rabb-ku, anugrahkanlah kepadaku (seorang anak) yang termasuk orang-orang yang saleh. (QS. Ash-Shaffat [37]: 100).",
 tentang: "Nabi Ibrahim 'alaihis salaam berdoa dengan doa di atas.
-Ini adalah doa yang bisa dipanjatkan untuk meminta keturunan, terutama keturunan yang sholeh. Dalam Zaadul Masiir (7/71), dijelaskan maksud ayat tersebut oleh Ibnul Jauzi rahimahullah,
-            "Ya Rabbku, anugerahkanlah padaku anak yang sholeh yang nanti termasuk jajaran orang-orang yang sholeh."
+Ini adalah doa yang bisa dipanjatkan untuk meminta keturunan, terutama keturunan yang sholeh. Dalam Zaadul Masiir (7/71), dijelaskan maksud ayat tersebut oleh Ibnul Jauzi rahimahullah, "Ya Rabbku, anugerahkanlah padaku anak yang sholeh yang nanti termasuk jajaran orang-orang yang sholeh."
 
-Asy Syaukani rahimahullah mengatakan apa yang dikatakan oleh para pakar tafsir,
-            "Ya Rabb, anugerahkanlah padaku anak yang sholeh yang termasuk jajaran orang-orang yang sholeh, yang bisa semakin menolongku taat pada-Mu." Jadi yang namanya keturunan terutama yang sholeh bisa membantu seseorang semakin taat pada Allah.
+Asy Syaukani rahimahullah mengatakan apa yang dikatakan oleh para pakar tafsir, "Ya Rabb, anugerahkanlah padaku anak yang sholeh yang termasuk jajaran orang-orang yang sholeh, yang bisa semakin menolongku taat pada-Mu." Jadi yang namanya keturunan terutama yang sholeh bisa membantu seseorang semakin taat pada Allah.
 
 
-Sumber: http: //rumaysho.com/belajar-islam/keluarga/3437-doa-meminta-anak-yang-sholeh.html",
+Sumber: http://rumaysho.com/belajar-islam/keluarga/3437-doa-meminta-anak-yang-sholeh.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 72,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Doa Memohon Keturunan (Doa Nabi Dzakariya)",
@@ -1204,10 +1182,10 @@ tr: "Robbi laa tadzarnii fardan, wa anta khoirul waaritsiin.",
 idn: "Ya Rabb-ku, janganlah Engkau biarkan aku hidup seorang diri (tanpa keturunan), dan Engkaulah Waris yang Paling Baik.",
 tentang: "(QS. Al-Anbiya' [21]: 89).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 73,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Doa Agar Menjadi Hamba Yang Bersyukur, Agar Bisa Beramal Shaleh Dan Minta Anak Shaleh",
@@ -1216,12 +1194,12 @@ tr: "Robbi auzi'nii an asykuro ni'matakallatii an'amta 'alayya wa 'alaa waaliday
 idn: "Ya Rabbku, tunjukilah aku untuk mensyukuri nikmat-Mu yang telah Engkau berikan kepadaku dan kepada ibu bapakku, dan supaya aku dapat berbuat amal shaleh yang Engkau ridhai. Berilah kebaikan kepadaku dengan (memberi kebaikan) kepada anak cucuku. Sesungguhnya aku bertaubat kepada-Mu dan sesungguhnya aku termasuk orang-orang yang berserah diri. (Al-Ahqaf [46]: 15).",
 tentang: "Seseorang yang telah dewasa dan menginjak usia 40 tahun memohon pada Allah dengan doa di atas. Doa ini juga berisi permintaan kebaikan pada anak dan keturunan.
 
-Sumber: http: //rumaysho.com/belajar-islam/keluarga/3437-doa-meminta-anak-yang-sholeh.html",
+Sumber: http://rumaysho.com/belajar-islam/keluarga/3437-doa-meminta-anak-yang-sholeh.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 74,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Ucapan Selamat Kepada Orang Yang Dikaruniai Anak Dan Balasannya",
@@ -1249,10 +1227,10 @@ Lihat Al-Adzkar, karya An-Nawawi, hal. 349, dan Shahih Al-Adzkar lin Nawawi, ole
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 75,
 grup: "Doa Terkait Istri Dan Anak",
 nama: "Doa Agar Anak Terjaga Dari Zina",
@@ -1261,12 +1239,12 @@ tr: "Allaahummagh-fir dzanbahu, wa thohhir qolbahu, wa hash-shin farjahu.",
 idn: "Ya Allah, ampunilah dosanya, sucikanlah hatinya, dan jagalah kemaluannya.",
 tentang: "HR. Ahmad, At Thabrani, Al Baihaqy dan dinyatakan sebagai hadits shahih oleh Al Albany.
 
-Sumber: http: //www.salamdakwah.com/artikel/5170-jangan-dianggap-biasa-anak-yang-sudah-tidak-perawan dan http://www.salamdakwah.com/artikel/3283-zina-itu-adalah-hutang-tebusannya-ada-pada-keluargamu-sendiri",
+Sumber: http://www.salamdakwah.com/artikel/5170-jangan-dianggap-biasa-anak-yang-sudah-tidak-perawan dan http://www.salamdakwah.com/artikel/3283-zina-itu-adalah-hutang-tebusannya-ada-pada-keluargamu-sendiri",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 76,
 grup: "Doa Kepada Anak Yang Baru Lahir",
 nama: "Doa Perlindungan Kepada Anak (Doa Istri Imran)",
@@ -1284,21 +1262,19 @@ Ya Allah, aku memohon perlindungan kepada-Mu untuknya dan keturunannya dari seta
 
 
 Selengkapnya:
-Salah satu di antara contoh hal ini (memohon perlindungan dari setan) adalah apa yang dipraktekkan oleh istri Imran, yang merupakan ibunya maryam. Allah menceritakan kejadian ketika istri Imran melahirkan Maryam, ‘Tatkala isteri ‘Imran melahirkan anaknya, diapun berkata, “Ya Tuhanku, sesungguhnya aku melahirkannya seorang anak perempuan; dan Allah lebih mengetahui apa yang dilahirkannya itu; dan anak laki-laki tidaklah seperti anak perempuan. Sesungguhnya aku telah menamai Dia Maryam dan aku mohon perlindungan untuknya serta anak-anak keturunannya kepada (pemeliharaan) Engkau daripada syaitan yang terkutuk.”’ (Ali Imran [
-                3
-            ]: 36).
+Salah satu di antara contoh hal ini (memohon perlindungan dari setan) adalah apa yang dipraktekkan oleh istri Imran, yang merupakan ibunya maryam. Allah menceritakan kejadian ketika istri Imran melahirkan Maryam, ‘Tatkala isteri ‘Imran melahirkan anaknya, diapun berkata, “Ya Tuhanku, sesungguhnya aku melahirkannya seorang anak perempuan; dan Allah lebih mengetahui apa yang dilahirkannya itu; dan anak laki-laki tidaklah seperti anak perempuan. Sesungguhnya aku telah menamai Dia Maryam dan aku mohon perlindungan untuknya serta anak-anak keturunannya kepada (pemeliharaan) Engkau daripada syaitan yang terkutuk.”’ (Ali Imran [3]: 36).
 
 Satu hal yang istimewa, karena doa ibunda Maryam ini, ketika Maryam lahir, dia tidak diganggu setan, demikian pula ketika Nabi Isa dilahirkan. Allah mengabulkan doa ibunya Maryam. Dari Abu Hurairah radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Setiap bayi dari anak keturunan adam akan ditusuk dengan tangan setan ketika dia dilahirkan, sehingga dia berteriak menangis, karena disentuh setan. Selain Maryam dan putranya.” (HR. Bukhari 3431). Kemudian Abu Hurairah radhiyallahu ‘anhu membaca surat Ali Imran ayat 36 di atas.
 
 Kita bisa meniru doa wanita sholihah, istri Imran ini.
 
 
-Sumber: https: //konsultasisyariah.com/18705-doa-untuk-bayi-yang-baru-lahir.html",
+Sumber: https://konsultasisyariah.com/18705-doa-untuk-bayi-yang-baru-lahir.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 77,
 grup: "Doa Kepada Anak Yang Baru Lahir",
 nama: "Doa Perlindungan Kepada Anak (Doa Nabi Muhammad)",
@@ -1337,12 +1313,12 @@ Jika lebih dari dua anak, semua laki: U'iidzu - kum.
 Jika lebih dari dua anak, semua perempuan: U'iidzu - kunna.
 Jika lebih dari dua anak, laki dan perempuan: U'iidzu - kum.
 
-Sumber: https: //konsultasisyariah.com/18705-doa-untuk-bayi-yang-baru-lahir.html dan http://bbg-alilmu.com/archives/35100",
+Sumber: https://konsultasisyariah.com/18705-doa-untuk-bayi-yang-baru-lahir.html dan http://bbg-alilmu.com/archives/35100",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 78,
 grup: "Doa Memohon Keteguhan Hati",
 nama: "Doa Memohon Keteguhan Hati",
@@ -1350,19 +1326,17 @@ ar: "يَا مُقَلِّبَ الْقُلُوبِ، ثَبِّتْ قَلْب�
 tr: "Yaa muqollibal quluub, tsabbit qolbii 'alaa diinik.",
 idn: "Wahai Dzat yang Maha Membolak-balikkan hati, teguhkanlah hatiku di atas agama-Mu.",
 tentang: "HR. Tirmidzi no. 3522. Syaikh Al Albani mengatakan bahwa hadits ini shahih.
-Ummu Salamah pernah menanyakan kepada Rasulullah shallallahu 'alaihi wa sallam, kenapa doa tersebut yang sering beliau baca. Nabi shallallahu 'alaihi wa sallam seraya menjawab,
-            "Wahai Ummu Salamah, yang namanya hati manusia selalu berada di antara jari-jemari Allah. Siapa saja yang Allah kehendaki, maka Allah akan berikan keteguhan dalam iman. Namun siapa saja yang dikehendaki, Allah pun bisa menyesatkannya."
+Ummu Salamah pernah menanyakan kepada Rasulullah shallallahu 'alaihi wa sallam, kenapa doa tersebut yang sering beliau baca. Nabi shallallahu 'alaihi wa sallam seraya menjawab, "Wahai Ummu Salamah, yang namanya hati manusia selalu berada di antara jari-jemari Allah. Siapa saja yang Allah kehendaki, maka Allah akan berikan keteguhan dalam iman. Namun siapa saja yang dikehendaki, Allah pun bisa menyesatkannya."
 
-Dalam riwayat lain dikatakan,
-            "Sesungguhnya hati berada di tangan Allah 'azza wa jalla, Allah yang membolak-balikkannya." (HR. Ahmad 3: 257. Syaikh Syu'aib Al Arnauth mengatakan bahwa sanad hadits ini kuat sesuai syarat Muslim).
+Dalam riwayat lain dikatakan, "Sesungguhnya hati berada di tangan Allah 'azza wa jalla, Allah yang membolak-balikkannya." (HR. Ahmad 3: 257. Syaikh Syu'aib Al Arnauth mengatakan bahwa sanad hadits ini kuat sesuai syarat Muslim).
 
 
-Sumber: http: //rumaysho.com/amalan/kiat-agar-semangat-tidak-kendor-dalam-belajar-islam-3315",
+Sumber: http://rumaysho.com/amalan/kiat-agar-semangat-tidak-kendor-dalam-belajar-islam-3315",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 79,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun Dan Rahmat",
@@ -1371,10 +1345,10 @@ tr: "Robbanaa, aamannaa, fagh-fir lanaa warhamnaa, wa anta khoirur-roohimiin.",
 idn: "Ya Tuhan kami, kami telah beriman, maka ampunilah kami dan berilah kami rahmat, dan Engkau adalah Pemberi rahmat Yang Paling Baik. (QS. Al Mu’minun [23]: 109).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 80,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun Dan Rahmat (Doa Nabi Adam)",
@@ -1383,10 +1357,10 @@ tr: "Robbanaa zholamnaa anfusanaa, wa in lam tagh-fir lanaa wa tarhamnaa, lanaku
 idn: "Ya Tuhan kami, kami telah menganiaya diri kami sendiri, dan jika Engkau tidak mengampuni kami dan memberi rahmat kepada kami, niscaya pastilah kami termasuk orang-orang yang merugi. (QS. Al A'raf [7]: 23).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 81,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun (Doa Nabi Musa)",
@@ -1395,10 +1369,10 @@ tr: "Robbi innii zholamtu nafsii, fagh-fir lii.",
 idn: "Ya Tuhanku, sesungguhnya aku telah menganiaya diriku sendiri, karena itu ampunilah aku. (QS. Al Qashash [28]: 16).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 82,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun, Rahmat, Petunjuk, Keselamatan Dan Rizki",
@@ -1417,12 +1391,12 @@ Keutamaan meminta rizki yaitu agar dimudahkan oleh Allah untuk memperolehnya seh
 Keutamaan meminta kebaikan di dunia dan akhirat sekaligus, bukan hanya dunia saja. Ingatlah, kebahagiaan hakiki adalah kebahagiaan di akhirat kelak.
 Keutamaan membaca doa yang diajarkan oleh Nabi shallallahu 'alaihi wa sallam ini, terutama diajarkan bagi orang yang baru masuk Islam.
 
-Sumber: http: //rumaysho.com/belajar-islam/amalan/3002-doa-meminta-kesehatan-dan-kelapangan-rizki.html",
+Sumber: http://rumaysho.com/belajar-islam/amalan/3002-doa-meminta-kesehatan-dan-kelapangan-rizki.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 83,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun, Rahmat, Keselamatan Dan Rizki",
@@ -1431,12 +1405,12 @@ tr: "Allaahummagh-fir lii, warhamnii, wa 'aafinii, warzuqnii.",
 idn: "Ya Allah, ampunilah aku, kasihanilah aku, selamatkanlah aku (dari penyakit dan dari apa yang tidak kuinginkan) dan berilah rezeki kepadaku.",
 tentang: "HR. Muslim no. 36 dan 2697. Dalam riwayat lain, dari Thoriq, ia berkata bahwa ia mendengar Nabi shallallahu 'alaihi wa sallam –dan ketika itu beliau didatangi seorang laki-laki–, lalu laki-laki tersebut berkata, “Wahai Rasulullah, apa yang harus aku katakan ketika aku ingin memohon pada Rabbku?” Beliau bersabda, “Katakanlah: (doa di atas), karena doa ini telah mencakup dunia dan akhiratmu.”
 
-Sumber: http: //rumaysho.com/belajar-islam/amalan/3002-doa-meminta-kesehatan-dan-kelapangan-rizki.html",
+Sumber: http://rumaysho.com/belajar-islam/amalan/3002-doa-meminta-kesehatan-dan-kelapangan-rizki.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 84,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun, Teguh Pendirian Dan Pertolongan Terhadap Orang Kafir",
@@ -1445,10 +1419,10 @@ tr: "Robbanagh-fir lanaa dzunuubanaa, wa isroofanaa fii amrinaa, wa tsabbit aqda
 idn: "Ya Rabb kami, ampunilah dosa-dosa kami, dan tindakan-tindakan kami yang berlebih-lebihan dalam urusan kami, dan teguhkanlah pendirian kami, dan tolonglah kami terhadap kaum yang kafir. (QS. Ali Imran [3]: 147).",
 tentang: "Sumber: http://rumaysho.com/amalan/kiat-agar-semangat-tidak-kendor-dalam-belajar-islam-3315",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 85,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun Dalam Segala Hal",
@@ -1457,12 +1431,12 @@ tr: "Allaahummagh-fir lii khothii-atii wa jahlii, wa isroofii fii amrii, wa maa 
 idn: "Ya Allah, ampunilah kesalahanku dan kebodohanku, keberlebih-lebihan dalam perkaraku, dan apa yang Engkau lebih mengetahui daripadaku. Ya Allah, ampunilah aku dalam kesungguhanku dan kelalaianku, kesalahanku dan kesengajaanku, dan semua itu berasal dari sisiku. Ya Allah, ampunilah aku dari dosa yang telah aku lakukan dan yang belum, yang aku sembunyikan dan yang aku tampakkan, dan apa yang Engkau lebih mengetahui daripadaku. Engkaulah Yang Maha Mendahulukan dan Yang Mengakhirkan, dan Engkau Mahakuasa atas segala sesuatu.",
 tentang: "HR. Bukhari 6398 dan Muslim 2719.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 86,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun Dan Berlindung Dari Neraka",
@@ -1471,10 +1445,10 @@ tr: "Robbanaa innanaa aamannaa, fagh-fir lanaa dzunuubanaa, wa qinaa 'adzaaban-n
 idn: "Ya Tuhan kami, sesungguhnya kami telah beriman, maka ampunilah segala dosa kami, dan peliharalah kami dari siksa neraka. (QS. Ali Imran [3]: 16).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 87,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun, Dihapuskan Kesalahan Dan Agar Tidak Dihinakan Pada Hari Kiamat",
@@ -1483,10 +1457,10 @@ tr: "Robbanaa innanaa sami'naa munaadiyan yunaadii lil iimaani an aaminuu birobb
 idn: "Ya Tuhan kami, sesungguhnya kami mendengar (seruan) yang menyeru kepada iman, (yaitu): “Berimanlah kamu kepada Tuhanmu”, maka kamipun beriman. Ya Tuhan kami, ampunilah bagi kami dosa-dosa kami, dan hapuskanlah dari kami kesalahan-kesalahan kami, dan wafatkanlah kami beserta orang-orang yang banyak berbakti. Ya Tuhan kami, berilah kami apa yang telah Engkau janjikan kepada kami dengan perantaraan rasul-rasul Engkau. Dan janganlah Engkau hinakan kami di hari kiamat. Sesungguhnya Engkau tidak menyalahi janji. (QS. Ali Imran [3]: 193-194).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 88,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun Untuk Diri Sendiri Dan Kaum Mukminin, Dan Agar Tidak Dengki Kepada Orang Beriman",
@@ -1495,10 +1469,10 @@ tr: "Robbanagh-fir lanaa wa li-ikhwaaninal-ladziina sabaquunaa bil-iimaan, wa la
 idn: "Ya Rabb kami, beri ampunlah kami dan saudara-saudara kami yang telah beriman lebih dulu dari kami, dan janganlah Engkau membiarkan kedengkian dalam hati kami terhadap orang-orang yang beriman. Ya Rabb kami, Sesungguhnya Engkau Maha Penyantun lagi Maha Penyayang. (QS. Al Hasyr [59]: 10).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 89,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun Pada Hari Pembalasan",
@@ -1519,12 +1493,12 @@ Penyebutan hari pembalasan (yaumuddin) dalam doa ini untuk menghadirkan perminta
 Syarh ad-Du’a min al-Kitab wa as-Sunnah, doa no 145.
 
 
-Sumber: https: //almanhaj.or.id/11462-doa-meminta-ampun-pada-hari-pembalasan.html",
+Sumber: https://almanhaj.or.id/11462-doa-meminta-ampun-pada-hari-pembalasan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 90,
 grup: "Doa Memohon Ampun, Rahmat Dan Kebaikan Lainnya",
 nama: "Doa Memohon Ampun, Rahmat, Dan Ditetapkan Kebaikan Di Dunia Dan Akhirat (Doa Nabi Musa)",
@@ -1533,10 +1507,10 @@ tr: "Anta waliyyunaa, fagh-fir lanaa, war hamnaa, wa anta khoirul ghoofiriin, wa
 idn: "Engkaulah Yang memimpin kami, maka ampunilah kami, dan berilah kami rahmat, dan Engkaulah Pemberi ampun yang sebaik-baiknya. Dan tetapkanlah untuk kami kebajikan di dunia ini dan di akhirat, sesungguhnya kami kembali (bertaubat) kepada Engkau. (QS. Al-A'raf [7]: 155-156).",
 tentang: "Sumber: https://almanhaj.or.id/7219-para-nabi-pun-bertaubat-menyoal-mashumnya-para-nabi.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 91,
 grup: "Doa Berlindung Dari Syirik",
 nama: "Doa Berlindung Dari Syirik",
@@ -1547,10 +1521,10 @@ tentang: "HR. Ahmad dan imam yang lain 4/403, lihat Shahihul Jami' 3/233, dan Sh
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 92,
 grup: "Doa Berlindung Dari Empat Hal",
 nama: "Doa Berlindung Dari Empat Hal",
@@ -1559,10 +1533,10 @@ tr: "Allaahumma innii a'uudzu bika min 'ilmin laa yanfa', wa min qolbin laa yakh
 idn: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari ilmu yang tidak bermanfaat, hati yang tidak khusyuk, jiwa yang tidak merasa kenyang (puas), dan dari doa yang tidak dikabulkan.",
 tentang: "HR. Muslim no. 2722 dari Zaid bin Arqam.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 93,
 grup: "Doa Berlindung Dari Kecelakaan Dan Kematian Yang Mengerikan",
 nama: "Doa Berlindung Dari Kecelakaan Dan Kematian Yang Mengerikan",
@@ -1589,12 +1563,12 @@ Penjelasan di atas diambil dari Muro’ah Al-Mafatih, dinukil dari ahlalhdeeth.c
 Moga Allah mematikan kita dalam keadaan husnul khotimah.
 
 
-Sumber: https: //rumaysho.com/15114-doa-agar-tidak-mati-mengerikan.html",
+Sumber: https://rumaysho.com/15114-doa-agar-tidak-mati-mengerikan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 94,
 grup: "Doa Berlindung Dari Kecelakaan Dan Kematian Yang Mengerikan",
 nama: "Doa Agar Tidak Disesatkan Setan Menjelang Kematian",
@@ -1612,16 +1586,15 @@ Dalam salah satu doanya, Nabi shallallahu ‘alaihi wa sallam mengucapkan: (doa 
 
 Al-Khathabi menjelaskan hadis di atas, dengan menyebutkan beberapa bentuk gangguan setan ketika mendekati kematian, “Nabi shallallahu ‘alaihi wa sallam berlindung dari disesatkan setan ketika kematian. Bentuknya adalah setan mengganggunya ketika dia hendak meninggal dunia. Lalu setan menyesatkannya, sehingga menghalangi dia untuk bertaubat, atau menutupi dirinya sehingga tidak mau memperbaiki urusannya atau memohon maaf dari kedzaliman yang pernah dia lakukan. Atau membuat dia merasa putus asa dari rahmat Allah. Atau membuat dia benci dengan kematian dan merasa sedih meninggalkan hartanya, sehingga dia tidak ridha dengan keputusan Allah berupa kematian, dan menuju akhirat. Sehingga dia akhiri hidupnya dengan keburukan, lalu dia bertemu Allah dalam kondisi dia murka kepada-Nya.”
 
-Kemudian, al-Khithabi menegaskan, “Diriwayatkan bahwa tidak ada kesempatan yang lebih diperhatikan setan untuk menyesatkan manusia, selain ketika kematiannya. Dia akan mengundang rekan-rekannya, ‘Kumpul di sini, jika kalian tidak bisa menyesatkannya pada hari ini, kalian tidak lagi bisa menggodanya selamanya.’” (Aunul Ma’bud,
-            4/287).
+Kemudian, al-Khithabi menegaskan, “Diriwayatkan bahwa tidak ada kesempatan yang lebih diperhatikan setan untuk menyesatkan manusia, selain ketika kematiannya. Dia akan mengundang rekan-rekannya, ‘Kumpul di sini, jika kalian tidak bisa menyesatkannya pada hari ini, kalian tidak lagi bisa menggodanya selamanya.’” (Aunul Ma’bud, 4/287).
 
 
-Sumber: https: //konsultasisyariah.com/26531-setan-menggoda-manusia-ketika-sakaratul-maut.html",
+Sumber: https://konsultasisyariah.com/26531-setan-menggoda-manusia-ketika-sakaratul-maut.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 95,
 grup: "Doa Memohon Ilmu",
 nama: "Doa Memohon Ilmu 1",
@@ -1629,14 +1602,12 @@ ar: "رَبِّ زِدْنِي عِلْمًا",
 tr: "Robbi zidnii 'ilman.",
 idn: "Wahai Rabb-ku, tambahkanlah ilmu kepadaku. (QS. Thaha [20]: 114).",
 tentang: "Allah Ta'ala memerintahkan Nabi-Nya Shallallahu 'alaihi wa sallam agar meminta tambahan ilmu.
-Al-Hafidz Ibnu Hajar rahimahullah berkata,
-            "Ayat ini adalah dalil yang tegas tentang keutamaan ilmu. Sebab tidaklah Allah Ta'ala pernah memerintahkan Nabi-Nya Shallallahu 'alaihi wa sallam untuk meminta tambahan terhadap sesuatu, selain ilmu…" (Fathul Baari,
-            1/187).",
+Al-Hafidz Ibnu Hajar rahimahullah berkata, "Ayat ini adalah dalil yang tegas tentang keutamaan ilmu. Sebab tidaklah Allah Ta'ala pernah memerintahkan Nabi-Nya Shallallahu 'alaihi wa sallam untuk meminta tambahan terhadap sesuatu, selain ilmu…" (Fathul Baari, 1/187).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 96,
 grup: "Doa Memohon Ilmu",
 nama: "Doa Memohon Ilmu 2",
@@ -1645,12 +1616,12 @@ tr: "Allaahumman-fa'nii bimaa 'allamtanii, wa 'allimnii maa yanfa'unii, wa zidni
 idn: "Ya Allah, berilah aku manfaat dengan apa yang telah Engkau ajarkan kepadaku, ajarilah aku apa yang bermanfaat bagiku, dan tambahkanlah ilmu kepadaku.",
 tentang: "HR. Ibnu Majah no. 251 dan 3833. Shahih. Tahqiq al-Albani.
 
-Sumber: http: //www.salamdakwah.com/baca-artikel/memohon-ilmu-yang-bermanfaat-1.html",
+Sumber: http://www.salamdakwah.com/baca-artikel/memohon-ilmu-yang-bermanfaat-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 97,
 grup: "Doa Memohon Ilmu",
 nama: "Doa Memohon Ilmu Yang Bermanfaat Dan Berlindung Dari Ilmu Yang Tidak Bermanfaat",
@@ -1659,12 +1630,12 @@ tr: "Allaahumma innii as-aluka 'ilman naafi'an, wa a'uudzu bika min 'ilmin laa y
 idn: "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, dan berlindung kepada-Mu dari ilmu yang tidak bermanfaat.",
 tentang: "HR. Ibnu Hibban. Hadis hasan sahih. Lihat at-Ta’liqaat al-Hisaan, al-Albani No 82.
 
-Sumber: http: //www.salamdakwah.com/baca-artikel/memohon-ilmu-yang-bermanfaat-1.html",
+Sumber: http://www.salamdakwah.com/baca-artikel/memohon-ilmu-yang-bermanfaat-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 98,
 grup: "Doa Memohon Ilmu",
 nama: "Doa Agar Paham Tentang Agama",
@@ -1673,12 +1644,12 @@ tr: "Allaahumma faqqihnii fid-diin.",
 idn: "Ya Allah, pahamkanlah aku tentang agama (Islam).",
 tentang: "HR. Al-Bukhari no. 143, Fathul Barri I/244, dan Muslim no. 2477. Hadits Shahih.
 
-Sumber: https: //muslimah.or.id/9591-wanita-dan-majelis-ilmu.html",
+Sumber: https://muslimah.or.id/9591-wanita-dan-majelis-ilmu.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 99,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Diri Dan Keluarga Tetap Mendirikan Shalat (Doa Nabi Ibrahim)",
@@ -1687,10 +1658,10 @@ tr: "Robbij'alnii muqiimash-sholaati wa min dzurriyyatii, robbanaa wa taqobbal d
 idn: "Ya Rabb-ku, jadikanlah aku dan anak cucuku orang-orang yang tetap mendirikan shalat, ya Tuhan kami, perkenankanlah doaku.",
 tentang: "(QS. Ibrahim [14]: 40).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 100,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Menjadi Hamba Yang Bersyukur Dan Agar Bisa Beramal Shaleh (Doa Nabi Sulaiman)",
@@ -1699,10 +1670,10 @@ tr: "Robbi auzi'nii an asykuro ni'matakallatii an'amta 'alayya wa 'alaa waaliday
 idn: "Ya Rabbku, tunjukilah aku untuk mensyukuri nikmat-Mu yang telah Engkau berikan kepadaku dan kepada ibu bapakku, dan supaya aku dapat berbuat amal shaleh yang Engkau ridhai. Masukkanlah aku dengan rahmat-Mu ke dalam golongan hamba-hamba-Mu yang shaleh. (QS. An-Naml [27]: 19).",
 tentang: "Sumber: https://www.facebook.com/photo.php?fbid=287408304641699&set=a.128972147151983.21826.113035155412349&type=1",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 101,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Petunjuk, Ketakwaan, 'Afaf (Terjaga) Dan Ghina (Merasa Cukup)",
@@ -1710,13 +1681,12 @@ ar: "اَللَّهُمَّ إنِّي أَسْأَلُكَ الهُدَى، و�
 tr: "Allaahumma innii as-alukal hudaa, wat-tuqoo, wal 'afaaf, wal ghinaa.",
 idn: "Ya Allah, sesungguhnya aku mohon kepada-Mu petunjuk, ketakwaan, diberikan sifat 'afaf dan ghina.",
 tentang: "HR. Muslim no. 2721.
-Dari Ibnu Mas'ud radhiyallahu 'anhu, beliau berkata,
-            "Nabi shallallahu 'alaihi wa sallam biasa membaca doa: (doa di atas).",
+Dari Ibnu Mas'ud radhiyallahu 'anhu, beliau berkata, "Nabi shallallahu 'alaihi wa sallam biasa membaca doa: (doa di atas).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 102,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Ketakwaan dan Jiwa yang Suci",
@@ -1725,12 +1695,12 @@ tr: "Allaahumma aati nafsii taqwaahaa wazakkihaa, anta khairu man zakkaahaa, ant
 idn: "Ya Allah, anugerahkanlah kepadaku ketakwaaan jiwa dan sucikanlah ia, karena Engkaulah sebaik-baik Rabb yang mensucikannya, Engkau pelindung dan Pemeliharanya.",
 tentang: "HR. Muslim.
 
-Sumber: https: //www.facebook.com/photo.php?fbid=563403433708850&set=a.128398600542671.21609.113035155412349&type=1",
+Sumber: https://www.facebook.com/photo.php?fbid=563403433708850&set=a.128398600542671.21609.113035155412349&type=1",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 103,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Dilapangkan hati dan Dimudahkan Urusan dan Ucapan (Doa Nabu Musa)",
@@ -1740,10 +1710,10 @@ idn: "Ya Rabbku, lapangkanlah untukku dadaku, mudahkanlah untukku urusanku, dan 
 tentang: "Doa ini adalah doa yang amat manfaat. Doa ini berisi hal meminta kemudahan pada Allah dan agar dimudahkan dalam ucapan serta dimudahkan untuk memahamkan orang lain ketika ingin berdakwah.
 Doa ini dari Nabi Musa 'alaihis salam. Namun doa ini bisa diamalkan pula oleh kita sebagaimana ditunjukkan oleh para ulama dalam berbagai kitab doa kumpulan mereka.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 104,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memperbaiki Urusan Agama dan Dunia",
@@ -1755,10 +1725,10 @@ Dari Abu Hurairah dia berkata, Rasulullah shallallahu 'alaihi wa sallam pernah b
 
 An Nawawi membawakan hadits ini dalam bab “Berlindung dari sesuatu yang telah diamalkan dan apa-apa yang belum diamalkan”.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 105,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Melihat Hilal ( Bulan Tanggal Satu)",
@@ -1767,10 +1737,10 @@ tr: "Allaahu akbar, allaahumma ahillahu 'alainaa bil amni wal iimaan, was-salaam
 idn: "Allah Maha Besar, Ya Allah, munculkanlah hilal itu kepada kami dengan membawa keamanan dan keimanan, keselamatan dan islam, dan membawa taufiq kepada apa yang Engkau cintai dan Engkau ridhai. Rabb kami dan Rabb kamu (wahai bulan) adalah Allah.",
 tentang: "HR. Ahmad dalam musnadnya 888, Ad-Darimi dalam sunannya 1729, At-Thabrani dalam Mu'jam al-Kabir 13330. Hadits ini digolongkan hadits shahih li ghairi oleh Al-Albani dalam As-Shahihah no. 1816, dan dinilai shahih oleh Syu'aib Al-Arnauth dalam Ta'liq Musnad Ahmad 3/171.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 106,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Melihat Permulaan Buah",
@@ -1781,10 +1751,10 @@ tentang: "HR. Muslim 2/1000.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 107,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Hisab yang Mudah",
@@ -1793,25 +1763,21 @@ tr: "Allaahumma haasibnii hisaaban yasiiron.",
 idn: "Ya Allah, hisablah aku dengan hisab yang mudah.",
 tentang: "HR. Ahmad 6/48. Syaikh Syu'aib Al Arnauth mengatakan bahwa hadits ini shahih selain perkataan: Saya telah mendengar Nabi shallallahu 'alaihi wa sallam pada sebagian shalatnya membaca: (doa di atas). Ini adalah tambahan di mana Muhammad bin Ishaq bersendirian dalam meriwayatkannya.
 Hadits selengkapnya:
-Dari Aisyah, ia berkata, saya telah mendengar Nabi shallallahu 'alaihi wa sallam pada sebagian shalatnya membaca: (doa di atas). Ketika beliau berpaling saya bekata,
-            "Wahai Nabi Allah, apa yang dimaksud dengan hisab yang mudah?" Beliau bersabda,
-            "Seseorang yang Allah melihat kitabnya lalu memaafkannya. Karena orang yang diperdebatkan hisabnya pada hari itu, pasti celaka wahai Aisyah. Dan setiap musibah yang menimpa orang beriman Allah akan menghapus (dosanya) karenanya, bahkan sampai duri yang menusuknya."
+Dari Aisyah, ia berkata, saya telah mendengar Nabi shallallahu 'alaihi wa sallam pada sebagian shalatnya membaca: (doa di atas). Ketika beliau berpaling saya bekata, "Wahai Nabi Allah, apa yang dimaksud dengan hisab yang mudah?" Beliau bersabda, "Seseorang yang Allah melihat kitabnya lalu memaafkannya. Karena orang yang diperdebatkan hisabnya pada hari itu, pasti celaka wahai Aisyah. Dan setiap musibah yang menimpa orang beriman Allah akan menghapus (dosanya) karenanya, bahkan sampai duri yang menusuknya."
 
 Yang dimaksud dengan doa tersebut diterangkan dalam hadits di atas. Maksud "hisab yang mudah" adalah saat di mana dosa-dosa seorang mukmin di hadapkan pada Allah, lalu ia pun mengakui dosa-dosanya itu. Kemudian setelah itu Allah mengampuni dosa-dosanya setelah ia bersendirian dengan Allah dan tidak ada seorang pun yang melihatnya ketika itu.
 
-Dari Shafwan bin Muhriz bahwa seorang laki-laki pernah bertanya kepada Ibnu Umar,
-            "Bagaimana Anda mendengar sabda Rasulullah shallallahu 'alaihi wasallam tentang An Najwa (bisikan di hari kiamat)?" Ibnu Umar menjawab,
-            "Yaitu salah seorang dari kalian akan mendekat kepada Rabb-nya. Kemudian Dia meletakkan naungan-Nya di atasnya. Kemudian Dia berfirman, 'Apakah kamu telah berbuat ini dan ini?' Hamba itu menjawab, 'Ya, benar.' Dia berfirman lagi, 'Apakah kamu telah melakukan ini dan ini?' Hamba itu menjawab, 'Ya, benar.' Dia pun mengulang-ulang pertanyannya, kemudian berfirman, 'Sesungguhnya Aku telah menutupi dosa-dosa tadi (merahasiakannya) di dunia dan pada hari ini aku telah mengampuninya bagimu.'" (HR. Bukhari no. 6070).
+Dari Shafwan bin Muhriz bahwa seorang laki-laki pernah bertanya kepada Ibnu Umar, "Bagaimana Anda mendengar sabda Rasulullah shallallahu 'alaihi wasallam tentang An Najwa (bisikan di hari kiamat)?" Ibnu Umar menjawab, "Yaitu salah seorang dari kalian akan mendekat kepada Rabb-nya. Kemudian Dia meletakkan naungan-Nya di atasnya. Kemudian Dia berfirman, 'Apakah kamu telah berbuat ini dan ini?' Hamba itu menjawab, 'Ya, benar.' Dia berfirman lagi, 'Apakah kamu telah melakukan ini dan ini?' Hamba itu menjawab, 'Ya, benar.' Dia pun mengulang-ulang pertanyannya, kemudian berfirman, 'Sesungguhnya Aku telah menutupi dosa-dosa tadi (merahasiakannya) di dunia dan pada hari ini aku telah mengampuninya bagimu.'" (HR. Bukhari no. 6070).
 
 Inilah yang dimaksudkan dengan hisab yang mudah di mana dosa-dosa seorang hamba yang beriman itu dimaafkan.
 
 
-Sumber: http: //rumaysho.com/amalan/ya-allah-hisablah-aku-dengan-hisab-yang-mudah-1511",
+Sumber: http://rumaysho.com/amalan/ya-allah-hisablah-aku-dengan-hisab-yang-mudah-1511",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 108,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Ucapan Terjaga Saat Marah maupun Ridha",
@@ -1824,10 +1790,10 @@ Agar tak ada dusta, ketidakadilan dan kata-kata kotor saat emosi memuncak.
 
 Sumber: BBG Al-Ilmu (BlackBerry Group)",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 109,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Melihat Wajah Allah Swt.",
@@ -1836,12 +1802,12 @@ tr: "Allaahumma innii as-aluka ladz-dzatan-nazhori ilaa wajhika, wasy-syauqo ila
 idn: "Ya Allah, Aku mohon kepada-Mu kenikmatan memandang wajah-Mu (di Surga), rindu bertemu dengan-Mu tanpa penderitaan yang membahayakan dan fitnah yang menyesatkan.",
 tentang: "HR. Nasai 1305 dan dishahihkan al-Albani.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 110,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Mencintai dan Dicintai Allah",
@@ -1850,12 +1816,12 @@ tr: "Allaahumma innii as-aluka hubbaka, wa hubba man yuhibbuka, wa hubba 'amalin
 idn: "Ya Allah, aku memohon agar dapat mencintai-Mu, mencintai orang-orang yang mencintai-Mu, dan mencintai amal yang dapat mendekatkan diriku kepada cinta-Mu.",
 tentang: "HR. Tirmidzi no. 3235 dan Ahmad 5: 243, dan dishahihkan al-Albani.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 111,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Banyak Kebaikan",
@@ -1878,10 +1844,10 @@ tentang: "HR. An Nasaa-i no. 1305 dari Sahabat Amar bin Yasir dan dishahihkan Al
 
 Sumber: BBM Ibnu Mukhtar (PIN 2666B091)",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 112,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Diterima Amal Ibadah dan taubat (Doa Nabi Ibrahim)",
@@ -1890,10 +1856,10 @@ tr: "Robbanaa taqobbal minnaa, innaka antas-sami'ul 'aliim. Wa tub 'alainaa, inn
 idn: "Ya Tuhan kami, terimalah daripada kami (amalan kami), sesungguhnya Engkaulah Yang Maha Mendengar lagi Maha Mengetahui. Dan terimalah taubat kami. Sesungguhnya Engkaulah Yang Maha Penerima taubat lagi Maha Penyayang. (QS. Al Baqarah [2]: 127 dan 128).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 113,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Tergolong Orang Beriman (Doa Nabi Ibrahim)",
@@ -1902,10 +1868,10 @@ tr: "Robbi hab lii hukman, wa alhiqnii bish-shoolihiin. Waj'al lii lisaana shidq
 idn: "Ya Tuhanku, berikanlah kepadaku hikmah, dan masukkanlah aku ke dalam golongan orang-orang yang saleh. Dan jadikanlah aku buah tutur yang baik bagi orang-orang (yang datang) kemudian. Dan jadikanlah aku termasuk orang-orang yang mempusakai surga yang penuh kenikmatan. (QS. Asy Syu’ara [26]: 83-85).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 114,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Bertawakal Hanya Kepada Allah",
@@ -1914,10 +1880,10 @@ tr: "Hasbiyallaah, laa ilaaha illaa huu, 'alaihi tawakkaltu, wa huwa robbul 'ars
 idn: "Cukuplah Allah bagiku, tidak ada sesembahan yang berhak disembah selain Dia. Hanya kepada-Nya aku bertawakal, dan Dia adalah Tuhan yang memiliki ‘Arsy yang agung. (QS. At Taubah [9]: 129).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 115,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Disempurnakan Cahayanya dan Memohon Ampun",
@@ -1926,10 +1892,10 @@ tr: "Robbanaa atmim lanaa nuuronaa, wagh-fir lanaa, innaka 'alaa kulli syai-in q
 idn: "Ya Rabb kami, sempurnakanlah bagi kami cahaya kami dan ampunilah kami; Sesungguhnya Engkau Maha Kuasa atas segala sesuatu. (QS. At Tahrim [66]: 8).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 116,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Rahmat dan Petunjuk",
@@ -1938,10 +1904,10 @@ tr: "Robbanaa aatinaa min ladunka rohmatan, wa hayyi' lanaa min amrinaa rosyadaa
 idn: "Wahai Tuhan kami, berikanlah rahmat kepada kami dari sisi-Mu, dan sempurnakanlah bagi kami petunjuk yang lurus dalam urusan kami. (QS. Al Kahfi [18]: 10).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 117,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Diwafatkan Dalam Keadaan Islam dan Tergolong Orang Saleh (Doa Nabi Yusuf)",
@@ -1950,10 +1916,10 @@ tr: "Anta waliyyii fid-dunyaa wal aakhiroh, tawaffanii musliman, wa alhiqnii bis
 idn: "Engkaulah Pelindungku di dunia dan di akhirat, wafatkanlah aku dalam keadaan Islam dan gabungkanlah aku dengan orang-orang yang saleh. (QS. Yusuf [12]: 101).",
 tentang: "Sumber: https://www.facebook.com/doa.dzikir.shahih.harian/photos/a.443228542443876.1073741825.145491612217572/611879738912088/?type=1",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 118,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Petunjuk dan Kebenaran",
@@ -1965,10 +1931,10 @@ Dari ‘Ali, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam mengata
 
 Faedah hadits:",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 119,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Kesabaran dan Agar Diwafatkan Dalam Keadaan Muslim",
@@ -1977,10 +1943,10 @@ tr: "Robbanaa afrigh 'alainaa shobron, wa tawaffanaa muslimiin.",
 idn: "Ya Tuhan kami, limpahkanlah kesabaran kepada kami, dan wafatkanlah kami dalam keadaan berserah diri (kepada-Mu).",
 tentang: "(QS. Al A'raf [7]: 126).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 120,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Dihidupkan Jika Itu Baik, dan Dimatikan Jika Itu Baik",
@@ -2005,12 +1971,12 @@ Hal ini sebagaimana sabda Rasulullah shallallahu ‘alaihi wa sallam, “Janganl
 Rasulullah shallallahu ‘alaihi wa sallam juga bersabda, “Janganlah salah seorang di antara kalian mengharapkan kematian. Jika dia orang baik, semoga saja bisa menambah amal kebaikannya. Dan jika dia orang yang buruk (akhlaknya), semoga bisa menjadikannya bertaubat.” (HR. Bukhari no. 5673).
 
 
-Sumber: https: //muslim.or.id/43190-hukum-berdoa-mengharapkan-kematian.html",
+Sumber: https://muslim.or.id/43190-hukum-berdoa-mengharapkan-kematian.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 121,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Keteguhan, Petunjuk Sekaligus Sebagai pembeli Petunjuk",
@@ -2027,12 +1993,12 @@ Doa ini juga memuat permohonan agar Allah Azza wa Jalla memberikan kepadanya pet
 Lihat Syarh ad-Du’aa’ Min al-Kitab wa as-Sunnah, doa no 131.
 
 
-Sumber: https: //almanhaj.or.id/11433-doa-agar-tegar-dan-menerangi-manusia-dengan-kebaikan.html",
+Sumber: https://almanhaj.or.id/11433-doa-agar-tegar-dan-menerangi-manusia-dengan-kebaikan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 122,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Keimanan, Keyakinan, dan Pemahaman",
@@ -2041,12 +2007,12 @@ tr: "Allaahumma zidnaa iimaanan, wa yaqiinan, wa fiqhan.",
 idn: "Ya Allah, tambahkan kepada kami keimanan, keyakinan dan pemahaman (yang benar).",
 tentang: "HR. Abdullah bin Imam Ahmad dalam As-Sunnah (I/368, No. 797) dan Al-Laalikai dalam Syirah Ushul I’tiqod Ahlis Sunnah waljama’ah (No. 1704). Al-Hafizh Ibnu Hajar menyatakan sanadnya shahih dalam Fathul Barri (I/48).
 
-Sumber: https: //muslimah.or.id/9591-wanita-dan-majelis-ilmu.html",
+Sumber: https://muslimah.or.id/9591-wanita-dan-majelis-ilmu.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 123,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Keteguhan Di Atas Agama Islam",
@@ -2055,12 +2021,12 @@ tr: "Yaa waliyyal islaami wa ahlih, massiknil islaam, hattaa alqooka 'alaih.",
 idn: "Wahai Dzat yang melindungi Islam dan pemeluknya, kokohkanlah kami di atas Islam, sampai kami menemui-Mu dengan membawanya.",
 tentang: "HR. ath-Thabrani.
 
-Sumber: https: //yufidia.com/5027-doa-memohon-keteguhan-di-atas-islam.html",
+Sumber: https://yufidia.com/5027-doa-memohon-keteguhan-di-atas-islam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 124,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Iman Yang Tidak Lepas, Nikmat yang Tidak Habis, dan Menyertai Nabi Muhammad di Surga",
@@ -2069,10 +2035,10 @@ tr: "Allaahumma innii as-aluka iimaanan laa yartadd, wa na'iiman laa yanfad, wa 
 idn: "Ya Allah, sesungguhnya aku memohon kepada-Mu iman yang tidak akan lepas, nikmat yang tidak akan habis, dan menyertai Muhammad shallallahu ‘alaihi wa sallam di surga yang paling tinggi selamanya.",
 tentang: "Sumber: https://rumaysho.com/23644-20-doa-dan-dzikir-saat-wabah-corona-melanda.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 125,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Memohon Qona'ah (Merasa Cukup)",
@@ -2081,12 +2047,12 @@ tr: "Allaahumma qonni'nii bimaa rozaqtanii, wa baarik lii fiihi, wakh-luf 'alaa 
 idn: "Ya Allah, jadikanlah aku qona'ah (merasa cukup) terhadap apa yang Engkau rizkikan kepadaku, berkahilah aku di dalamnya, dan gantilah untukku semua yang hilang dariku dengan yang lebih baik.",
 tentang: "HR. Al Hakim. Hadits shohih.
 
-Sumber: https: //bbg-alilmu.com/wp-content/uploads/2015/06/qona-ah.jpg",
+Sumber: https://bbg-alilmu.com/wp-content/uploads/2015/06/qona-ah.jpg",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 126,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Agar Dibimbing Ke Jalan yang Benar (Doa Nabi Musa)",
@@ -2095,10 +2061,10 @@ tr: "Asaa robbii an yahdiyanii sawaa-as-sabiil.",
 idn: "Mudah-mudahan Tuhanku memimpinku ke jalan yang benar.",
 tentang: "(QS. Al Qashash [28]: 22).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 127,
 grup: "Doa Memohon Kebaikan",
 nama: "Doa Ketika Sangat Butuh Sesuatu Ataupun Pertolongan Dari Allah (Doa Nabi Musa)",
@@ -2107,10 +2073,10 @@ tr: "Robbi innii limaa anzalta ilayya min khoirin faqiir.",
 idn: "Ya Tuhanku, sesungguhnya aku sangat memerlukan sesuatu kebaikan yang Engkau turunkan kepadaku. (QS. Al Qashash [28]: 24).",
 tentang: "Anda bisa perhatikan surat al-Qashas, Allah menceritakan Musa dari ayat 3 hingga ayat 43. Doa ini diucapkan Musa ketika beliau berada di kondisi serba susah. Diliputi rasa cemas dan ketakutan. Bagi orang awam, keadaan itu mungkin sudah dianggap puncak ujian, seolah tidak ada lagi harapan untuk hidup.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 128,
 grup: "Doa Keluar Dan Masuk Rumah",
 nama: "Doa Keluar Rumah",
@@ -2122,16 +2088,15 @@ Keutamaan:
 Dalam hadis dari Anas bin Malik radhiyallahu ‘anhu, Rasulullah shallallahu ‘alaihi wa sallam menjelaskan keutamaan doa ini, “Apabila seseorang keluar dari rumahnya kemudian dia membaca: (doa di atas), maka disampaikan kepadanya, ‘Kamu diberi petunjuk, kamu dicukupi kebutuhannya, dan kamu dilindungi.’ Seketika itu setan-setanpun menjauh darinya. Lalu salah satu setan berkata kepada temannya, ‘Bagaimana mungkin kalian bisa mengganggu orang yang telah diberi petunjuk, dicukupi, dan dilindungi.’”
 
 Keterangan:
-Makna “disampaikan kepadanya”: yang menyampaikan adalah Malaikat. Malaikat itu mengatakan kepada orang yang membaca doa ini ketika keluar rumah, ‘Wahai hamba Allah, kamu telah diberi petunjuk, dicukupi, dan dilindungi.’ (Tuhfatul Ahwadzi, Syarh Sunan Turmudzi,
-            9/271).
+Makna “disampaikan kepadanya”: yang menyampaikan adalah Malaikat. Malaikat itu mengatakan kepada orang yang membaca doa ini ketika keluar rumah, ‘Wahai hamba Allah, kamu telah diberi petunjuk, dicukupi, dan dilindungi.’ (Tuhfatul Ahwadzi, Syarh Sunan Turmudzi, 9/271).
 
 
-Sumber: https: //konsultasisyariah.com/22104-doa-agar-dijamin-aman-ketika-keluar-rumah.html",
+Sumber: https://konsultasisyariah.com/22104-doa-agar-dijamin-aman-ketika-keluar-rumah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 129,
 grup: "Doa Keluar Dan Masuk Rumah",
 nama: "Doa Masuk Rumah 1 (Bismillah)",
@@ -2145,12 +2110,12 @@ Ada hadis yang menganjurkan agar kita menyebut nama Allah saat masuk rumah. Tuju
 Hadis ini secara umum menunjukkan anjuran untuk berdzikir, menyebut nama Allah ketika masuk rumah dan ketika hendak makan.
 
 
-Sumber: https: //konsultasisyariah.com/28306-baca-doa-ini-agar-setan-tidak-masuk-rumah-anda.html",
+Sumber: https://konsultasisyariah.com/28306-baca-doa-ini-agar-setan-tidak-masuk-rumah-anda.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 130,
 grup: "Doa Keluar Dan Masuk Rumah",
 nama: "Doa Masuk Rumah 2 (Salam)",
@@ -2158,31 +2123,25 @@ ar: "اَلسَّلَامُ عَلَيْكُمْ",
 tr: "As-salaamu 'alaikum.",
 idn: "Semoga keselamatan atas kalian.",
 tentang: "Dari Anas bin Malik –radhiyallahu ‘anhu-, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam berkata padanya, “Wahai anakku, jika engkau memasuki rumah dan menemui keluargamu, ucapkanlah salam biar datang berkah padamu dan juga pada keluargamu.” (HR. Tirmidzi no. 2698. Al Hafizh Abu Thohir mengatakan bahwa sanad hadits ini dho’if. Namun Syaikh Al Albani merujuk pendapatnya dan menshahihkan hadits ini dalam Shohih Al Kalim 47).
-Juga terdapat perintah dalam ayat Al Qur’an, “Maka apabila kamu memasuki (suatu rumah dari) rumah-rumah (ini) hendaklah kamu memberi salam kepada (penghuninya yang berarti memberi salam) kepada dirimu sendiri, salam yang ditetapkan dari sisi Allah, yang diberi berkat lagi baik.” (An-Nur [
-                24
-            ]: 61).
+Juga terdapat perintah dalam ayat Al Qur’an, “Maka apabila kamu memasuki (suatu rumah dari) rumah-rumah (ini) hendaklah kamu memberi salam kepada (penghuninya yang berarti memberi salam) kepada dirimu sendiri, salam yang ditetapkan dari sisi Allah, yang diberi berkat lagi baik.” (An-Nur [24]: 61).
 
 Jabir bin ‘Abdillah radhiyallahu ‘anhu berkata, “Jika engkau masuk rumah dan menemui keluargamu, maka ucapkanlah salam pada mereka sebagai salam penghormatan di sisi Allah dan juga untuk mendapatkan berkah yang baik.” (Diriwayatkan dalam Al Adabul Mufrod no. 1095).
 
-Jika diberi salam, maka hendaklah dibalas sebagaimana perintah Allah, “Apabila kamu diberi penghormatan dengan sesuatu penghormatan, maka balaslah penghormatan itu dengan yang lebih baik dari padanya, atau balaslah penghormatan itu (dengan yang serupa).” (An-Nisa’ [
-                4
-            ]: 86).
+Jika diberi salam, maka hendaklah dibalas sebagaimana perintah Allah, “Apabila kamu diberi penghormatan dengan sesuatu penghormatan, maka balaslah penghormatan itu dengan yang lebih baik dari padanya, atau balaslah penghormatan itu (dengan yang serupa).” (An-Nisa’ [4]: 86).
 
-Sebagian ulama mengatakan, jika ada yang memberi salam, maka balaslah dengan yang lebih sempurna atau balaslah dengan yang semisal. Membalas dengan lebih sempurna dihukumi sunnah, sedangkan membalas dengan yang semisal dihukumi wajib (Shahih Al Adab Al Mufrod,
-            3: 219). Misalnya, ketika memasuki rumah diucapkan salam “assalamu ‘alaikum wa rahmatullah,” yang lebih sempurna adalah menjawab dengan “assalamu ‘alaikum wa rahmatullah wa barakatuh.” Yang semisal adalah membalas dengan ucapan “assalamu ‘alaikum wa rahmatullah.”
+Sebagian ulama mengatakan, jika ada yang memberi salam, maka balaslah dengan yang lebih sempurna atau balaslah dengan yang semisal. Membalas dengan lebih sempurna dihukumi sunnah, sedangkan membalas dengan yang semisal dihukumi wajib (Shahih Al Adab Al Mufrod, 3: 219). Misalnya, ketika memasuki rumah diucapkan salam “assalamu ‘alaikum wa rahmatullah,” yang lebih sempurna adalah menjawab dengan “assalamu ‘alaikum wa rahmatullah wa barakatuh.” Yang semisal adalah membalas dengan ucapan “assalamu ‘alaikum wa rahmatullah.”
 
-Syaikh Muhammad bin Sholeh Al ‘Utsaimin berkata, “Jika engkau memasuki suatu rumah, maka ucapkanlah salam pada orang yang ada di dalam baik pada keluarga, teman, atau selain itu. Ini termasuk sunnah. Wallahul muwaffiq.” (Syarh Riyadhis Sholihin,
-            4: 414).
+Syaikh Muhammad bin Sholeh Al ‘Utsaimin berkata, “Jika engkau memasuki suatu rumah, maka ucapkanlah salam pada orang yang ada di dalam baik pada keluarga, teman, atau selain itu. Ini termasuk sunnah. Wallahul muwaffiq.” (Syarh Riyadhis Sholihin, 4: 414).
 
 Diriwayatkan oleh Abu Umamah Al-Bahili, dari Rasulullah shallallahu ‘alaihi wa sallam, “Ada tiga orang yang mendapat jaminan dari Allah, (di antaranya) seseorang yang masuk rumahnya dengan mengucapkan salam, maka dia mendapatkan jaminan dari Allah.” (HR. Abu Dawud no. 2494, dikatakan oleh Asy-Syaikh Al-Albani dalam Shahih Sunan Abi Dawud: shahih).
 
 
-Sumber: https: //rumaysho.com/6006-doa-masuk-rumah.html dan https://asysyariah.com/menyebarkan-salam",
+Sumber: https://rumaysho.com/6006-doa-masuk-rumah.html dan https://asysyariah.com/menyebarkan-salam",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 131,
 grup: "Doa Keluar Dan Masuk Rumah",
 nama: "Doa Masuk Rumah Ketika Tidak Ada Orang",
@@ -2200,16 +2159,15 @@ Imam Nawawi rahimahullah dalam kitab Al Adzkar berkata, “Disunnahkan bila sese
 
 Maksud kalimat “Assalamu ‘alainaa” menunjukkan seharusnya do’a dimulai untuk diri sendiri dulu baru orang lain.
 
-Sedangkan kalimat “wa ‘ala ‘ibadillahish sholihiin”, yaitu salam pada hamba yang sholeh, maksud sholeh adalah orang yang menjalani kewajiban, hak Allah dan juga hak hamba. (Syarh Shahih Al Adabil Mufrod,
-            3: 186).
+Sedangkan kalimat “wa ‘ala ‘ibadillahish sholihiin”, yaitu salam pada hamba yang sholeh, maksud sholeh adalah orang yang menjalani kewajiban, hak Allah dan juga hak hamba. (Syarh Shahih Al Adabil Mufrod, 3: 186).
 
 
-Sumber: https: //rumaysho.com/6018-mengucapkan-salam-pada-rumah-kosong.html",
+Sumber: https://rumaysho.com/6018-mengucapkan-salam-pada-rumah-kosong.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 132,
 grup: "Bacaan Terkait Adzan",
 nama: "Bacaan Setelah Adzan 1 (Bersaksi) - Lafal 1",
@@ -2220,12 +2178,12 @@ tentang: "HR. Muslim no. 386.
 Dari Sa'ad bin Abi Waqqash, Rasulullah shallallahu 'alaihi wa sallam bersabda, “Siapa yang mengucapkan setelah mendengar azan: (bacaan di atas), maka dosanya akan diampuni.”
 
 
-Sumber: https: //rumaysho.com/10008-5-amalan-ketika-mendengar-azan.html",
+Sumber: https://rumaysho.com/10008-5-amalan-ketika-mendengar-azan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 133,
 grup: "Bacaan Terkait Adzan",
 nama: "Bacaan Setelah Adzan 1 (Bersaksi) - Lafal 2",
@@ -2236,12 +2194,12 @@ tentang: "HR. Muslim no. 386.
 Dari Sa'ad bin Abi Waqqash, Rasulullah shallallahu 'alaihi wa sallam bersabda, “Siapa yang mengucapkan setelah mendengar azan: (bacaan di atas), maka dosanya akan diampuni.”
 
 
-Sumber: https: //rumaysho.com/10008-5-amalan-ketika-mendengar-azan.html",
+Sumber: https://rumaysho.com/10008-5-amalan-ketika-mendengar-azan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 134,
 grup: "Bacaan Terkait Adzan",
 nama: "Bacaan Setelah Adzan 2 (Memohonkan Wasilah)",
@@ -2255,12 +2213,12 @@ Cara membacanya adalah “…muhammadanil wasiilata…” dan “…mahmuudanil-
 Dari Jabir bin Abdillah, Rasulullah shallallahu 'alaihi wa sallam bersabda, “Barangsiapa mengucapkan setelah mendengar adzan: (doa di atas), maka dia akan mendapatkan syafa'atku kelak.” (HR. Bukhari no. 614).
 
 
-Sumber: Hisnul Muslim dan https: //rumaysho.com/10008-5-amalan-ketika-mendengar-azan.html",
+Sumber: Hisnul Muslim dan https://rumaysho.com/10008-5-amalan-ketika-mendengar-azan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 135,
 grup: "Doa Terkait Makan",
 nama: "Doa Sebelum Makan",
@@ -2269,9 +2227,7 @@ tr: "Bismillaah.",
 idn: "Dengan nama Allah.",
 tentang: "Hadits Tentang Membaca “Bismillah”
 Dari ‘Umar bin Abi Salamah, ia berkata, “Waktu aku masih kecil dan berada di bawah asuhan Rasulullah shallallahu ‘alaihi wa sallam, tanganku berseliweran di nampan saat makan. Maka Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Wahai ghulam (anakku), sebutlah nama Allah (bacalah “BISMILLAH”), makanlah dengan tangan kananmu dan makanlah makanan yang ada di hadapanmu.” Maka seperti itulah gaya makanku setelah itu. (HR. Bukhari no. 5376 dan Muslim no. 2022).
-An Nawawi rahimahullah membawakan hadits di atas dalam kitabnya Al Adzkar pada Bab “Tasmiyah ketika makan dan minum” (Al Adzkar, Yahya bin Syarf An Nawawi, hal. 217, Darul Hadits Al Qohiroh, cetakan 1424 H). Ibnu ‘Allan Asy Syafi’i rahimahullah mengatakan ketika menjelaskan perkataan An Nawawi, “Sebagaimana dikatakan oleh Ibnu Hajar dalam Syarh Al ‘Ubab pada bab rukun-rukun shalat, jika disebut tasmiyah, maka yang dimaksud adalah ucapan “bismillah”. Sedangkan jika disebut basmalah, maka yang dimaksud adalah ucapan “bismillahir-rohmaanir-rohiim” (Al Futuhaat Ar Robbaniyah ‘ala Adzkar An Nawawiyah, Ibnu ‘Allan,
-            5/120, Darul Kutub Al ‘Ilmiyyah, cetakan pertama,
-            1424 H).
+An Nawawi rahimahullah membawakan hadits di atas dalam kitabnya Al Adzkar pada Bab “Tasmiyah ketika makan dan minum” (Al Adzkar, Yahya bin Syarf An Nawawi, hal. 217, Darul Hadits Al Qohiroh, cetakan 1424 H). Ibnu ‘Allan Asy Syafi’i rahimahullah mengatakan ketika menjelaskan perkataan An Nawawi, “Sebagaimana dikatakan oleh Ibnu Hajar dalam Syarh Al ‘Ubab pada bab rukun-rukun shalat, jika disebut tasmiyah, maka yang dimaksud adalah ucapan “bismillah”. Sedangkan jika disebut basmalah, maka yang dimaksud adalah ucapan “bismillahir-rohmaanir-rohiim” (Al Futuhaat Ar Robbaniyah ‘ala Adzkar An Nawawiyah, Ibnu ‘Allan, 5/120, Darul Kutub Al ‘Ilmiyyah, cetakan pertama, 1424 H).
 
 Dari ‘Aisyah radhiyallahu ‘anha, Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Apabila salah seorang di antara kalian makan, maka hendaknya ia menyebut nama Allah Ta’ala. Jika ia lupa untuk menyebut nama Allah Ta’ala di awal, hendaklah ia mengucapkan ‘Bismillaahi awwalahu wa aakhirohu (dengan nama Allah pada awal dan akhirnya)’.” (HR. Abu Daud no. 3767 dan At Tirmidzi no. 1858. At Tirmidzi mengatakan hadits tersebut hasan shahih. Syaikh Al Albani mengatakan bahwa hadits tersebut shahih).
 
@@ -2284,9 +2240,7 @@ Jika kita melihat dari hadits-hadits yang ada, membaca “bismillah” ketika he
 
 Cukup Dengan Ucapan “Bismillah”
 
-Ibnu Hajar Al Asqolani rahimahullah mengatakan, “Yang dimaksud dengan tasmiyah ketika makan adalah bacaan “bismillah”, ini disebut di awal ketika makan. Dalil yang paling tegas tentang maksud bacaan tasmiyah adalah hadits yang diriwayatkan oleh Abu Daud dan Tirmidzi dari jalan Ummu Kultsum dari ‘Aisyah, marfu’ (sebagai sabda Nabi shallallahu ‘alaihi wa sallam), “Apabila salah seorang di antara kalian makan, maka hendaknya ia ucapkan “bismillah”. Jika ia lupa untuk menyebutnya, hendaklah ia mengucapkan: Bismillaahi fii awwalihi wa aakhirihi (dengan nama Allah pada awal dan akhirnya)”. Hadits ini memiliki penguat dari hadits Umayyah bin Makhsyi yang dikeluarkan oleh Abu Daud dan An Nasai (Lihat Fathul Bari, Ibnu Hajar Al Asqolani,
-            9/521, Darul Ma’rifah, Beirut,
-            1379).
+Ibnu Hajar Al Asqolani rahimahullah mengatakan, “Yang dimaksud dengan tasmiyah ketika makan adalah bacaan “bismillah”, ini disebut di awal ketika makan. Dalil yang paling tegas tentang maksud bacaan tasmiyah adalah hadits yang diriwayatkan oleh Abu Daud dan Tirmidzi dari jalan Ummu Kultsum dari ‘Aisyah, marfu’ (sebagai sabda Nabi shallallahu ‘alaihi wa sallam), “Apabila salah seorang di antara kalian makan, maka hendaknya ia ucapkan “bismillah”. Jika ia lupa untuk menyebutnya, hendaklah ia mengucapkan: Bismillaahi fii awwalihi wa aakhirihi (dengan nama Allah pada awal dan akhirnya)”. Hadits ini memiliki penguat dari hadits Umayyah bin Makhsyi yang dikeluarkan oleh Abu Daud dan An Nasai (Lihat Fathul Bari, Ibnu Hajar Al Asqolani, 9/521, Darul Ma’rifah, Beirut, 1379).
 
 Kesimpulan: Jika kita perhatikan dari dalil-dalil yang ada (di antaranya hadits ‘Aisyah radhiyallahu ‘anha di atas), ucapan yang tepat sebelum makan cukup dengan “bismillah”, bukan “bismillahir-rohmanir-rohiim”.
 
@@ -2297,12 +2251,12 @@ Dari Abu Hurairah radhiyallahu ‘anhu, ia berkata, “Rasulullah shallallahu �
 Maksud hadits di atas adalah ketika minum hendaklah dengan tiga kali nafas. Pada nafas pertama, sebelum minum ucapkanlah “bismillah”. Selesai satu nafas, ucapkanlah “alhamdulillah”. Nafas kedua dan ketiga pun dilakukan seperti itu. Inilah yang disunnahkan ketika minum.
 
 
-Sumber: https: //rumaysho.com/1114-sebelum-makan-bacalah-bismillah.html",
+Sumber: https://rumaysho.com/1114-sebelum-makan-bacalah-bismillah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 136,
 grup: "Doa Terkait Makan",
 nama: "Bila Lupa Membaca Doa Sebelum Makan",
@@ -2314,19 +2268,17 @@ Dari ‘Aisyah radhiyallahu ‘anha, Rasulullah shallallahu ‘alaihi wa sallam 
 
 Imam Nawawi rahimahullah berkata, “Jika seseorang meninggalkan membaca “bismillah” di awal karena sengaja, lupa, dipaksa, tidak mampu mengucapkannya karena suatu alasan, lalu ia bisa mengucapkan di tengah-tengah makannya, maka ia dianjurkan mengucapkan: (doa di atas). (Al Adzkar, hal. 427, terbitan Dar Ibnu Khuzaimah).
 
-Dari Umayyah bin Mihshon -seorang sahabat Nabi shallallahu ‘alaihi wa sallam-, ia berkata, “Rasulullah shallallahu ‘alaihi wa sallam pernah duduk dan saat itu ada seseorang yang makan tanpa membaca bismillah hingga makanannya tersisa satu suapan. Ketika ia mengangkat suapan tersebut ke mulutnya, ia mengucapkan: (doa di atas). Nabi shallallahu ‘alaihi wa sallam pun tertawa dan beliau bersabda, “Setan terus makan bersamanya hingga. Ketika ia menyebut nama Allah (bismillah), setan memuntahkan apa yang ada di perutnya.” (HR. Abu Daud no. 3768, Ahmad 4: 336 dan An Nasai dalam Al Kubro 10113. Al Hafizh Abu Thohir mengatakan bahwa sanad hadits ini hasan. Al Hakim menshahihkan hadits ini dan disetujui oleh Adz Dzahabi. Al Mutsanna bin ‘Abdurrahman mengatakan hadits ini hasan dan memiliki berbagai penguat. Lihat Majma’ Az Zawaid,
-            5: 22).
+Dari Umayyah bin Mihshon -seorang sahabat Nabi shallallahu ‘alaihi wa sallam-, ia berkata, “Rasulullah shallallahu ‘alaihi wa sallam pernah duduk dan saat itu ada seseorang yang makan tanpa membaca bismillah hingga makanannya tersisa satu suapan. Ketika ia mengangkat suapan tersebut ke mulutnya, ia mengucapkan: (doa di atas). Nabi shallallahu ‘alaihi wa sallam pun tertawa dan beliau bersabda, “Setan terus makan bersamanya hingga. Ketika ia menyebut nama Allah (bismillah), setan memuntahkan apa yang ada di perutnya.” (HR. Abu Daud no. 3768, Ahmad 4: 336 dan An Nasai dalam Al Kubro 10113. Al Hafizh Abu Thohir mengatakan bahwa sanad hadits ini hasan. Al Hakim menshahihkan hadits ini dan disetujui oleh Adz Dzahabi. Al Mutsanna bin ‘Abdurrahman mengatakan hadits ini hasan dan memiliki berbagai penguat. Lihat Majma’ Az Zawaid, 5: 22).
 
-Hadits terakhir di atas menunjukkan bahwa setan itu berserikat pada makanan yang tidak disebut nama Allah (membaca: bismillah) saat dimakan. Lalu jika seseorang mengingat Allah (mengucap bismillah) di tengah-tengah makan walau makanan tersisa sedikit, maka diharamkan pada setan apa yang telah dimakan sebelumnya. Juga hadits di atas menunjukkan bahwa setan bisa muntah. Lihat Bahjatun Nazhirin karya Syaikh Salim bin ‘Ied Al Hilaly,
-            2: 48.
+Hadits terakhir di atas menunjukkan bahwa setan itu berserikat pada makanan yang tidak disebut nama Allah (membaca: bismillah) saat dimakan. Lalu jika seseorang mengingat Allah (mengucap bismillah) di tengah-tengah makan walau makanan tersisa sedikit, maka diharamkan pada setan apa yang telah dimakan sebelumnya. Juga hadits di atas menunjukkan bahwa setan bisa muntah. Lihat Bahjatun Nazhirin karya Syaikh Salim bin ‘Ied Al Hilaly, 2: 48.
 
 
-Sumber: https: //rumaysho.com/3712-lupa-membaca-bismillah-di-awal-makan.html",
+Sumber: https://rumaysho.com/3712-lupa-membaca-bismillah-di-awal-makan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 137,
 grup: "Doa Terkait Makan",
 nama: "Doa Bila Diberi Rezeki Berupa Makanan",
@@ -2337,12 +2289,12 @@ tentang: "HR. Tirmidzi no. 3455, Abu Daud no. 3730, Ibnu Majah no. 3322. At Tirm
 Dari Ibnu ‘Abbas radhiyallahu ‘anhuma, Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Barang siapa yang Allah beri makan hendaknya ia berdoa: (doa di atas). Barang siapa yang Allah beri minum susu maka hendaknya ia berdoa: “Allaahumma baarik lanaa fiihi, wa zidnaa minhu” (Ya Allah, berkahilah kami padanya, dan tambahkanlah kepada kami darinya). Rasulullah shallallahu wa ‘alaihi wa sallam bersabda, “Tidak ada sesuatu yang bisa menggantikan makan dan minum selain susu.”
 
 
-Sumber: https: //rumaysho.com/1114-sebelum-makan-bacalah-bismillah.html",
+Sumber: https://rumaysho.com/1114-sebelum-makan-bacalah-bismillah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 138,
 grup: "Doa Terkait Makan",
 nama: "Doa Minum Susu",
@@ -2353,12 +2305,12 @@ tentang: "HR. Tirmidzi no. 3455, Abu Daud no. 3730, Ibnu Majah no. 3322. At Tirm
 Dari Ibnu ‘Abbas radhiyallahu ‘anhuma, Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Barang siapa yang Allah beri makan hendaknya ia berdoa: “Allaahumma baarik lanaa fiihi, wa ath'imnaa khoiron minhu” (Ya Allah, berkahilah kami dengan makanan ini, dan berilah kami makan yang lebih baik darinya). Barang siapa yang Allah beri minum susu maka hendaknya ia berdoa: (doa di atas). Rasulullah shallallahu wa ‘alaihi wa sallam bersabda, “Tidak ada sesuatu yang bisa menggantikan makan dan minum selain susu.”
 
 
-Sumber: https: //rumaysho.com/1114-sebelum-makan-bacalah-bismillah.html",
+Sumber: https://rumaysho.com/1114-sebelum-makan-bacalah-bismillah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 139,
 grup: "Doa Terkait Makan",
 nama: "Doa Setelah Makan",
@@ -2369,12 +2321,12 @@ tentang: "HR. Abu Daud no. 4043, Tirmidzi no. 3458, Ibnu Majah no. 3285 dan Ahma
 Dari Mu’adz bin Anas, dari ayahnya ia berkata, Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Barang siapa yang makan makanan kemudian mengucapkan: (doa di atas), maka diampuni dosanya yang telah lalu.”
 
 
-Sumber: https: //rumaysho.com/6048-do-setelah-makan.html",
+Sumber: https://rumaysho.com/6048-do-setelah-makan.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 140,
 grup: "Doa Terkait Makan",
 nama: "Doa Bila Diberi Makan Oleh Orang Lain",
@@ -2388,12 +2340,12 @@ Dari Al-Miqdad radhiyallahu 'anhu, beliau mengatakan: Saya datang ke Madinah ber
 Doa di atas (Allaahumma ath'im… dst) berlaku umum, untuk setiap kejadian ketika kita diberi makanan orang lain. Baik ketika sedang puasa maupun di luar waktu puasa.
 
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/270589506374448",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/270589506374448",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 141,
 grup: "Doa Terkait Puasa",
 nama: "Doa Berbuka Puasa",
@@ -2421,12 +2373,12 @@ Membaca basmalah sebelum makan kurma atau minum (berbuka).
 Mulai berbuka.
 Membaca doa berbuka: (doa di atas).
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/268514896581909",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/268514896581909",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 142,
 grup: "Doa Terkait Puasa",
 nama: "Doa Berbuka Puasa Di Tempat Orang Lain",
@@ -2437,12 +2389,12 @@ tentang: "HR. Abu Dawud 3/367, Ibnu Majah 1/556 dan An-Nasa'i dalam 'Amalul Yaum
 Ketika kita tidak berbuka di rumah, seperti berbuka di masjid atau di tempat orang lain, dan kita diberi hidangan berbuka oleh saudara muslim yang lain, maka kita dianjurkan mendoakan mereka, sebagai wujud rasa terima kasih kita kepadanya.
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/270896109677121",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/270896109677121",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 143,
 grup: "Doa Terkait Ramadhan",
 nama: "Doa Malam Lailatul Qadar",
@@ -2466,12 +2418,12 @@ Kesimpulannya bahwa tambahan "kariim" tidak ada dalam hadis. Kemungkinan, itu ad
 Allahu a'lam.
 
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/273965022703563",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/273965022703563",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 144,
 grup: "Ucapan Terkait Hari Raya.",
 nama: "Lafal Takbir Hari Raya 1 (Dari Ibnu Mas'ud)",
@@ -2481,13 +2433,13 @@ idn: "Diriwayatkan oleh Ibnu Abi Syaibah 2/168 dengan isnad yang shahih.
 Keterangan: Lafal "Allaahu Akbar" pada takbir Ibnu Mas'ud boleh dibaca 2x atau 3x. Semuanya diriwayatkan Ibnu Abi Syaibah dalam Al Mushannaf.
 
 
-Sumber: http: //muslim.or.id/fiqh-dan-muamalah/takbiran-hari-raya.html dan http://ibnuabbaskendari.wordpress.com/2010/11/16/takbir-idul-fitri-dan-idul-adha",
+Sumber: http://muslim.or.id/fiqh-dan-muamalah/takbiran-hari-raya.html dan http://ibnuabbaskendari.wordpress.com/2010/11/16/takbir-idul-fitri-dan-idul-adha",
 tentang: "",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 145,
 grup: "Ucapan Terkait Hari Raya.",
 nama: "Ucapan Selamat Hari Raya",
@@ -2502,60 +2454,36 @@ Taqabbalallaahu minnaa wa minkum.
 
 Semoga Allah menerima amal kami dan amal kalian.
 
-Al-Hafiz Ibnu Hajar mengatakan,
-            "Dari Jubair bin Nufair, beliau mengatakan, Dahulu, apabila para sahabat Nabi shallallahu 'alaihi wa sallam saling bertemu pada hari raya, mereka saling mengucapkan: (ucapan di atas)." (Sanadnya hasan. Fathul Bari,
-            2: 446).
-Ibnu Aqil menyebutkan beberapa riwayat. Di antaranya dari Muhammad bin Ziyad, beliau mengatakan,
-            "Saya pernah bersama Abu Umamah Al-Bahili radhiallahu 'anhu dan beberapa sahabat lainnya. Setelah pulang dari shalat id, mereka saling memberikan ucapan: (ucapan di atas)." (Al-Mughni,
-            2:250. As-Suyuthi mengatakan,
-            "Sanadnya hasan.").
+Al-Hafiz Ibnu Hajar mengatakan, "Dari Jubair bin Nufair, beliau mengatakan, Dahulu, apabila para sahabat Nabi shallallahu 'alaihi wa sallam saling bertemu pada hari raya, mereka saling mengucapkan: (ucapan di atas)." (Sanadnya hasan. Fathul Bari, 2:446).
+Ibnu Aqil menyebutkan beberapa riwayat. Di antaranya dari Muhammad bin Ziyad, beliau mengatakan, "Saya pernah bersama Abu Umamah Al-Bahili radhiallahu 'anhu dan beberapa sahabat lainnya. Setelah pulang dari shalat id, mereka saling memberikan ucapan: (ucapan di atas)." (Al-Mughni, 2:250. As-Suyuthi mengatakan, "Sanadnya hasan.").
 
-Imam Malik ditanya tentang ucapan seseorang kepada temannya di hari raya: (ucapan di atas), atau "Ghafarallaahu lana wa laka." Beliau menjawab,
-            "Saya tidak mengenalnya dan tidak mengingkarinya." (At-Taj wal Iklil,
-            2: 301).
+Imam Malik ditanya tentang ucapan seseorang kepada temannya di hari raya: (ucapan di atas), atau "Ghafarallaahu lana wa laka." Beliau menjawab, "Saya tidak mengenalnya dan tidak mengingkarinya." (At-Taj wal Iklil, 2:301).
 
-Ibnu Habib menjelaskan maksud ucapan Imam Malik,
-            "Maksud beliau, saya tidak menganggapnya sebagai sunnah dan saya tidak mengingkari orang yang mengucapkannya, karena ucapan itu isinya baik, mengandung doa…" (Al-Fawakih Ad-Dawani,
-            3: 244).
+Ibnu Habib menjelaskan maksud ucapan Imam Malik, "Maksud beliau, saya tidak menganggapnya sebagai sunnah dan saya tidak mengingkari orang yang mengucapkannya, karena ucapan itu isinya baik, mengandung doa…" (Al-Fawakih Ad-Dawani, 3:244).
 
-Syekh Asy-Syabibi mengatakan,
-            "Bahkan, wajib mengucapkan ucapan selamat ketika hari raya, jika tidak mengucapkan kalimat ini menyebabkan permusuhan dan terputusnya hubungan sesama…" (Al-Fawakih Ad-Dawani,
-            3: 244).
+Syekh Asy-Syabibi mengatakan, "Bahkan, wajib mengucapkan ucapan selamat ketika hari raya, jika tidak mengucapkan kalimat ini menyebabkan permusuhan dan terputusnya hubungan sesama…" (Al-Fawakih Ad-Dawani, 3:244).
 
-Ibnu Habib mengatakan,
-            "Yang semisal dengan ini adalah ucapan sebagian orang ketika id, 'Iid Mubaarak' (Id yang diberkahi), 'Ahyaakum' (Semoga Allah memberi keselamatan bagimu), dan semisalnya. Tidak diragukan, bahwa ini semua diperbolehkan." (Al-Fawakih Ad-Dawani,
-            3: 244).
+Ibnu Habib mengatakan, "Yang semisal dengan ini adalah ucapan sebagian orang ketika id, 'Iid Mubaarak' (Id yang diberkahi), 'Ahyaakum' (Semoga Allah memberi keselamatan bagimu), dan semisalnya. Tidak diragukan, bahwa ini semua diperbolehkan." (Al-Fawakih Ad-Dawani, 3:244).
 
-Syaikhul Islam mengatakan, sebagai jawaban atas pertanyaan yang ditujukan kepada beliau,
-            "Ucapan selamat di hari raya antara satu sama lain setelah shalat id (seperti: (ucapan di atas) atau 'ahalallaahu 'alaika' dan semacamnya) maka ucapan ini diriwayatkan dari beberapa sahabat bahwa mereka melakukannya. Sebagian ulama, seperti Imam Ahmad dan yang lainnya, juga memberi keringanan…" (Majmu' Fatawa,
-            5: 430).
+Syaikhul Islam mengatakan, sebagai jawaban atas pertanyaan yang ditujukan kepada beliau, "Ucapan selamat di hari raya antara satu sama lain setelah shalat id (seperti: (ucapan di atas) atau 'ahalallaahu 'alaika' dan semacamnya) maka ucapan ini diriwayatkan dari beberapa sahabat bahwa mereka melakukannya. Sebagian ulama, seperti Imam Ahmad dan yang lainnya, juga memberi keringanan…" (Majmu' Fatawa, 5:430).
 
-Imam Ahmad rahimahullah berkata,
-            "Tidak mengapa hukumnya bila seseorang mengucapkan kepada saudaranya saat Idul Fitri: (ucapan di atas)." Demikian yang dinukil Ibnu Qudamah dalam Al-Mughni.
+Imam Ahmad rahimahullah berkata, "Tidak mengapa hukumnya bila seseorang mengucapkan kepada saudaranya saat Idul Fitri: (ucapan di atas)." Demikian yang dinukil Ibnu Qudamah dalam Al-Mughni.
 
-Syaikhul Islam Ibnu Taimiyyah rahimahullah pernah ditanya,
-            "Apa hukum mengucapkan selamat di hari raya sebagaimana banyak diucapkan oleh orang-orang? Seperti 'Indaka Mubarak (semoga engkau memperoleh barakah di hari Idul Fitri) dan ucapan yang senada. Apakah hal ini memiliki dasar hukum syariat ataukah tidak? Jika memiliki dasar hukum syariat bagaimana seharusnya ucapan yang benar?"
+Syaikhul Islam Ibnu Taimiyyah rahimahullah pernah ditanya, "Apa hukum mengucapkan selamat di hari raya sebagaimana banyak diucapkan oleh orang-orang? Seperti 'Indaka Mubarak (semoga engkau memperoleh barakah di hari Idul Fitri) dan ucapan yang senada. Apakah hal ini memiliki dasar hukum syariat ataukah tidak? Jika memiliki dasar hukum syariat bagaimana seharusnya ucapan yang benar?"
 
-Beliau rahimahullah menjawab,
-            "Adapun hukum tahniah (ucapan selamat) di hari raya yang diucapkan satu dengan yang lainnya ketika selesai shalat ied seperti 'Taqabbalallaahu minnaa wa minkum, wa ahalahullaahu 'alaik' (Semoga Allah menerima (amalan) dari kami dan darimu sekalian dan semoga Allah menyempurnakannya atasmu), dan yang semisalnya, telah diriwayatkan dari sebagian sahabat bahwasanya mereka melakukannya dan para imam memberi keringanan perbuatan ini seperti Imam Ahmad dan yang lainnya. Akan tetapi Imam Ahmad berkata, "Aku tidak akan memulai mengucapkan selamat kepada siapa pun. Namun jika ada orang yang memberi selamat kepadaku akan kujawab. Karena menjawab tahiyyah (penghormatan) adalah wajib. Adapun memulai mengucapkan selamat kepada orang lain maka bukanlah bagian dari sunnah yang dianjurkan dan bukan pula sesuatu yang dilarang dalam syariat. Barangsiapa yang melakukannya maka ia memiliki qudwah (teladan) dan orang yang meninggalkan pun juga memiliki qudwah (teladan). Wallahu a'lam. (Al-Fatawa Al-Kubra,
-            2/228).
+Beliau rahimahullah menjawab, "Adapun hukum tahniah (ucapan selamat) di hari raya yang diucapkan satu dengan yang lainnya ketika selesai shalat ied seperti 'Taqabbalallaahu minnaa wa minkum, wa ahalahullaahu 'alaik' (Semoga Allah menerima (amalan) dari kami dan darimu sekalian dan semoga Allah menyempurnakannya atasmu), dan yang semisalnya, telah diriwayatkan dari sebagian sahabat bahwasanya mereka melakukannya dan para imam memberi keringanan perbuatan ini seperti Imam Ahmad dan yang lainnya. Akan tetapi Imam Ahmad berkata, "Aku tidak akan memulai mengucapkan selamat kepada siapa pun. Namun jika ada orang yang memberi selamat kepadaku akan kujawab. Karena menjawab tahiyyah (penghormatan) adalah wajib. Adapun memulai mengucapkan selamat kepada orang lain maka bukanlah bagian dari sunnah yang dianjurkan dan bukan pula sesuatu yang dilarang dalam syariat. Barangsiapa yang melakukannya maka ia memiliki qudwah (teladan) dan orang yang meninggalkan pun juga memiliki qudwah (teladan). Wallahu a'lam. (Al-Fatawa Al-Kubra, 2/228).
 
-Syaikh Ibnu Ustaimin ditanya,
-            "Apa hukum tahniah (ucapan selamat) di hari raya? Apakah ada bentuk ucapan tertentu?" Beliau rahimahullah menjawab,
-            "Hukum tahniah (ucapan selamat) di hari raya adalah boleh dan tidak ada bentuk ucapan tertentu yang dikhususkan. Karena (hukum asal-pen) setiap adat kebiasaan yang dilakukan orang itu boleh selama bukan perbuatan dosa."
+Syaikh Ibnu Ustaimin ditanya, "Apa hukum tahniah (ucapan selamat) di hari raya? Apakah ada bentuk ucapan tertentu?" Beliau rahimahullah menjawab, "Hukum tahniah (ucapan selamat) di hari raya adalah boleh dan tidak ada bentuk ucapan tertentu yang dikhususkan. Karena (hukum asal-pen) setiap adat kebiasaan yang dilakukan orang itu boleh selama bukan perbuatan dosa."
 
-Dalam kesempatan lain beliau rahimahullah juga ditanya,
-            "Apa hukum berjabat tangan, berpelukan dan saling mengucapkan selamat hari raya ketika selesai shalat ied?" Beliau rahimahullah menjawab,
-            "Hukum semua perbuatan ini tidaklah mengapa. Karena orang yang melakukanya tidak bermaksud untuk beribadah dan mendekatkan diri kepada Allah 'Azza wa Jalla. Melainkan hanya sekedar melakukan adat dan tradisi, saling memuliakan dan menghormati. Karena selama adat tersebut tidak bertentangan dengan syariat maka hukumnya boleh." (Majmu'Fatawa Ibni Utsaimin,
-            16/ 208-210).
+Dalam kesempatan lain beliau rahimahullah juga ditanya, "Apa hukum berjabat tangan, berpelukan dan saling mengucapkan selamat hari raya ketika selesai shalat ied?" Beliau rahimahullah menjawab, "Hukum semua perbuatan ini tidaklah mengapa. Karena orang yang melakukanya tidak bermaksud untuk beribadah dan mendekatkan diri kepada Allah 'Azza wa Jalla. Melainkan hanya sekedar melakukan adat dan tradisi, saling memuliakan dan menghormati. Karena selama adat tersebut tidak bertentangan dengan syariat maka hukumnya boleh." (Majmu'Fatawa Ibni Utsaimin, 16/ 208-210).
 
 
-Sumber: http: //www.konsultasisyariah.com/ucapan-selamat-idul-fitri dan http://muslimah.or.id/fikih/ucapan-selamat-di-hari-raya.html",
+Sumber: http://www.konsultasisyariah.com/ucapan-selamat-idul-fitri dan http://muslimah.or.id/fikih/ucapan-selamat-di-hari-raya.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 146,
 grup: "Ucapan Terkait Hari Raya.",
 nama: "Doa Menyembelih Hewan Kurban",
@@ -2566,10 +2494,10 @@ tentang: "HR. Muslim 3/1557, Al-Baihaqi 9/287, sedangkan kalimat di antara dua k
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 147,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Menolak Firasat Buruk/Sial",
@@ -2580,10 +2508,10 @@ tentang: "HR. Ahmad 2/220, Ibnus Sunni no. 292, dan lihat Al-Ahadits Ash-Shahiha
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 148,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Hilangnya Nikmat, Berubahnya Kesehatan/Keselamatan, Siksa Dan Murka Allah",
@@ -2593,10 +2521,10 @@ idn: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari hilangnya nikmat yang
 tentang: "HR. Muslim no. 2739.
 Dari ‘Abdullah bin ‘Umar, dia berkata, “Di antara doa Rasulullah shallallahu ‘alaihi wa sallam adalah: (doa di atas).”",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 149,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Beratnya Cobaan, Kesengsaraan Yang Hebat, Keburukan Takdir Dan Kegembiraan Musuh",
@@ -2605,10 +2533,10 @@ tr: "Allaahumma innii a'uudzu bika min jahdil balaa', wa darokisy-syaqoo', wa su
 idn: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari beratnya cobaan, kesengsaraan yang hebat, keburukan takdir dan kegembiraan musuh atas musibah yang menimpaku.",
 tentang: "HR. Al-Bukhari no. 6347 dan Muslim no. 2707. Muttafaqun ‘alaih.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 150,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Sifat Lemah, Malas, Pengecut Dan Pikun",
@@ -2617,12 +2545,12 @@ tr: "Allaahumma innii a'uudzu bika minal 'ajzi, wal kasali, wal jubni, wal harom
 idn: "Ya Allah, aku berlindung kepada-Mu dari kelemahan, rasa malas, pengecut/rasa takut dan pikun.",
 tentang: "HR. Muslim no. 2706.
 
-Sumber: https: //www.facebook.com/permalink.php?story_fbid=431129640269564&id=113035155412349",
+Sumber: https://www.facebook.com/permalink.php?story_fbid=431129640269564&id=113035155412349",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 151,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Sifat Malas, Pengecut/Lemahnya Hati, Pikun/Usia Tua Dan Kikir",
@@ -2635,10 +2563,10 @@ Anas bin Malik radhiyallahu 'anhu berkata, Rasulullah shallallahu 'alaihi wa sal
 
 Sumber: BBG Al-Ilmu (BlackBerry Group)",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 152,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Sifat Lemah, Malas, Pengecut, Pikun, Kikir, Siksa Kubur Dan Fitnah Kehidupan Dan Kematian",
@@ -2648,10 +2576,10 @@ idn: "Ya Allah, aku berlindung kepada-Mu dari kelemahan, rasa malas, pengecut/ra
 tentang: "HR. Bukhari no. 6367 dan Muslim no. 2706.
 Anas bin Malik radhiyallahu 'anhu berkata bahwa Rasulullah shallallahu 'alaihi wa sallam biasa membaca doa: (doa di atas).",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 153,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Sifat Malas, Pikun, Dosa, Hutang, Fitnah Dan Azab Kubur, Fitnah Dan Azab Neraka, Fitnah Kekayaan Dan Kemiskinan Dan Fitnah Dajjal",
@@ -2660,13 +2588,13 @@ tr: "Allaahumma innii a'uudzu bika minal kasali wal haromi, wal ma'tsami wal mag
 idn: "Ya Allah, aku berlindung kepada-Mu dari kemalasan dan pikun/usia jompo, perbuatan dosa dan hutang, fitnah kubur dan azab kubur, fitnah neraka dan azab neraka, keburukan fitnah kekayaan, aku berlindung kepada-Mu dari fitnah kemiskinan dan aku berlindung kepada-Mu dari fitnah Al-Masih Dajjal.",
 tentang: "HR. Bukhari 6368.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "harta",
-                "hutang"
-            ]
-        },
-        {
+"harta",
+"hutang"
+]
+},
+{
 id: 154,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Sifat Pengecut, Pikun, Fitnah Dunia Dan Azab Kubur",
@@ -2675,12 +2603,12 @@ tr: "Allaahumma innii a'uudzu bika minal jubni, wa a'uudzu bika an urodda ilaa a
 idn: "Ya Allah, aku berlindung kepada-Mu dari sifat pengecut, aku berlindung kepada-Mu kepada serendah-rendahnya usia (pikun), aku berlindung kepada-Mu dari fitnah dunia, dan aku berlindung berlindung kepada-Mu dari adzab kubur.",
 tentang: "HR. Bukhari 2822.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 155,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Keburukan Amal",
@@ -2689,12 +2617,12 @@ tr: "Allaahumma innii a'uudzu bika min syarri maa 'amiltu, wa syarri maa lam a'm
 idn: "Ya Allah, aku berlindung kepada-Mu dari keburukan yang telah aku perbuat dan keburukan yang belum aku perbuat.",
 tentang: "HR. Muslim 2716.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 156,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Agar Musibah Tidak Menimpa Agama Dan Agar Dunia Bukan Sebagai Tujuan",
@@ -2716,13 +2644,13 @@ Makna “Janganlah Engkau jadikan musibah pada kami menimpa agama kami”: janga
 Demikianlah maksud doa Nabi di atas, karena musibah dalam urusan agama merupakan sebesar-besarnya musibah yang menimpa seorang hamba di dunia, dan hal ini akan menyebabkan kesengsaraan dan kebinasaannya di akhirat kelak.
 
 
-Sumber: https: //abufawaz.wordpress.com/2013/02/01/musibah-terbesar-adalah-musibah-yang-menimpa-agama-seorang-hamba",
+Sumber: https://abufawaz.wordpress.com/2013/02/01/musibah-terbesar-adalah-musibah-yang-menimpa-agama-seorang-hamba",
 tag: [
-                "musibah",
-                "kabar"
-            ]
-        },
-        {
+"musibah",
+"kabar"
+]
+},
+{
 id: 157,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Keburukan Anggota Badan",
@@ -2731,10 +2659,10 @@ tr: "Allaahumma innii a'uudzu bika min syarri sam'ii, wa min syarri bashorii, wa
 idn: "Ya Allah, aku berlindung kepada-Mu dari kejelekan pada pendengaranku, kejelekan pada penglihatanku, kejelekan pada lisanku, kejelekan pada hatiku, dan kejelekan pada mani atau kemaluanku.",
 tentang: "HR. An-Nasa’i no. 5446, Abu Daud no. 1551, Tirmidzi no. 3492. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini hasan.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 158,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Kesusahan, Kesedihan, Lemah, Malas, Kikir, Penakut, Lilitan Hutang Dan Penindasan Orang",
@@ -2745,11 +2673,11 @@ tentang: "HR. Al-Bukhari 7/158. Rasulullah Shallallahu'alaihi wasallam senantias
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "sedih",
-                "sulit"
-            ]
-        },
-        {
+"sedih",
+"sulit"
+]
+},
+{
 id: 159,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Kesusahan, Kesedihan, Lemah, Malas, Penakut, Kikir, Lilitan Hutang Dan Penguasaan Orang",
@@ -2758,13 +2686,13 @@ tr: "Allaahumma innii a'uudzu bika minal hammi wal huzni, wa a'uudzu bika minal 
 idn: "Ya Allah, aku berlindung kepada-Mu dari kesusahan/kegelisahan dan kesedihan, aku berlindung kepada-Mu dari lemah/ketidakmampuan dan kemalasan, aku berlindung kepada-Mu dari sifat penakut dan kikir/pelit, dan aku berlindung kepada-Mu dari lilitan hutang dan penguasaan (kesewenang-wenangan) orang.",
 tentang: "HR Abu Dawud 4/353.
 
-Sumber: https: //www.facebook.com/doa.dzikir.shahih.harian/videos/719535888146472",
+Sumber: https://www.facebook.com/doa.dzikir.shahih.harian/videos/719535888146472",
 tag: [
-                "sedih",
-                "sulit"
-            ]
-        },
-        {
+"sedih",
+"sulit"
+]
+},
+{
 id: 160,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Fitnah Dan Azab Neraka, Dan Keburukan Kekayaan Dan Kemiskinan",
@@ -2773,12 +2701,12 @@ tr: "Allaahumma innii a'uudzu bika min fitnatin-naar wa 'adzaabin-naar, wa min s
 idn: "Ya Allah, aku berlindung kepadaMu dari fitnah neraka dan adzab neraka, dan dari keburukan kekayaan dan kefakiran.",
 tentang: "HR. Abu Daud no. 1543. Syaikh Al Albani mengatakan bahwa hadits ini shahih.
 
-Sumber: https: //rumaysho.com/1105-doa-berlindung-dari-keburukan-kaya-dan-miskin.html",
+Sumber: https://rumaysho.com/1105-doa-berlindung-dari-keburukan-kaya-dan-miskin.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 161,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Ketika Dihadang Atau Diancam Orang Jahat",
@@ -2796,12 +2724,12 @@ Kemudian sang raja menyuruh beberapa prajuritnya untuk membawa anak ini di atas 
 Diantara pelajaran yang bisa kita ambil dari hadis di atas adalah doa ketika kita dihadang orang jahat atau mendapat ancaman dari orang yang hendak bertindak jahat kepada kita.
 
 
-Sumber: https: //konsultasisyariah.com/22286-doa-ketika-dihadang-perampok.html",
+Sumber: https://konsultasisyariah.com/22286-doa-ketika-dihadang-perampok.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 162,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Setan, Binatang Berbisa dan 'Ain (Pandangan Mata Jahat)",
@@ -2812,12 +2740,12 @@ tentang: "HR. Bukhari no. 3371.
 Dari ‘Aisyah radhiyallahu ‘anha, bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Berlindunglah kalian kepada Allah dari ‘ain, karena sesungguhnya ‘ain itu haq (benar).” (HR. Ibnu Majah no. 3508 dan Al Hakim no. IV/215, Lihat Silsilah Al Ahaadits Ash Shahiihah no. 737).
 
 
-Sumber: http: //bbg-alilmu.com/archives/35100",
+Sumber: http://bbg-alilmu.com/archives/35100",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 163,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Keburukan Tetangga, Istri, Anak, Harta Dan Teman Dekat",
@@ -2828,12 +2756,12 @@ tentang: "HR. Ath-Thabrani dari Abu Hurairah radhiyallahu'anhu, Ash-Shahihah: 31
 Dari Abu Hurairah radhiyallahu'anhu, ia berkata, dahulu diantara doa yang dibaca Rasulullah shallallahu'alaihi wa sallam adalah: (doa di atas).
 
 
-Sumber: https: //www.facebook.com/permalink.php?story_fbid=514443478604846&id=113035155412349",
+Sumber: https://www.facebook.com/permalink.php?story_fbid=514443478604846&id=113035155412349",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 164,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Hari, Malam, Waktu, Teman dan Tetangga Yang Buruk",
@@ -2842,12 +2770,12 @@ tr: "Allaahumma innii a'uudzu bika min yaumis-suu', wa min lailatis-suu', wa min
 idn: "Ya Allah, sesungguhnya aku berlindung kepada-Mu dari hari yang buruk, malam yang buruk, waktu yang buruk, teman yang buruk, dan tetangga yang buruk di tempat tinggal tetapku.",
 tentang: "HR. Ath-Thabrani 14227. Silsilah al-Ahaadiits ash-Shahiihah no. 1443.
 
-Sumber: https: //bbg-alilmu.com/archives/11747",
+Sumber: https://bbg-alilmu.com/archives/11747",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 165,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Lapar Dan Khianat",
@@ -2861,20 +2789,19 @@ Nabi Shallallahu ‘alaihi wa salam berdoa, meminta perlindungan dari lapar, kar
 
 Hadits ini dijadikan sebagai dalil dari suatu pendapat yang mengatakan bahwa rasa lapar semata (murni karena lapar, tidak ada tendensi karena Allah) tidak terkandung unsur pahala di dalamnya.
 
-Sedangkan khianat adalah lawan dari amanah. Dan ini sifatnya umum, mencakup hak-hak Allah seperti shalat, puasa, sedekah, zakat, dan lainnya, juga mencakup hak-hak anak manusia di antara mereka. Allah Azza wa Jalla berfirman, “Hai orang-orang yang beriman, janganlah kamu mengkhianati Allah dan Rasul (Muhammad) dan (juga) janganlah kamu mengkhianati amanat-amanat yang dipercayakan kepadamu, sedang kamu mengetahui.” [Al-Anfal/8: 27
-            ].
+Sedangkan khianat adalah lawan dari amanah. Dan ini sifatnya umum, mencakup hak-hak Allah seperti shalat, puasa, sedekah, zakat, dan lainnya, juga mencakup hak-hak anak manusia di antara mereka. Allah Azza wa Jalla berfirman, “Hai orang-orang yang beriman, janganlah kamu mengkhianati Allah dan Rasul (Muhammad) dan (juga) janganlah kamu mengkhianati amanat-amanat yang dipercayakan kepadamu, sedang kamu mengetahui.” [Al-Anfal/8: 27].
 
 Doa ini memuat permintaan perlindungan dari khianat, baik khianat terhadap hak Allah Azza wa Jalla, maupun terkait sesama hak hamba. Karena ia adalah seburuk-buruk sifat dan perilaku batin seseorang, bahkan ia adalah salah satu pertanda kemunafikan.
 
 Lihat Aunul Ma’buud 4/406, Syuruuh Sunan Ibni Majah 1246.
 
 
-Sumber: https: //almanhaj.or.id/9771-doa-meminta-perlindungan-dari-kelaparan-dan-khianat.html",
+Sumber: https://almanhaj.or.id/9771-doa-meminta-perlindungan-dari-kelaparan-dan-khianat.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 166,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Bila Khawatir Hal Buruk Menimpa",
@@ -2893,12 +2820,12 @@ Dalam Uddatul Hishnil Hashiin dan syarahnya Tuhfat Adz-Dzaakiriin dikatakan, bil
 Maka, bila ada sesuatu yang terasa berat atas diri seseorang, hendaknya ia mengucapkan doa tersebut. Karena Allah yang akan mencukupi dan menjaga kita dari apa yang akan menimpa. Dialah sebaik-baik tempat bersandar.
 
 
-Sumber: https: //almanhaj.or.id/9745-doa-saat-khawatir-hal-buruk-menimpa.html",
+Sumber: https://almanhaj.or.id/9745-doa-saat-khawatir-hal-buruk-menimpa.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 167,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Kefakiran, Kekufuran, Kefasikan, Kedurhakaan, Kemunafikan, Sum'ah Dan Riya'",
@@ -2907,12 +2834,12 @@ tr: "Allaahumma innii a'uudzu bika minal faqri, wal kufri, wal fusuuqi, wasy-syi
 idn: "Ya Allah, aku berlindung kepada-Mu dari kefakiran, kekufuran, kefasikan, kedurhakaan, kemunafikan, sum'ah dan riya'.",
 tentang: "HR. al-Hakim (1944) dan dishahihkan al-Albani.
 
-Sumber: https: //konsultasisyariah.com/29265-doa-perlindungan-dari-kekufuran-munafik.html",
+Sumber: https://konsultasisyariah.com/29265-doa-perlindungan-dari-kekufuran-munafik.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 168,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Kekufuran, Kefakiran Dan Azab Kubur",
@@ -2921,12 +2848,12 @@ tr: "Allaahumma innii a'uudzu bika minal kufri wal faqri, allaahumma innii a'uud
 idn: "Ya Allah, aku berlindung kepada-Mu dari kekufuran dan kefakiran. Ya Allah, aku berlindung kepada-Mu dari adzab kubur. Tidak ada sesembahan yang berhak disembah kecuali Engkau.",
 tentang: "HR. Abu Daud 5092, Nasai 5482 dan dihasankan al-Albani.
 
-Sumber: https: //konsultasisyariah.com/29265-doa-perlindungan-dari-kekufuran-munafik.html",
+Sumber: https://konsultasisyariah.com/29265-doa-perlindungan-dari-kekufuran-munafik.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 169,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Penyakit Kulit/Belang, Gila, Kusta Dan Penyakit Berbahaya Lainnya",
@@ -2946,12 +2873,12 @@ Rasulullah shallallahu ‘alaihi wa sallam meminta perlindungan dari penyakit ya
 Penyakit-penyakit yang disebutkan di sini punya dampak jelek pada penampilan dan fisik, sehingga bisa membuat orang lain menjauh.
 Rasulullah shallallahu ‘alaihi wa sallam tidak meminta perlindungan dari semua penyakit karena sakit sendiri dapat membersihkan dosa asalkan mau bersabar. Setiap orang bisa saja tertimpa sakit. Namun ujian yang paling berat adalah yang dihadapi oleh para nabi lalu orang di bawahnya lagi.
 
-Sumber: https: //yufidia.com/4860-doa-mohon-dilindungi-dari-penyakit-berbahaya.html dan https://rumaysho.com/21766-doa-meminta-perlindungan-dari-penyakit-kulit-gila-dan-berbagai-penyakit-jelek.html",
+Sumber: https://yufidia.com/4860-doa-mohon-dilindungi-dari-penyakit-berbahaya.html dan https://rumaysho.com/21766-doa-meminta-perlindungan-dari-penyakit-kulit-gila-dan-berbagai-penyakit-jelek.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 170,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Kefakiran, Kekurangan, Kehinaan, Dan Dari Menzalimi Atau Dizalimi",
@@ -2960,12 +2887,12 @@ tr: "Allaahumma innii a'uudzu bika minal faqri, wal qillati, wadz-dzillati, wa a
 idn: "Ya Allah, aku berlindung kepada-Mu dari kefakiran, kekurangan dan kehinaan. Dan aku berlindung kepada-Mu dari menzalimi atau dizalimi orang lain.",
 tentang: "HR. An-Nasaa-i, Shahiih An-Nasaa-i III no. 5046.
 
-Sumber: https: //bbg-alilmu.com/archives/10722",
+Sumber: https://bbg-alilmu.com/archives/10722",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 171,
 grup: "Doa Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Fitnah Dan Siksa Neraka, Fitnah Dan Siksa Kubur, Fitnah Kekayaan Dan Kefakiran, Dan Fitnah Dajjal",
@@ -2989,12 +2916,12 @@ aku berlindung kepada-Mu dari fitnah kefakiran,
 dan aku berlindung kepada-Mu dari fitnah Al-Masih Ad-Dajjal.",
 tentang: "HR. Bukhari.
 
-Sumber: https: //yufidia.com/5876-doa-berlindung-dari-fitnah-harta.html",
+Sumber: https://yufidia.com/5876-doa-berlindung-dari-fitnah-harta.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 172,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Sapu Jagad",
@@ -3002,25 +2929,20 @@ ar: "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً�
 tr: "Robbanaa aatinaa fid-dunyaa hasanah, wa fil aakhiroti hasanah, wa qinaa 'adzaaban-naar.",
 idn: "Ya Tuhan kami, berilah kami kebaikan di dunia, dan kebaikan di akhirat, dan peliharalah kami dari siksa neraka. (Al-Baqarah [2]: 201).",
 tentang: "Doa di atas sama dengan doa dalam hadits berikut:
-Dari Anas radhiyallahu ‘anhu, ia berkata bahwa doa yang paling sering dibaca oleh Nabi shallallahu ‘alaihi wa sallam adalah, “Allaahumma aatinaa fid-dunyaa hasanah, wa fil aakhiroti hasanah, wa qinaa 'adzaaban-naar. (Artinya: Ya Allah, karuniakan kepada kami kebaikan di dunia, dan kebaikan di akhirat, dan selamatkanlah kami dari siksa neraka).” (Muttafaqun ‘alaih) [HR. Bukhari,
-                8: 187-188; Muslim, no. 2690
-            ].
+Dari Anas radhiyallahu ‘anhu, ia berkata bahwa doa yang paling sering dibaca oleh Nabi shallallahu ‘alaihi wa sallam adalah, “Allaahumma aatinaa fid-dunyaa hasanah, wa fil aakhiroti hasanah, wa qinaa 'adzaaban-naar. (Artinya: Ya Allah, karuniakan kepada kami kebaikan di dunia, dan kebaikan di akhirat, dan selamatkanlah kami dari siksa neraka).” (Muttafaqun ‘alaih) [HR. Bukhari, 8:187-188; Muslim, no. 2690].
 
 Penjelasan Hadits:
 Imam Muslim menambahkan dalam riwayatnya, “Jika Anas radhiyallahu ‘anhu hendak berdoa, ia pasti berdoa dengan doa tersebut. Jika ia hendak berdoa dengan doa yang lain, ia pun menyisipkan doa tersebut di dalamnya.” (HR. Muslim, no. 2690).
 
-Ibnu Hajar rahimahullah menyebutkan, “Tidaklah seorang nabi maupun orang saleh berdoa melainkan mereka menggunakan doa ini.” (Fath Al-Bari,
-            2: 322).
+Ibnu Hajar rahimahullah menyebutkan, “Tidaklah seorang nabi maupun orang saleh berdoa melainkan mereka menggunakan doa ini.” (Fath Al-Bari, 2:322).
 
 Ibnu Katsir rahimahullah menyatakan, “Doa sapu jagad ini berisi permintaan kebaikan di dunia seluruhnya dan dihindarkan dari seluruh kejelekan. Yang dimaksud kebaikan dunia adalah nikmat kesehatan, rumah yang lapang, istri yang penuh dengan kebaikan, rezeki yang luas, ilmu yang bermanfaat, amal saleh, kendaraan yang menyenangkan, pujian yang baik, serta kebaikan-kebaikan lainnya dengan berbagai ungkapan dari pakar tafsir. Apa yang disebutkan oleh para ulama pakar tafsir semuanya tidaklah saling bertentangan. Karena seluruh kebaikan dunia tercakup dalam doa tersebut.
 
 Adapun kebaikan di akhirat yang diminta dalam doa ini tentu saja lebih tinggi dari kebaikan di dunia yaitu dimasukkannya ke dalam surga, dibebaskan dari rasa khawatir (takut), diberi kemudahan dalam hisab (perhitungan amalan) di akhirat, serta berbagai kebaikan akhirat lainnya.
 
-Adapun permintaan diselamatkan dari siksa neraka mengandung permintaan agar kita dibebaskan dari berbagai sebab yang menjerumuskan ke dalam neraka, yaitu dengan dijauhkan dari berbagai perbuatan yang haram dan dosa, dan diberi petunjuk untuk meninggalkan hal-hal syubhat (yang masih samar/abu-abu) dan hal-hal yang haram.” (Tafsir Al-Qur’an Al-‘Azhim,
-            2: 122).
+Adapun permintaan diselamatkan dari siksa neraka mengandung permintaan agar kita dibebaskan dari berbagai sebab yang menjerumuskan ke dalam neraka, yaitu dengan dijauhkan dari berbagai perbuatan yang haram dan dosa, dan diberi petunjuk untuk meninggalkan hal-hal syubhat (yang masih samar/abu-abu) dan hal-hal yang haram.” (Tafsir Al-Qur’an Al-‘Azhim, 2:122).
 
-Imam Nawawi rahimahullah berkata mengenai pengertian doa tersebut, “Pendapat yang lebih tepat mengenai tafsiran ‘kebaikan di dunia’ adalah ibadah dan ‘afiyah (kesehatan). Adapun ‘kebaikan di akhirat’ adalah surga dan ampunan Allah. Ada juga ulama yang mengatakan bahwa kebaikan di situ bersifat umum untuk seluruh kebaikan di dunia dan akhirat.” (Syarh Shahih Muslim,
-            17: 13).
+Imam Nawawi rahimahullah berkata mengenai pengertian doa tersebut, “Pendapat yang lebih tepat mengenai tafsiran ‘kebaikan di dunia’ adalah ibadah dan ‘afiyah (kesehatan). Adapun ‘kebaikan di akhirat’ adalah surga dan ampunan Allah. Ada juga ulama yang mengatakan bahwa kebaikan di situ bersifat umum untuk seluruh kebaikan di dunia dan akhirat.” (Syarh Shahih Muslim, 17:13).
 
 Faedah Hadits:
 
@@ -3028,12 +2950,12 @@ Dianjurkan memperbanyak doa ini karena doanya yang singkat dengan lafazh yang se
 Doa dari Rasulullah shallallahu ‘alaihi wa sallam kebanyakannya memakai doa ini dan ini diambil dari ayat, doa ini kandungannya padat mencakup doa seluruhnya, yaitu di dalamnya terdapat permintaan nikmat dunia, nikmat akhirat, dan diselamatkan dari siksa neraka.
 Para sahabat radhiyallahu ‘anhum semangat menjaga sunnah Nabi shallallahu ‘alaihi wa sallam dan menerapkannya.
 
-Sumber: https: //rumaysho.com/19550-doa-sapu-jagat-paling-sering-dibaca-nabi.html",
+Sumber: https://rumaysho.com/19550-doa-sapu-jagat-paling-sering-dibaca-nabi.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 173,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Agar Setiap Urusan Berakhir Baik",
@@ -3051,12 +2973,12 @@ Makna "azab akhirat": yaitu dari seluruh siksa di akhirat karena kalimatnya adal
 Doa ini mengandung permintaan agar diberi keselamatan, juga rasa aman dari segala sisi. Karena barangsiapa yang terselamatkan dari kehinaan dunia dan siksa di akhirat, maka ia telah mendapatkan kebaikan besar di dunia negeri. Jika terselamatkan, berarti ia selamat dari segala kejelekan. Doa ini benar-benar adalah doa yang jawami'ul kalim (ringkas, syarat makna, mencakup berbagai hal).
 
 
-Sumber: https: //www.facebook.com/doa.dzikir.shahih.harian/photos/pb.145491612217572.-2207520000.1437500130./659391974160864 dan http://rumaysho.com/belajar-islam/amalan/3284-doa-agar-baik-dalam-amalan-akhir.html",
+Sumber: https://www.facebook.com/doa.dzikir.shahih.harian/photos/pb.145491612217572.-2207520000.1437500130./659391974160864 dan http://rumaysho.com/belajar-islam/amalan/3284-doa-agar-baik-dalam-amalan-akhir.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 174,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Memohon Kesabaran, Teguh Pendirian Dan Pertolongan Terhadap Orang Kafir",
@@ -3065,10 +2987,10 @@ tr: "Robbanaa afrigh 'alainaa shobron, wa tsabbit aqdaamanaa, wan-shurnaa 'alal 
 idn: "Ya Rabb kami, limpahkanlah kesabaran atas diri kami, dan teguhkanlah pendirian kami, dan tolonglah kami terhadap orang-orang kafir. (Al Baqarah [2]: 250).",
 tentang: "Sumber: http://rumaysho.com/amalan/kiat-agar-semangat-tidak-kendor-dalam-belajar-islam-3315",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 175,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Kesesatan Dan Memohon Rahmat",
@@ -3077,10 +2999,10 @@ tr: "Robbanaa laa tuzigh quluubanaa ba'da idz hadaitanaa, wa hab lanaa mil-ladun
 idn: "Ya Rabb kami, janganlah Engkau jadikan hati kami condong kepada kesesatan sesudah Engkau beri petunjuk kepada kami, dan karuniakanlah kepada kami rahmat dari sisi Engkau, karena sesungguhnya Engkau-lah Maha Pemberi (karunia). (Ali Imran [3]: 8).",
 tentang: "Sumber: http://rumaysho.com/amalan/kiat-agar-semangat-tidak-kendor-dalam-belajar-islam-3315",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 176,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Agar Mudah Melakukan Kebaikan, Meninggalkan Kemungkaran, Mencintai Orang Miskin Dan Berlindung Dari Fitnah",
@@ -3096,12 +3018,12 @@ Dalam hadis dari Ibnu Abbas radhiyallahu ‘anhuma, Rasulullah shallallahu ‘al
 Disamping itu, Nabi shallallahu ‘alaihi wa sallam secara khusus memerintahkan untuk mempelajari dan memahami kandungan makna doa ini. Dalam riwayat Turmudzi terdapat tambahan, pernyataan Nabi shallallahu ‘alaihi wa sallam, “Kalimat ini benar, karena itu hafalkan dan pelajari kandungannya.” (HR. Turmudzi 3543).
 
 
-Sumber: https: //konsultasisyariah.com/25877-doa-perlindungan-dari-fitnah.html",
+Sumber: https://konsultasisyariah.com/25877-doa-perlindungan-dari-fitnah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 177,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Agar Mudah Melakukan Kebaikan, Meninggalkan Kemungkaran, Mencintai Orang Miskin, Memohon Ampun Dan Rahmat Dan Berlindung Dari Fitnah",
@@ -3110,12 +3032,12 @@ tr: "Allaahumma innii as-aluka fi'lal khoiroot, wa tarkal munkaroot, wa hubbal m
 idn: "Ya Allah, aku memohon kepada-Mu agar mudah melakukan kebaikan, meninggalkan kemungkaran dan mencintai orang miskin. Ampunilah aku dan rahmatilah aku. Jika Engkau ingin menimpakan ujian (fitnah) pada suatu kaum, maka wafatkanlah aku dalam keadaan tidak tenggelam dalam ujian itu.",
 tentang: "HR. Tirmidzi no. 3235 dan Ahmad 5: 243, dan dishahihkan al-Albani.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 178,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Meminta Segala Sesuatu Yang Pernah Diminta Nabi",
@@ -3136,12 +3058,12 @@ Ya Allah, aku memohon kepada-Mu surga dan segala hal yang mendekatkan kepadanya,
 Dan aku memohon kepada-Mu agar Engkau jadikan setiap yang Engkau takdirkan bagiku adalah baik.",
 tentang: "HR. Ahmad 25019, Ibnu Majah 3846 dan dishahihkan Syuaib al-Arnauth.
 
-Sumber: https: //konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
+Sumber: https://konsultasisyariah.com/21758-kumpulan-doa-nabi-shallallahu-alaihi-wa-sallam.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 179,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Berlindung Dari Memohon Yang Tidak Diketahui, Serta Memohon Ampun Dan Rahmat (Doa Nabi Nuh)",
@@ -3150,10 +3072,10 @@ tr: "Robbi innii a'uudzu bika an as-alaka maa laisa lii bihi 'ilmun, wa illaa ta
 idn: "Ya Tuhanku, sesungguhnya aku berlindung kepada Engkau dari memohon kepada Engkau sesuatu yang aku tiada mengetahui (hakekat)nya. Dan sekiranya Engkau tidak memberi ampun kepadaku, dan (tidak) menaruh belas kasihan kepadaku, niscaya aku akan termasuk orang-orang yang merugi. (Hud [11]: 47).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 180,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Memohon Agar Tidak Dihukum Dan Dibebani Yang Berat, Serta Memohon Maaf, Ampun, Rahmat Dan Pertolongan Terhadap Orang Kafir",
@@ -3162,10 +3084,10 @@ tr: "Robbanaa laa tu-aakhidz-naa in nasiinaa au akh-tho'na, robbanaa wa laa tahm
 idn: "Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami tersalah. Ya Tuhan kami, janganlah Engkau bebankan kepada kami beban yang berat sebagaimana Engkau bebankan kepada orang-orang sebelum kami. Ya Tuhan kami, janganlah Engkau pikulkan kepada kami apa yang tak sanggup kami memikulnya. Beri maaflah kami; ampunilah kami; dan rahmatilah kami. Engkaulah Penolong kami, maka tolonglah kami terhadap kaum yang kafir. (Al Baqarah [2]: 286).",
 tentang: "Sumber: https://muslim.or.id/26012-doa-doa-dari-al-quran-1.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 181,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Memohon Keamanan Negeri Dan Berlindung Dari Syirik (Doa Nabi Ibrahim)",
@@ -3174,10 +3096,10 @@ tr: "Robbij'al haadzal balada aaminaa, wajnubnii wa baniyya an na'budal ash-naam
 idn: "Ya Tuhanku, jadikanlah negeri ini (Mekah), negeri yang aman, dan jauhkanlah aku beserta anak cucuku daripada menyembah berhala-berhala. (Ibrahim [14]: 35).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 182,
 grup: "Doa Memohon Kebaikan Dan Berlindung Dari Keburukan",
 nama: "Doa Agar Kaum Muslimin Disatukan Hatinya, Diberi Petunjuk Dan Keselamatan, Dijauhkan Dari Perbuatan Keji, Diberkahi Diri Dan Keluarga, Diterima Taubat Dan Dijadikan Hamba Yang Bersyukur",
@@ -3186,12 +3108,12 @@ tr: "Allaahumma allif baina quluubinaa, wa ashlih dzaata baininaa, wahdinaa subu
 idn: "Ya Allah, satukanlah hati kami. Perbaikilah keadaan kami. Tunjukilah kami jalan-jalan keselamatan (menuju surga). Selamatkanlah kami dari kegelapan menuju cahaya. Jauhkanlah kami dari perbuatan keji yang nampak maupun tersembunyi. Berkahilah pendengaran, penglihatan, hati, istri-istri dan keturunan kami. Terimalah taubat kami, sesungguhnya Engkau Maha Pengampun lagi Maha Penyayang. Jadikanlah kami hamba yang bersyukur atas nikmat-Mu, terus memuji-Mu dan menerima nikmat tersebut, dan sempurnakanlah nikmat tersebut pada kami.",
 tentang: "HR. Abu Daud no. 969, dari ‘Abdullah bin Mas’ud radhiyallahu ‘anhu. Hadits ini juga dikeluarkan oleh Al-Baihaqi dalam Al-Qadha’ wa Al-Qadr dari hadits Abu Daud, asalnya dikeluarkan oleh Tirmidzi. Kesimpulannya, Al-Hafizh Abu Thahir mengatakan bahwa hadits ini shahih.
 
-Sumber: https: //rumaysho.com/16229-khutbah-jumat-ya-allah-satukanlah-hati-kami.html",
+Sumber: https://rumaysho.com/16229-khutbah-jumat-ya-allah-satukanlah-hati-kami.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 183,
 grup: "Bacaan Bila Kagum Terhadap Sesuatu",
 nama: "Bacaan Bila Kagum Terhadap Sesuatu 1",
@@ -3202,10 +3124,10 @@ tentang: "HR. Al-Bukhari dengan Fathul Bari 1/210, 390 dan 414, Muslim 4/1857.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 184,
 grup: "Bacaan Bila Kagum Terhadap Sesuatu",
 nama: "Bacaan Bila Kagum Terhadap Sesuatu 2",
@@ -3216,10 +3138,10 @@ tentang: "HR. Al-Bukhari dengan Fathul Bari 8/441, lihat pula Shahih At-Tirmidzi
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 185,
 grup: "Bacaan Bila Kagum Terhadap Sesuatu",
 nama: "Bacaan Bila Kagum Terhadap Sesuatu 3",
@@ -3232,12 +3154,12 @@ Ayat ini dijadikan dalil sebagian ulama terkait kapan kita dianjurkan mengucapka
 Ketika menjelaskan ayat ini, Imam Ibnu Utsaimin mengatakan, “Selayaknya bagi seseorang, ketika dia merasa kagum dengan hartanya, agar dia mengucapkan, 'maasyaallaah, laa quwwata illaa billaah' sehingga dia kembalikan segala urusannya kepada Allah, bukan kepada kemampuannya. Dan terdapat riwayat, bahwa orang yang membaca itu ketika merasa heran dengan apa yang dimilikinya, maka dia tidak akan melihat sesuatu yang tidak dia sukai menimpa hartanya.” (Tafsir Surat al-Kahfi, ayat: 39).
 
 
-Sumber: https: //konsultasisyariah.com/24593-kapan-kita-mengucapkan-subhanallah-dan-masyaallah.html",
+Sumber: https://konsultasisyariah.com/24593-kapan-kita-mengucapkan-subhanallah-dan-masyaallah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 186,
 grup: "Bacaan Bila Kagum Terhadap Sesuatu",
 nama: "Bacaan Bila Perkara Dunia Membuat Takjub",
@@ -3249,21 +3171,19 @@ Syaikh Ibnul Utsaimin –rahimahullah– mengatakan: Rasul –shallallahu’alai
 
 Karena bila seseorang melihat suatu perkara dunia yang membuatnya takjub, mungkin saja dia meliriknya, sehingga dia berpaling dari Allah. Oleh karena itu beliau mengatakan “labbaik” sebagai jawaban panggilan Allah azza wajalla, kemudian beliau memantapkan hatinya dengan mengatakan “Sungguh kehidupan yang hakiki adalah kehidupan akhirat“.
 
-Karena kehidupan yang membuatmu takjub ini adalah kehidupan yang pasti sirna, sedang kehidupan yang sebenarnya adalah kehidupan akhirat. Oleh karena itu, termasuk diantara sunnah ketika seseorang melihat sesuatu yang menakjubkan di dunia ini adalah mengucapkan: (ucapan di atas). (Syarah Mumti‘,
-            3/124).
+Karena kehidupan yang membuatmu takjub ini adalah kehidupan yang pasti sirna, sedang kehidupan yang sebenarnya adalah kehidupan akhirat. Oleh karena itu, termasuk diantara sunnah ketika seseorang melihat sesuatu yang menakjubkan di dunia ini adalah mengucapkan: (ucapan di atas). (Syarah Mumti‘, 3/124).
 
 Imam Syafi’i –rahimahullah– mengatakan: Rasulullah –shallallahu alaihi wasallam– mengucapkannya di momen yang paling membahagiakan dan paling menyusahkan.
 
-(Nihayatul Mathlab, karya Al Juwaini,
-            4/237-238).
+(Nihayatul Mathlab, karya Al Juwaini, 4/237-238).
 
 
-Sumber: https: //muslim.or.id/21680-sunnah-yang-terlupakan-ucapan-innal-aisya-aisyul-akhirah.html",
+Sumber: https://muslim.or.id/21680-sunnah-yang-terlupakan-ucapan-innal-aisya-aisyul-akhirah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 187,
 grup: "Bacaan Bila Kagum Terhadap Sesuatu",
 nama: "Bacaan Agar Tidak Terpedaya Kenikmatan Dan Kemewahan Dunia",
@@ -3272,12 +3192,12 @@ tr: "Allaahumma laa 'aisya illaa 'aisyul aakhiroh.",
 idn: "Ya Allah, tidak ada kehidupan yang hakiki kecuali kehidupan akhirat.",
 tentang: "HR. Al-Bukhari dan Muslim.
 
-Sumber: https: //bbg-alilmu.com/archives/9939",
+Sumber: https://bbg-alilmu.com/archives/9939",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 188,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Pujian Kepada Allah Sebelum Berdoa",
@@ -3290,12 +3210,12 @@ Rasulullah shallallahu ‘alaihi wa sallam pernah mendengar seseorang berdoa: (d
 Bisa juga dengan cara menyebut nama-nama Allah yang sesuai dengan isi doa yang kita sampaikan. Misalnya, kita mohon ampunan maka kita menyebut nama Allah “Al-Ghaffar” atau “Al-Ghafur” (yang Maha Pengampun).
 
 
-Sumber: http: //bbg-alilmu.com/archives/19074 dan https://konsultasisyariah.com/4677-bagaimana-cara-memuji-allah-dan-bersalawat-sebelum-berdoa.html",
+Sumber: http://bbg-alilmu.com/archives/19074 dan https://konsultasisyariah.com/4677-bagaimana-cara-memuji-allah-dan-bersalawat-sebelum-berdoa.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 189,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Doa Bersin",
@@ -3323,10 +3243,10 @@ HR. Al-Bukhari 7/125.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 190,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Doa Bila Orang Kafir Bersin Lalu Memuji Allah",
@@ -3337,10 +3257,10 @@ tentang: "HR. At-Tirmidzi 5/82, Ahmad 4/400, Abu Daud 4/308. Lihat pula Shahih A
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 191,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Doa Kepada Orang Yang Berbuat Baik Kepadamu",
@@ -3351,12 +3271,12 @@ tentang: "HR. At-Tirmidzi 2035, lihat Shahihul Jami' 6244, Shahih At-Tirmidzi 2/
 Usamah bin Zaid berkata: Rasulullah shallallahu 'alaihi wasallam bersabda: "Barangsiapa yang dibuatkan kepadanya kebaikan, lalu ia mengatakan kepada pelakunya: (doa di atas), maka sungguh ia telah benar-benar meninggikan pujian." HR. Tirmidzi dan dishahihkan oleh Al Albani di dalam kitab Shahih Al Jami', no. 6368.
 
 
-Sumber: Hisnul Muslim dan http: //muslim.or.id/akhlaq-dan-nasehat/jazakallah-khoiron-membalas-orang-lain-yang-berbuat-baik.html",
+Sumber: Hisnul Muslim dan http://muslim.or.id/akhlaq-dan-nasehat/jazakallah-khoiron-membalas-orang-lain-yang-berbuat-baik.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 192,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Jawaban Kepada Orang Yang Berkata: Ghafarallaahu Laka",
@@ -3367,10 +3287,10 @@ tentang: "HR. Ahmad 5/82, An-Nasa'i dalam 'Amalul Yaum wal Lailah halaman 218, n
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 193,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Jawaban Kepada Orang Yang Berkata: Uhibbuka Fillaah",
@@ -3381,10 +3301,10 @@ tentang: "HR. Abu Dawud 4/333. Al-Albani menyatakan, hadits tersebut hasan dalam
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 194,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Jawaban Kepada Orang Yang Berkata: Baarakallaahu Fiika",
@@ -3395,10 +3315,10 @@ tentang: "Ibnu Sunni h. 138, no. 278, lihat Al-Waabilush Shayyib Iibnil Qayyim, 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 195,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Doa Kepada Orang Yang Anda Caci",
@@ -3409,10 +3329,10 @@ tentang: "HR. Al-Bukhari dengan Fathul Bari 11/171, Muslim 4/2007, dan kalimatny
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 196,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Doa Bila Dipuji Orang",
@@ -3423,10 +3343,10 @@ tentang: "HR. Al-Bukhari dalam Al-Adabul Mufrad no. 761. Isnad hadits tersebut d
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 197,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Doa Ketika Marah",
@@ -3437,10 +3357,10 @@ tentang: "HR. Al-Bukhari 7/99, Muslim 4/2015.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 198,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Bacaan Ketika Takut",
@@ -3451,25 +3371,26 @@ tentang: "HR. Al-Bukhari dengan Fathul Bari 6/181, Muslim 4/2208.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 199,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Jawaban Kepada Orang Kafir Yang Mengucapkan Salam",
 ar: "وَعَلَيْكُمْ",
 tr: "Wa 'alaikum.",
 idn: "Dan atasmu juga.",
-tentang: "HR. Al-Bukhari dengan Fathul Bari 11/42, Muslim 4/1705."Apabila ahli kitab mengucapkan salam kepadamu, jawablah: (jawaban di atas)."
+tentang: "HR. Al-Bukhari dengan Fathul Bari 11/42, Muslim 4/1705.
+"Apabila ahli kitab mengucapkan salam kepadamu, jawablah: (jawaban di atas)."
 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 200,
 grup: "Beberapa Adab Dan Keutamaan",
 nama: "Ucapan Ketika Melihat Kemungkaran",
@@ -3480,68 +3401,40 @@ tentang: "Keterangan:
 Sebuah kemungkaran, baik perkataan maupun perbuatan, dimaknai sebagai hal-hal yang bertentangan dengan syariat atau hal-hal lain yang mengganggu orang-orang beriman.
 Ada banyak dalil yang diungkapkan para ulama tentang ucapan tasbih ketika terjadinya kemungkaran. Salah satunya adalah dalam surat An-Nur: 16 yang mengisahkan kisah al-Ifku, yaitu berita dusta tentang perzinahan ‘Aisyah radhiyallahu ‘anha.
 
-Allah berfirman, “Dan mengapa kamu tidak berkata, di waktu mendengar berita bohong itu, ‘Sekali-kali tidaklah pantas bagi kita memperkatakan ini. Maha Suci Engkau (Ya Tuhan kami), ini adalah dusta yang besar.’” [
-                1
-            ]
+Allah berfirman, “Dan mengapa kamu tidak berkata, di waktu mendengar berita bohong itu, ‘Sekali-kali tidaklah pantas bagi kita memperkatakan ini. Maha Suci Engkau (Ya Tuhan kami), ini adalah dusta yang besar.’” [1]
 
-Al-Baghawiy dalam tafsirnya menyebutkan, “Bahwa lafadz ‘subhaanaka’ dalam ayat bermakna ‘ta’ajjub’/heran.” [
-                2
-            ]
+Al-Baghawiy dalam tafsirnya menyebutkan, “Bahwa lafadz ‘subhaanaka’ dalam ayat bermakna ‘ta’ajjub’/heran.” [2]
 
-Imam Al-hafizh Ibnu Katsir menuturkan, “Yaitu Maha Suci Allah ketika ungkapan (dusta) ditujukan kepada Istri Rasulullah shallallahu ‘alaihi wasallam sekaligus istri dari kekasih Allah.” [
-                3
-            ]
+Imam Al-hafizh Ibnu Katsir menuturkan, “Yaitu Maha Suci Allah ketika ungkapan (dusta) ditujukan kepada Istri Rasulullah shallallahu ‘alaihi wasallam sekaligus istri dari kekasih Allah.” [3]
 
-Apa yang diungkapkan oleh Ahlu al-Ifki, sebutan bagi mereka yang menyebarkan berita bohong terhadap ‘Aisyah, merupakan kemungkaran yang besar, oleh karena itu disyariatkan mengucapkan tasbih ketika mendengarnya. Ini sebagai penyucian kepada Allah karena kedustaan yang menimpa keluarga nabi. [
-                4
-            ]
+Apa yang diungkapkan oleh Ahlu al-Ifki, sebutan bagi mereka yang menyebarkan berita bohong terhadap ‘Aisyah, merupakan kemungkaran yang besar, oleh karena itu disyariatkan mengucapkan tasbih ketika mendengarnya. Ini sebagai penyucian kepada Allah karena kedustaan yang menimpa keluarga nabi. [4]
 
 Lisan ‘Aisyah Radhiyallahu ‘Anha Yang Bertasbih
 
-Jauh sebelum ayat itu turun, ketika mendengar gosip dan kedustaan yang dipublikasikan oleh ahlul ifki saat itu, Aisyah pun bertasbih sambil menuturkan, “Subhaanallah, orang-orang telah membicarakan ini?” [
-                5
-            ]
+Jauh sebelum ayat itu turun, ketika mendengar gosip dan kedustaan yang dipublikasikan oleh ahlul ifki saat itu, Aisyah pun bertasbih sambil menuturkan, “Subhaanallah, orang-orang telah membicarakan ini?” [5]
 
 Sebagian Sahabat Juga Bertasbih
 
-Ketika mendengar kedustaan ini, para sahabat juga bertasbih kepada Allah. Mereka bertutur, “Subhaanallah, tidak pantas bagi kami membicarakan ini. Ini adalah kedustaan yang besar.” [
-                6
-            ]
+Ketika mendengar kedustaan ini, para sahabat juga bertasbih kepada Allah. Mereka bertutur, “Subhaanallah, tidak pantas bagi kami membicarakan ini. Ini adalah kedustaan yang besar.” [6]
 
 Ungkapan para sahabat ini menegaskan bahwa ungkapan “subhaanallah” adalah sebagai pelajaran bagi kaum muslimin untuk memuliakan, memuji dan mengagungkan Allah ketika mendengar ungkapan mungkar lagi dusta tentang kaum muslimin lainnya.
 
-Para ulama, dari hadits ‘Aisyah tentang kisah al-Ifk, menyebutkan salah satu faidah bahwa disyari’atkan mengucapkan tasbih ketika ta’ajjub/heran terhadap terjadinya kemungkaran atau mendengar hal-hal yang dusta. [
-                7
-            ]
+Para ulama, dari hadits ‘Aisyah tentang kisah al-Ifk, menyebutkan salah satu faidah bahwa disyari’atkan mengucapkan tasbih ketika ta’ajjub/heran terhadap terjadinya kemungkaran atau mendengar hal-hal yang dusta. [7]
 
-[
-                1
-            ] An-Nur [
-                24
-            ]: 16.
-[
-                2
-            ] Lihat Tafsir al-Baghawiy hal 26 jilid 6, al-Maktabah asy-Syamilah.
-[
-                3
-            ] Lihat Tafsir Ibn Katsir hal 29 jilid 6, al-Maktabah asy-Syamilah.
-[
-                4
-            ] Lihat kitab at-Tasbih fiy al-Kitab was Sunnah, hal 24 Jilid 2.
-[
-                5
-            ] Potongan hadits panjang tentang kisah tuduhan dusta terhadap ‘Aisyah radhiyallahu ‘anha diriwayatkan Bukhari dan Muslim.
-[
-                6
-            ] Fath al-Baari hal 470 jilid 4. Dikutip dari kitab at-Tasbih fiy al-Kitab was Sunnah, hal 25 Jilid 2.
+[1] An-Nur [24]: 16.
+[2] Lihat Tafsir al-Baghawiy hal 26 jilid 6, al-Maktabah asy-Syamilah.
+[3] Lihat Tafsir Ibn Katsir hal 29 jilid 6, al-Maktabah asy-Syamilah.
+[4] Lihat kitab at-Tasbih fiy al-Kitab was Sunnah, hal 24 Jilid 2.
+[5] Potongan hadits panjang tentang kisah tuduhan dusta terhadap ‘Aisyah radhiyallahu ‘anha diriwayatkan Bukhari dan Muslim.
+[6] Fath al-Baari hal 470 jilid 4. Dikutip dari kitab at-Tasbih fiy al-Kitab was Sunnah, hal 25 Jilid 2.
 
 
-Sumber: https: //muslim.or.id/21710-mengucapkan-subhanallah-ketika-melihat-kemungkaran.html",
+Sumber: https://muslim.or.id/21710-mengucapkan-subhanallah-ketika-melihat-kemungkaran.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 201,
 grup: "Istighfar Dan Taubat",
 nama: "Doa Istighfar/Taubat 1",
@@ -3554,10 +3447,10 @@ Rasul Shallallahu'alaihi wasallam bersabda: "Barangsiapa yang membaca: (doa di a
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 202,
 grup: "Istighfar Dan Taubat",
 nama: "Doa Istighfar/Taubat 2",
@@ -3568,10 +3461,10 @@ tentang: "HR. Bukhari no. 834 dan Muslim no. 2705.
 
 Sumber: BBG Al-Ilmu (BlackBerry Group)",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 203,
 grup: "Istighfar Dan Taubat",
 nama: "Doa Istighfar/Taubat 3",
@@ -3580,12 +3473,12 @@ tr: "Robbighfir lii wa tub 'alayya, innaka antat-tawwaabur-rohiim.",
 idn: "Ya Rabbku, ampunilah dosa-dosaku dan terimalah taubat dariku. Sesungguhnya Engkau Maha Penerima taubat lagi Maha Penyayang.",
 tentang: "HR. Ahmad, at-Tirmidzi, Abu Dawud, an-Nasa'i dalam al-Kubra, al-Bukhari dalam al-Adabul Mufrad, Ibnu Hibban, ath-Thabrani dalam al-Kabiir. Dishahihhkan oleh Syaikh al-Albani dalam Shahih Sunan Abu Dawud no. 1342.
 
-Sumber: https: //www.facebook.com/permalink.php?story_fbid=340569015961100&id=113035155412349",
+Sumber: https://www.facebook.com/permalink.php?story_fbid=340569015961100&id=113035155412349",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 204,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 1",
@@ -3598,10 +3491,10 @@ Nabi Shallallahu'alaihi wasallam bersabda: "Siapa yang membaca: (dzikir di atas)
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 205,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 2 (Tasbih Malaikat)",
@@ -3612,16 +3505,14 @@ tentang: "HR. Muslim no.2731.
 Dari Abu Dzar, Nabi shallallahu 'alaihi wa sallam ditanya: Kalimat apakah yang paling mulia? Beliau menjawab: "Kalimat yang Allah pilihkan untuk malaikat dan untuk para hambanya: (dzikir di atas)."
 
 Tentang tasbih para malaikat, Allah nyatakan dalam firman-Nya:
-Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: "Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi." Mereka berkata: "Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?" Tuhan berfirman: "Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui." (Al-Baqarah [
-                2
-            ]: 30).
+Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: "Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi." Mereka berkata: "Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?" Tuhan berfirman: "Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui." (Al-Baqarah [2]: 30).
 
 Kalimat (dzikir di atas) itulah cara bertasbih malaikat",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 206,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 3 (Dua Kalimat Yang Ringan Di Lisan, Berat Di Timbangan)",
@@ -3634,25 +3525,26 @@ Rasulullah Shallallahu'alaihi wasallam bersabda: "Dua kalimat yang ringan di lid
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 207,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 4 (Pohon Kurma Di Surga)",
 ar: "سُبْحَانَ اللَّهِ الْعَظِيْمِ وَبِحَمْدِهِ",
 tr: "Subhaanallaahil 'azhiimi wa bihamdih.",
 idn: "Maha Suci Allah Yang Maha Agung, aku memujiNya.",
-tentang: "HR. At-Tirmidzi 5/511 dan Al-Hakim 1/501. Menurut pendapatnya, hadits tersebut shahih. Imam Adz-Dzahabi menyetujuinya. Lihat pula Shahihul Jami' 5/531 dan Shahih At-Tirmidzi 3/160."Barangsiapa yang membaca: (dzikir di atas), maka ditanam untuknya sebatang pohon kurma di Surga."
+tentang: "HR. At-Tirmidzi 5/511 dan Al-Hakim 1/501. Menurut pendapatnya, hadits tersebut shahih. Imam Adz-Dzahabi menyetujuinya. Lihat pula Shahihul Jami' 5/531 dan Shahih At-Tirmidzi 3/160.
+"Barangsiapa yang membaca: (dzikir di atas), maka ditanam untuknya sebatang pohon kurma di Surga."
 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 208,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 5",
@@ -3665,10 +3557,10 @@ Rasulullah Shallallahu'alaihi wasallam bersabda: "Sungguh, apabila aku membaca: 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 209,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 6 (Doa Dan Dzikir Terbaik)",
@@ -3689,10 +3581,10 @@ HR. At-Tirmidzi 5/462, Ibnu Majah 2/1249, Al-Hakim 1/503. Menurut Al-Hakim, hadi
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 210,
 grup: "Lafal Dzikir Dan Keutamaannya",
 nama: "Lafal Dzikir 7 (Pahalanya Lebih Besar Daripada Dzikir Sehari Semalam)",
@@ -3745,12 +3637,12 @@ tentang: "HR. Imam Nasa’i 6/50 hadits no 9994, Ibnu Khuzaimah 1/371 hadits nom
 Suatu saat Nabi -shallallahu alaihi wasallam- melihat Abu Umamah -radhiallahu anhu- menggerakkan bibirnya, maka beliau bertanya, “Apa yang sedang kau baca wahai Abu Umamah?” Dia menjawab, “Aku sedang berdzikir kepada Allah.” Beliau mengatakan, “Maukah aku tunjukkan kepadamu dzikir yang pahalanya lebih banyak dari dzikirmu selama sehari semalam?” Kemudian beliau mengajarinya: (dzikir di atas), dan beliau berpesan, “Ajarkanlah dzikir ini kepada orang-orang setelahmu.”
 
 
-Sumber: http: //www.madinatulquran.or.id/dzikir-yang-sangat-dahsyat-pahalanya dan http://jilbab.or.id/archives/2153-berdzikir-sekali-mendapat-pahala-berdzikir-sepanjang-malam-dan-siang-hari",
+Sumber: http://www.madinatulquran.or.id/dzikir-yang-sangat-dahsyat-pahalanya dan http://jilbab.or.id/archives/2153-berdzikir-sekali-mendapat-pahala-berdzikir-sepanjang-malam-dan-siang-hari",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 211,
 grup: "Doa Terkait Majelis",
 nama: "Khutbah Hajah (Doa Pembuka Majelis)",
@@ -3774,17 +3666,11 @@ Yaa ayyuhal-ladziina aamanut-taqullaaha wa quuluu qoulan sadiidaa. Yush-lih laku
 Ammaa ba'du, fa-inna ash-daqol hadii-tsi kitaabullaah, wa khoirol hadyi, hadyu muhammadin shollallaahu 'alaihi wa sallam. Wa syarrol umuuri muhda-tsaatuhaa, wa kulla muhda-tsatin bid'ah, wa kulla bid'atin dholaalah, wa kulla dholaalatin fin-naar.",
 idn: "Segala puji hanya bagi Allah, kita memuji-Nya, memohon pertolongan dan ampunan kepada-Nya. Kita berlindung kepada Allah dari kejahatan diri kita dan kejelekan amal perbuatan kita. Barangsiapa yang Allah beri petunjuk, maka tidak ada yang dapat menyesatkannya. Dan barangsiapa yang Allah sesatkan, maka tidak ada yang dapat memberinya petunjuk. Aku bersaksi bahwa tidak ada sesembahan yang berhak disembah kecuali Allah, tidak ada sekutu bagi-Nya, dan aku bersaksi bahwa Muhammad adalah hamba dan Rasul-Nya.
 
-Hai orang-orang yang beriman, bertakwalah kepada Allah sebenar-benar takwa kepada-Nya; dan janganlah sekali-kali kamu mati melainkan dalam keadaan beragama Islam. (Ali 'Imran [
-                3
-            ]: 102).
+Hai orang-orang yang beriman, bertakwalah kepada Allah sebenar-benar takwa kepada-Nya; dan janganlah sekali-kali kamu mati melainkan dalam keadaan beragama Islam. (Ali 'Imran [3]: 102).
 
-Hai sekalian manusia, bertakwalah kepada Tuhan-mu yang telah menciptakan kamu dari seorang diri, dan dari padanya Allah menciptakan isterinya; dan dari pada keduanya Allah memperkembang biakkan laki-laki dan perempuan yang banyak. Dan bertakwalah kepada Allah yang dengan (mempergunakan) nama-Nya kamu saling meminta satu sama lain, dan (peliharalah) hubungan silaturrahim. Sesungguhnya Allah selalu menjaga dan mengawasi kamu. (An-Nisaa' [
-                4
-            ]: 1).
+Hai sekalian manusia, bertakwalah kepada Tuhan-mu yang telah menciptakan kamu dari seorang diri, dan dari padanya Allah menciptakan isterinya; dan dari pada keduanya Allah memperkembang biakkan laki-laki dan perempuan yang banyak. Dan bertakwalah kepada Allah yang dengan (mempergunakan) nama-Nya kamu saling meminta satu sama lain, dan (peliharalah) hubungan silaturrahim. Sesungguhnya Allah selalu menjaga dan mengawasi kamu. (An-Nisaa' [4]: 1).
 
-Hai orang-orang yang beriman, bertakwalah kamu kepada Allah dan katakanlah perkataan yang benar, niscaya Allah memperbaiki bagimu amalan-amalanmu dan mengampuni bagimu dosa-dosamu. Dan barangsiapa mentaati Allah dan Rasul-Nya, maka sesungguhnya ia telah mendapat kemenangan yang besar. (Al-Ahzaab [
-                33
-            ]: 70-71).
+Hai orang-orang yang beriman, bertakwalah kamu kepada Allah dan katakanlah perkataan yang benar, niscaya Allah memperbaiki bagimu amalan-amalanmu dan mengampuni bagimu dosa-dosamu. Dan barangsiapa mentaati Allah dan Rasul-Nya, maka sesungguhnya ia telah mendapat kemenangan yang besar. (Al-Ahzaab [33]: 70-71).
 
 Adapun selanjutnya, sesungguhnya sebenar-benar perkataan adalah Kitabullah (Al-Quran), dan sebaik-baik petunjuk adalah petunjuk Muhammad Shallallahu ‘alaihi wa sallam, dan seburuk-buruk perkara adalah yang diada-adakan (dalam agama), dan setiap yang diada-adakan itu bid’ah, dan setiap bid’ah itu sesat, dan setiap kesesatan tempatnya di neraka.",
 tentang: "Hadits shahih. Shahih Nasa'i no. 1331, Muslim II: 592 no. 467 dan Nasa'i III: 188.
@@ -3799,12 +3685,12 @@ Syu’bah bin Hajjaj adalah salah satu perawi hadis yang menyebutkan tentang khu
 Syaikh Muhammad Nashiruddin al-Albani rahimahullaah berkata, “…Sesungguhnya khutbah ini dibaca sebagai pembuka setiap khutbah, apakah khutbah nikah, atau khutbah Jumat, atau yang lainnya (seperti ceramah, mengajar dan yang lainnya-pent.), tidak khusus untuk khutbah nikah saja, sebagaimana disangka oleh sebagian orang…” (Khutbatul Hajah (hal. 36), cet. I/ Maktabah al-Ma’arif).
 
 
-Sumber: https: //almanhaj.or.id/1348-akad-nikah-khutbah-nikah-mahar-maskawin.html, https://almanhaj.or.id/3230-syarat-rukun-dan-kewajiban-dalam-aqad-nikah.html dan https://khotbahjumat.com/mukaddimah-khutbah-jumat",
+Sumber: https://almanhaj.or.id/1348-akad-nikah-khutbah-nikah-mahar-maskawin.html, https://almanhaj.or.id/3230-syarat-rukun-dan-kewajiban-dalam-aqad-nikah.html dan https://khotbahjumat.com/mukaddimah-khutbah-jumat",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 212,
 grup: "Doa Terkait Majelis",
 nama: "Doa Dalam Majelis",
@@ -3817,10 +3703,10 @@ Dari Ibnu Umar katanya: adalah pernah dihitung bacaan Rasulullah Shallallahu'ala
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 213,
 grup: "Doa Terkait Majelis",
 nama: "Doa Penceramah/Pembicara Kepada Dirinya Dan Peserta Majelis",
@@ -3854,10 +3740,10 @@ Janganlah Engkau kuasakan (menjadi pemimpin) atas kami orang yang tidak menyayan
 tentang: "HR. At-Tirmidzi no. 3502, dinyatakan shahih oleh Syaikh al-Albani.
 Dari Ibnu ‘Umar radhiyallahu ‘anhuma, ia berkata, “Jarang sekali Rasulullah shallallahu ‘alaihi wa sallam berdiri dari suatu majelis sampai beliau berdoa dengan doa-doa ini untuk para sahabatnya: (doa di atas).”",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 214,
 grup: "Doa Terkait Majelis",
 nama: "Doa Kafaratul Majelis (Penghapus Dosa Majelis)",
@@ -3869,29 +3755,26 @@ Abu Hurairah radhiyallahu ‘anhu meriwayatkan bahwa Rasulullah shallallahu ‘a
 
 Doa ini disebut sebagai doa Kafaratul Majelis (penghapus dosa majelis) atau Khatimah Majelis (penutup majelis), karena doa ini menjadi penghapus dosa bagi orang yang ikut duduk dalam majelis itu. Doa ini menjadi penghapus dosa, karena isinya pengakuan terhadap tauhid dan permohonan ampun kepada Allah.
 
-Ibnu Rajab mengatakan, “Nabi shallallahu ‘alaihi wa sallam mengakhiri majelis beliau dengan doa kafaratul majelis dan beliau perintahkan agar semua majelis diakhiri dengan doa itu. Beliau juga mengabarkan, bahwa jika majelis itu sia-sia maka doa ini menjadi kafarah baginya. Doa ini juga diriwayatkan dari sekelompok sahabat.” (Fathul Bari,
-            3/345).
+Ibnu Rajab mengatakan, “Nabi shallallahu ‘alaihi wa sallam mengakhiri majelis beliau dengan doa kafaratul majelis dan beliau perintahkan agar semua majelis diakhiri dengan doa itu. Beliau juga mengabarkan, bahwa jika majelis itu sia-sia maka doa ini menjadi kafarah baginya. Doa ini juga diriwayatkan dari sekelompok sahabat.” (Fathul Bari, 3/345).
 
 Doa ini diucapkan ketika akan berpisah atau akan selesai dari suatu majelis. Majelis ini tidak mesti dengan duduk-duduk. Pokoknya setiap pembicaraan atau obrolan biasa apalagi diyakini ada perkataan sia-sia yang terucap, maka doa kafaratul majelis sangat dianjurkan untuk dibaca.
 
 Jika suatu majelis atau tempat obrolan yang membicarakan hal akhirat maupun hal dunia, lantas di dalamnya tidak terdapat dzikir pada Allah, sungguh sangat merugi.
 
-Dari Abu Hurairah radhiyallahu ‘anhu, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Setiap kaum yang bangkit dari majelis yang tidak ada dzikir pada Allah, maka selesainya majelis itu seperti bangkai keledai dan hanya menjadi penyesalan pada hari kiamat.” (HR. Abu Daud, no. 4855; Ahmad,
-            2: 389. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini shahih).
+Dari Abu Hurairah radhiyallahu ‘anhu, ia berkata bahwa Rasulullah shallallahu ‘alaihi wa sallam bersabda, “Setiap kaum yang bangkit dari majelis yang tidak ada dzikir pada Allah, maka selesainya majelis itu seperti bangkai keledai dan hanya menjadi penyesalan pada hari kiamat.” (HR. Abu Daud, no. 4855; Ahmad, 2: 389. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini shahih).
 
 Tentu kita tidak mau menjadi orang yang merugi dalam setiap waktu kita. Karenanya, jadikanlah akhir majelis dengan istighfar dan bacaan doa kafaratul majelis.
 
 Hadits lain terkait doa ini:
-Dari Abu Barzah radhiyallahu ‘anhu, ia berkata, “Rasulullah shallallahu ‘alaihi wa sallam mengucapkan ketika di akhir (pertemuan) ketika beliau akan bangun dari majelis: (doa di atas). Lantas ada seseorang yang berkata, ‘Wahai Rasulullah, engkau mengucapkan ucapan yang belum pernah engkau ucapkan sebelumnya.’ Beliau menjawab, ‘Itu adalah kafarat bagi dosa yang terjadi selama di dalam majelis.’ (HR. Abu Daud, Al-Hakim Abu ‘Abdillah dalam Al-Mustadrak dari riwayat ‘Aisyah radhiyallahu ‘anha dan ia mengatakan bahwa hadits ini sanadnya shahih). [HR. Abu Daud no. 4859, Ahmad 4:425. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini hasan
-            ].
+Dari Abu Barzah radhiyallahu ‘anhu, ia berkata, “Rasulullah shallallahu ‘alaihi wa sallam mengucapkan ketika di akhir (pertemuan) ketika beliau akan bangun dari majelis: (doa di atas). Lantas ada seseorang yang berkata, ‘Wahai Rasulullah, engkau mengucapkan ucapan yang belum pernah engkau ucapkan sebelumnya.’ Beliau menjawab, ‘Itu adalah kafarat bagi dosa yang terjadi selama di dalam majelis.’ (HR. Abu Daud, Al-Hakim Abu ‘Abdillah dalam Al-Mustadrak dari riwayat ‘Aisyah radhiyallahu ‘anha dan ia mengatakan bahwa hadits ini sanadnya shahih). [HR. Abu Daud no. 4859, Ahmad 4:425. Al-Hafizh Abu Thahir mengatakan bahwa sanad hadits ini hasan].
 
 
-Sumber: https: //rumaysho.com/17134-doa-kafaratul-majelis.html, https://rumaysho.com/13241-keutamaan-doa-kafaratul-majelis.html dan https://konsultasisyariah.com/24008-baca-dzikir-ini-agar-tidak-menyesal.html",
+Sumber: https://rumaysho.com/17134-doa-kafaratul-majelis.html, https://rumaysho.com/13241-keutamaan-doa-kafaratul-majelis.html dan https://konsultasisyariah.com/24008-baca-dzikir-ini-agar-tidak-menyesal.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 215,
 grup: "Doa Bertemu Musuh Dan Penguasa",
 nama: "Doa Bertemu Musuh Dan Penguasa",
@@ -3902,10 +3785,10 @@ tentang: "HR. Abu Dawud 2/89. Menurut pendapat Al-Hakim dan disepakati Adz-Dzaha
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 216,
 grup: "Doa Bertemu Musuh Dan Penguasa",
 nama: "Doa Bila Takut Kezaliman Penguasa",
@@ -3916,10 +3799,10 @@ tentang: "HR. Al-Bukhari dalam Al-Adabul Mufrad no. 707. Dinyatakan shahih oleh 
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 217,
 grup: "Doa Bertemu Musuh Dan Penguasa",
 nama: "Doa Untuk Mengalahkan Musuh",
@@ -3930,10 +3813,10 @@ tentang: "HR. Muslim 3/1362.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 218,
 grup: "Doa Bertemu Musuh Dan Penguasa",
 nama: "Doa Untuk Mengalahkan Musuh Dan Memohon Kemenangan",
@@ -3942,12 +3825,12 @@ tr: "Allaahumma munzilal kitaab, wa mujriyas-sahaab, wa haazimal ahzaab, ihzimhu
 idn: "Ya Allah, Dzat Yang menurunkan Al-Quran, Yang menggerakkan awan, Yang mengalahkan komplotan tentara (kafir), kalahkanlah mereka, dan menangkanlah kami atas mereka.",
 tentang: "HR. Bukhari dan Muslim.
 
-Sumber: https: //khotbahjumat.com/5149-meminta-kemenangan-dengan-doa.html",
+Sumber: https://khotbahjumat.com/5149-meminta-kemenangan-dengan-doa.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 219,
 grup: "Doa Bertemu Musuh Dan Penguasa",
 nama: "Doa Bila Takut Kepada Suatu Kaum",
@@ -3958,10 +3841,10 @@ tentang: "HR. Muslim 4/2300.
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 220,
 grup: "Doa Berlindung Dari Orang Zalim Dan Orang Kafir",
 nama: "Doa Berlindung Dari Orang Zalim (Doa Nabi Musa)",
@@ -3970,10 +3853,10 @@ tr: "Robbi najjinii minal qoumizh-zhoolimiin.",
 idn: "Ya Tuhanku, selamatkanlah aku dari orang-orang yang zalim. (Al Qashash [28]: 21).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 221,
 grup: "Doa Berlindung Dari Orang Zalim Dan Orang Kafir",
 nama: "Doa Berlindung Dari Keburukan Orang Kafir (Doa Nabi Ibrahim)",
@@ -3982,10 +3865,10 @@ tr: "Robbanaa laa taj'alnaa fitnatan lilladziina kafaruu, wagh-fir lanaa robbana
 idn: "Ya Tuhan kami, janganlah Engkau jadikan kami (sasaran) fitnah bagi orang-orang kafir. Dan ampunilah kami ya Tuhan kami. Sesungguhnya Engkaulah Yang Maha Perkasa lagi Maha Bijaksana. (Al Mumtahanah [60]: 5).",
 tentang: "Sumber: https://muslim.or.id/26031-doa-doa-dari-al-quran-2.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 222,
 grup: "Beberapa Doa Terkait Shalat",
 nama: "Doa Sujud Tilawah",
@@ -3996,10 +3879,10 @@ tentang: "HR. At-Tirmidzi 2/474. Ahmad 6/30 dan Al-Hakim. Menurut Al-Hakim, hadi
 
 Sumber: Hisnul Muslim.",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 223,
 grup: "Beberapa Doa Terkait Shalat",
 nama: "Doa Qunut Witir",
@@ -4013,12 +3896,12 @@ Hadits selengkapnya:
 Dari Hasan bin Ali radhiyallahu 'anhuma, beliau mengatakan: Rasulullah shallallahu 'alaihi wa sallam mengajariku beberapa kalimat, yang hendaknya kuucapkan ketika qunut shalat witir: (doa di atas).
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/272729346160464",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/272729346160464",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 224,
 grup: "Beberapa Doa Terkait Shalat",
 nama: "Doa Di Akhir Shalat Witir",
@@ -4044,12 +3927,12 @@ Ketika sujud dalam shalat.
 Allahu a'lam.
 
 
-Sumber: http: //www.facebook.com/doa.dzikir.shahih.harian/posts/271923406241058",
+Sumber: http://www.facebook.com/doa.dzikir.shahih.harian/posts/271923406241058",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 225,
 grup: "Beberapa Doa Terkait Shalat",
 nama: "Bacaan Setelah Salam Shalat Witir",
@@ -4088,12 +3971,12 @@ Kalimat termasuk salah satu doa yang diajarkan Nabi shallallahu 'alaihi wa salla
 Allahu a'lam.
 
 
-Sumber: Hisnul Muslim dan http: //www.facebook.com/doa.dzikir.shahih.harian/posts/271175212982544",
+Sumber: Hisnul Muslim dan http://www.facebook.com/doa.dzikir.shahih.harian/posts/271175212982544",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 226,
 grup: "Beberapa Doa Terkait Shalat",
 nama: "Doa Setelah Shalat Istikharah",
@@ -4118,17 +4001,15 @@ Istikharah dilakukan ketika seseorang bertekad untuk melakukan satu hal tertentu
 Hadits:
 Jabir bin Abdillah Radhiallahu'anhu berkata, “Adalah Rasulullah Shallallahu'alaihi wasallam mengajari kami shalat Istikharah untuk memutuskan segala sesuatu, sebagaimana mengajari surah Al-Quran. Beliau bersabda, ‘Apabila seseorang di antara kamu mempunyai rencana untuk mengerjakan sesuatu, hendaknya melakukan shalat sunnah (Istikharah) dua rakaat, kemudian bacalah: (doa di atas).’”
 
-Tidak menyesal orang yang beristikharah kepada Al-Khaliq dan bermusyawarah dengan orang-orang mukmin dan berhati-hati dalam menangani persoalannya. Allah Ta'ala berfirman, “… dan bermusyawarahlah kepada mereka (para sahabat) dalam urusan itu (peperangan, perekonomian, politik dan lain-lain). Bila kamu telah membulatkan tekad, bertawakkallah kepada Allah…” (Ali Imran [
-                3
-            ]: 159).
+Tidak menyesal orang yang beristikharah kepada Al-Khaliq dan bermusyawarah dengan orang-orang mukmin dan berhati-hati dalam menangani persoalannya. Allah Ta'ala berfirman, “… dan bermusyawarahlah kepada mereka (para sahabat) dalam urusan itu (peperangan, perekonomian, politik dan lain-lain). Bila kamu telah membulatkan tekad, bertawakkallah kepada Allah…” (Ali Imran [3]: 159).
 
 
-Sumber: Hisnul Muslim dan https: //konsultasisyariah.com/8754-tata-cara-shalat-istikharah.html",
+Sumber: Hisnul Muslim dan https://konsultasisyariah.com/8754-tata-cara-shalat-istikharah.html",
 tag: [
-                "umum"
-            ]
-        },
-        {
+"umum"
+]
+},
+{
 id: 227,
 grup: "Beberapa Doa Terkait Shalat",
 nama: "Doa Setelah Shalat Dhuha",
@@ -4139,10 +4020,10 @@ tentang: "HR. Bukhari dalam al-Adab al-Mufrod 217 no. 619. Dishahihkan oleh al-A
 Dari Aisyah radhiyallahu anha, ia berkata, “Rasulullah shallallahu alaihi wa sallam melaksanakan shalat dhuha kemudian Beliau berucap: (doa di atas). Beliau mengulangnya hingga 100 kali.”
 
 
-Sumber: http: //www.salamdakwah.com/baca-pertanyaan/dzikir-sholat-dhuha.html",
+Sumber: http://www.salamdakwah.com/baca-pertanyaan/dzikir-sholat-dhuha.html",
 tag: [
-                "umum"
-            ]
-        }
-    ]
+"umum"
+]
+}
+]
 }

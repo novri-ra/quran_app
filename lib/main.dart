@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'core/storage/storage_service.dart';
 import 'routes/app_pages.dart';
@@ -7,6 +8,9 @@ import 'routes/app_pages.dart';
 void main() async {
   // Memastikan binding Flutter sudah siap sebelum inisialisasi library native/lokal
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Inisialisasi AdMob
+  await MobileAds.instance.initialize();
 
   // Inisialisasi StorageService (Hive) dan daftarkan ke GetX agar bisa dipanggil dari mana saja
   final storageService = await Get.putAsync<StorageService>(
