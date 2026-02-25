@@ -76,29 +76,64 @@ class SholatView extends StatelessWidget {
                 );
               }
 
-              return DropdownButtonFormField<String>(
-                decoration: InputDecoration(
-                  labelText: 'Pilih Kabupaten/Kota (contoh: Bireuen)',
-                  border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(12),
-                  ),
-                ),
-                initialValue: controller.selectedKabupaten.value,
-                // Nonaktifkan jika data belum dimuat
-                items: controller.listKabupaten.isEmpty
-                    ? null
-                    : controller.listKabupaten.map((kab) {
-                        return DropdownMenuItem<String>(
-                          value: kab['id'],
-                          child: Text(kab['lokasi']),
-                        );
-                      }).toList(),
-                onChanged: (value) {
-                  if (value != null) {
-                    controller.selectedKabupaten.value = value;
-                    controller.fetchJadwalSholat(value);
+              return Autocomplete<Map<String, dynamic>>(
+                displayStringForOption: (option) => option['lokasi'].toString(),
+                optionsBuilder: (TextEditingValue textEditingValue) {
+                  if (textEditingValue.text.isEmpty) {
+                    return const Iterable<Map<String, dynamic>>.empty();
                   }
+                  return controller.listKabupaten
+                      .cast<Map<String, dynamic>>()
+                      .where((kab) {
+                        return kab['lokasi'].toString().toLowerCase().contains(
+                          textEditingValue.text.toLowerCase(),
+                        );
+                      });
                 },
+                onSelected: (Map<String, dynamic> selection) {
+                  final selectedId = selection['id'].toString();
+                  controller.selectedKabupaten.value = selectedId;
+                  controller.fetchJadwalSholat(selectedId);
+                  // Sembunyikan keyboard setelah memilih
+                  FocusScope.of(context).unfocus();
+                },
+                fieldViewBuilder:
+                    (
+                      BuildContext context,
+                      TextEditingController textEditingController,
+                      FocusNode focusNode,
+                      VoidCallback onFieldSubmitted,
+                    ) {
+                      // Sinkronkan text field dengan lokasi saat ini jika dari GPS
+                      if (controller.selectedKabupaten.value != null &&
+                          textEditingController.text.isEmpty) {
+                        final currentCity = controller.listKabupaten.firstWhere(
+                          (kab) =>
+                              kab['id'].toString() ==
+                              controller.selectedKabupaten.value,
+                          orElse: () => null,
+                        );
+                        if (currentCity != null) {
+                          textEditingController.text = currentCity['lokasi']
+                              .toString();
+                        }
+                      }
+
+                      return TextFormField(
+                        controller: textEditingController,
+                        focusNode: focusNode,
+                        decoration: InputDecoration(
+                          labelText: 'Cari Kabupaten/Kota (contoh: Bireuen)',
+                          border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                          suffixIcon: const Icon(Icons.search),
+                        ),
+                        onFieldSubmitted: (String value) {
+                          onFieldSubmitted();
+                        },
+                      );
+                    },
               );
             }),
 
