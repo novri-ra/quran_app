@@ -1,0 +1,136 @@
+RINGKASAN PROYEK: APLIKASI AL-QURAN
+
+Proyek pembuatan aplikasi Al-Quran berbasis GetX ini sejauh ini telah selesai hingga Fase 7 (Fitur Jadwal Shalat & Doa terintegrasi sepenuhnya). Seluruh fondasi aplikasi mulai dari dependensi, struktur folder, layanan (services), state management (controllers), antarmuka pengguna (UI), penyimpanan lokal (storage), hingga routing terpusat (app_pages) sudah saling terhubung (Clean State) dan bersiap untuk fase pemolesan UI tingkat lanjut.
+
+Aplikasi telah berhasil dikembangkan sebagai "Super App Ibadah" dengan fungsionalitas komprehensif menggunakan Arsitektur Modular (Feature-First).
+
+Berikut rincian fitur dan komponen utamanya:
+
+1. DEPENDENSI TERSEDIA (pubspec.yaml)
+- GetX (get): Digunakan secara ekstensif untuk manajemen status (State Management), injeksi dependensi (BindingsBuilder), dan perutean jalan antarmuka (Routing).
+- Dio (dio): Klien HTTP untuk menyambungkan aplikasi dengan API eQuran.id.
+- Just Audio (just_audio): Modul yang sangat kuat untuk menangani pemutaran audio secara streaming dari URL langsung maupun rekaman lokal secara presisi.
+- Hive & Path Provider: Penyimpanan lokal kilat NoSQL tanpa jeda untuk fitur Bookmark/Terakhir Dibaca dan sistem riwayat cache URL berkas lokal, menghindari download ulang Murottal yang sama berulang kali.
+
+2. STRUKTUR DAN ARSITEKTUR APLIKASI (Modular)
+Folder inti dari aplikasi dirancang sangat rapi sehingga memisahkan fitur (modules), pengelolaan mendasar aplikasi (core), serta kerangka data (data):
+
+A. Core (lib/core/)
+Menghimpun layanan vital yang bisa digunakan secara global oleh berbagai fitur lain:
+- ApiService: Menangani koneksi ke `https://equran.id`. Menyediakan endpoints untuk mengambil daftar Surat (`/api/v2/surat`), detail per-Surat beserta ayat (`/api/v2/surat/{id}`), daftar Doa & Dzikir harian (`/api/doa`), serta sekumpulan endpoint hierarkis Jadwal Shalat (`/api/v1/sholat/provinsi`, `/kabupaten`, `/jadwal`). Modul ini juga menangani proses streaming dan pengunduhan file Murottal menggunakan `Dio` ke sistem file lokal.
+- StorageService: Inisialisasi Hive box untuk secara permanen mencatat:
+  1. Ayat terakhir yang dibaca (fitur Bookmark).
+  2. Riwayat unduhan URL Audio Murottal di memori lokal.
+  3. Preferensi pengguna (seperti status Tema Gelap / Dark Mode).
+
+B. Fitur / Modules (lib/modules/)
+Tiap layar UI dibekali oleh satu Controller khusus:
+- Main Navigation (MainNavigationView & MainNavigationController):
+  Wadah utama App (Scaffold & Bottom Navigation Bar). Controller akan menyimpan ke posisi tab indeks yang mana pengguna sedang menjelajah (Daftar Surat / Bookmark / Settings).
+- Daftar Surat (SurahListView & QuranController):
+  Mengunduh seluruh 114 surat. Controller memfasilitasi Search Bar/TextField, sehingga UI filter reaktif kapanpun pengguna mengetik nama spesifik Surat.
+- Detail Surat (SurahDetailView, SurahDetailController & AudioController):
+  > SurahDetailController: Menangani API detail ayat, fitur Auto-Scroll dinamis (via `ScrollablePositionedList` menyorot ayat yang diputar), dan interaksi klik penanda Bookmark ke Storage.
+  > AudioController: Memutar streaming/file lokal Murottal secara "Continuous Playback" dari satu ayat ke ayat berikutnya secara estafet otomatis, meregulasi indikator kemajuan unduhan, serta menyesuaikan highlight Card UI.
+- Doa & Dzikir (DoaView & DoaController):
+  Membentuk daftar doa observabel dengan dukungan fitur pencarian nama doa lokal. Setiap Card doa menonjolkan teks Arab (`fontFamily: Nabi`), teks Latin, dan terjemahan.
+- Jadwal Shalat & Imsakiyah (SholatView & SholatController):
+  Menerapkan mekanisme API bertingkat: memilih Provinsi -> memicu muat daftar Kabupaten -> memicu unduh Tabel Jadwal Shalat Bulanan. Setelah jadwal diunduh, sistem cerdas memfilternya berdasarkan tanggal hari ini (Auto-Focus Hari Ini). Data ditampilkan eksklusif tanpa refresh halaman secara sinkron (Obx).
+- Pengaturan / Settings (SettingsView & ThemeController):
+  Manajemen Tema Gelap (Dark Mode) persisten dengan memanfaatkan StorageService, switch otomatis dari sistem ke kontras gelap nyaman di mata.
+
+3. KONFIGURASI TRANSISI DAN ENTRY POINT (Routing)
+Semua tampilan dipusatkan pemanggilannya dari satu titik:
+- app_routes.dart & app_pages.dart: Me-register semua UI berdasarkan rute konstanta URL (misal: /surah-detail), lalu menyuntikkan semua Dependency Controllers yang dibutuhkannya masing-masing di latar belakang sesaat sebelum halamannya tertampang ke layar.
+- main.dart: Memastikan engine native (WidgetFlutterBinding) maupun modul Hive database sinkron di awal waktu pemuatan Splash Screen App, guna mencegah instabilitas.
+
+=================================================================================================
+
+4. PANDUAN DAN STRUKTUR ANTARMUKA PENGGUNA (UI GUIDE)
+Panduan mendetail tentang struktur visual UI saat ini (berguna sebagai referensi (prompt) bagi Anda atau asisten AI ketika ingin memodifikasi gaya visualnya):
+
+A. MainNavigationView (`lib/modules/main_navigation/views/main_navigation_view.dart`)
+- Root Layout: Menggunakan widget `Scaffold`.
+- Body: Menggunakan `Obx` yang membungkus `IndexedStack`. `IndexedStack` digunakan agar state pada setiap 5 tab (Surat, Doa, Jadwal, Bookmark, Pengaturan) tetap terjaga / tersimpan memorinya. Ketika user pindah layar dan kembali, posisi scroll tetap pada tempatnya.
+- Isian Tab (Children dari IndexedStack):
+  * Tab [0] -> `SurahListView()`
+  * Tab [1] -> `DoaView()`
+  * Tab [2] -> `SholatView()`
+  * Tab [3] -> `BookmarkView()`
+  * Tab [4] -> `SettingsView()`
+- Bottom Navigation: Menggunakan `BottomNavigationBar` (type: fixed) dengan indeks berpusat via `controller.selectedIndex.value`. Tema warna hijau `Colors.teal`.
+- Icon/Menu yang tersedia: "Quran" (`menu_book`), "Doa" (`pan_tool`), "Jadwal" (`access_time_filled`), "Bookmark" (`bookmark`), "Pengaturan" (`settings`).
+
+B. SurahListView (`lib/modules/surah_list/views/surah_list_view.dart`)
+- Root Container: `Scaffold` dengan `AppBar` bertuliskan 'Al-Quran', berwarna utama teal (`appBarTheme` mewarisi dari `main.dart`).
+- Struktur Body Vertikal: `Column`
+  - Elemen ke-1 (Search Bar): `Padding` berisi `TextField` bersudut melengkung (`OutlineInputBorder` radius 12), ber-icon `Icons.search` sebagai pencarian surat berdasarkan namanya. Teks setiap input yang masuk dipantau lewat fungsi `onChanged` yang diteruskan ke `controller.searchSurah`.
+  - Elemen ke-2 (List Daftar Surat): Diisi widget `Expanded` yang membungkus reaktif `Obx()`.
+    - Jika `isLoading` = true: Menampilkan `CircularProgressIndicator()`.
+    - Jika `errorMessage` terisi: Menampilkan indikator galat.
+    - Jika list pencarian kosong: Teks 'Surat tidak ditemukan'.
+    - Elemen Surat: Merender `ListView.separated` berupa kartu-kartu `ListTile` masing-masing memiliki:
+      * Leading: `CircleAvatar` berbackground teal tembus pandang (opacity 0.1) untuk menampung nomor urut urutan surat (`nomor`).
+      * Title: Teks "Nama Latin Surat" cetak tebal (`fontWeight.bold`).
+      * Subtitle: Teks gabungan dari "Arti Surat" dan "Jumlah Ayat" (misal: Sapi Betina • 286 Ayat).
+      * Trailing: Teks "Nama Arab Surat" memakai spesifikasi font timur tengah khusus (`fontFamily: Amiri`) ukuran besar.
+      * Aksi `onTap`: Menjalankan navigasi via `Get.toNamed('/surah-detail', arguments: surah['nomor'])`.
+
+C. SurahDetailView (`lib/modules/surah_detail/views/surah_detail_view.dart`)
+- Root Container: `Scaffold`. Terdapat pengambilan argument ID / Nomor Surat dari routing.
+- AppBar dinamis: Judul `AppBar` dirakit dengan `Obx()` -> jika API masih dimuat menampilkan teks "Memuat...", jika sudah tampil, menampilkan properti "Nama Latin Surat" dari respon API.
+- Struktur Body Vertikal: Dibungkus `Obx()`
+    - Status Loading sama spt di atas.
+    - Menampilkan Ayat: `ListView.builder` yang me-looping list `ayatList` menggunakan margin di tiap sisinya (padding: 16.0).
+- Desain Komponen Ayat (Child dari ListView Builder):
+  Menggunakan `Card` bersudut lengkung (radius 12, elevation 2) dengan rongga internal (padding 16.0). Di dalam Card tersusun `Column` vertikal:
+  - Header Row (Baris Action Buttons):
+    * Sisi Kiri: Lingkaran `CircleAvatar` teal berukura kecil menyimpan teks nomor ayat (`ayat['nomorAyat']`).
+    * Sisi Kanan: Berupa `Row` kecil menampung tiga tombol Icon (`IconButton`):
+      1. Bookmark: `Icons.bookmark_border` warna Teal (menyimpan ayat terkahir dibaca).
+      2. Download Audio: `Icons.download` abu-abu. Uniknya, tombol ini reaktif, jika Controller mendeteksi status Sedang Terunduh (`isThisDownloading`), tombol seketika berganti wujud animasi putar `CircularProgressIndicator` kecil yang mewakili angka `downloadProgress`.
+      3. Play Audio: `Icons.play_circle_fill` ukuran besar (size: 32) berwarna Teal. Jika ditekan dan saat ini diputar, ia berganti seketika jadi ikon jeda (`pause_circle_filled`).
+  - Margin pemisah setinggi `SizedBox(height: 16)`.
+  - Konten Utama Teks Ayat berbahasa Arab: Teks arab dibaca dari `ayat['teksArab']` yang sangat menonjol. Menggunakan `fontFamily: Amiri`, perataan rata-kanan (`textAlign.right`), teks besar memanjang `fontSize: 28`, dan tinggi garis `height: 2.0`.
+  - Margin pemisah sedang `SizedBox(height: 16)`.
+D. DoaView (`lib/modules/doa/views/doa_view.dart`)
+- Struktur: TextField bar untuk pencarian Doa disandingkan dengan `ListView.builder` yang membungkus tumpukan `Card`.
+- Setiap Card memiliki judul latin warna teal, pemisah linier `Divider`, lafaz teks arab font `Nabi` perataan kanan, dan diikuti latin italic serta teks terjemahan.
+
+E. SholatView (`lib/modules/sholat/views/sholat_view.dart`)
+- Struktur: Menggunakan form Input reaktif `DropdownButtonFormField` untuk "Pilihan Provinsi", disusul letak Dropdown "Pilihan Kabupaten/Kota" yang status enabled/disabled-nya disetir dinamis (hanya aktif jika controller list kabupaten tak lagi kosong).
+- Hasil Card Jadwal Shalat: Mengeluarkan output kalendar waktu presisi hari ini secara runut vertikal dari jam "Imsak", "Subuh", dsb hingga "Isya", diatur tata letak `Row(mainAxisAlignment.spaceBetween)` agar simetris kiri-kanan.
+
+---
+STRUKTUR KUSTOMISASI TAMBAHAN SAAT INI (KOSMETIK & DESAIN):
+- Dependensi _scrollable_positioned_list_ digunakan untuk membuat efek visual "auto-scroll" menyelaraskan ayat yang sedang dibaca Qori dengan Card melayang/disorot menggunakan _elevated Card highlight_.
+- Fonts: "Poppins" untuk keseluruhan antarmuka teks Latin; "Nabi" (.ttf) spesifik disematkan pada rendering rasm Al-Quran (teks Arab). Ini diatur terpusat di `main.dart` melalui ThemeData dan GetMaterialApp.
+- Dark Mode: Diatur lewat `ThemesController` dan disatukan per widget via ekspresi tertier (misal: `Get.isDarkMode ? Colors.indigoAccent : Colors.indigo`). Responsive dan Real-time terhubung ke database lokal (Hive).
+- Injeksi Dependensi: Telah dibersihkan sepenuhnya via pendekatan Router Bindings (`BindingsBuilder` dan `Get.lazyPut`). Antarmuka `View` seluruhnya mutlak menggunakan metode `Get.find()` untuk pemanggilan _state_ reaktif tanpa konflik memori (Clean Code Architecture).
+
+---
+STATUS SAAT INI:
+Aplikasi telah selesai dibangun secara infrastruktur kodenya dan bebas dari error kompilasi syntaks (Clean State). Modifikasi antarmuka di atas bisa diganti bentuk / framework desainnya sesuai kebutuhan visual.
+
+=================================================================================================
+
+5. AUDIT REPORT & TODO LIST (FASE 8: Finalisasi & UI/UX Polish)
+Berdasarkan audit arsitektur terbaru, berikut adalah daftar bugs, improvements, dan todo list yang perlu diselesaikan sebelum rilis atau perombakan UI:
+
+A. BUGS (Kendala Logika)
+1. State Desync Bookmark: Menyimpan bookmark baru tidak memicu `BookmarkController` memuat ulang data ke UI secara dinamis.
+2. Risiko Path Audio Lokal: Aplikasi saat ini menyimpan Absolute Path (`/data/user/0/...`) Murottal di Hive. Jika OS update dan nama folder sandbox berubah, file tak akan bisa diputar. Harus diubah ke Relative Path.
+
+B. IMPROVEMENTS (Peningkatan Esensial)
+1. Optimasi Lazy Load: Saat aplikasi dibuka, IndexedStack membuat Quran, Doa, dan Sholat memanggil API berbarengan secara boros.
+2. Tombol Coba Lagi: Dibutuhkan mekanisme "Coba Lagi" (Retry) ketika API gagal dimuat akibat putusnya koneksi internet.
+3. Slider Progress Bar: Murottal butuh slider visual/Seek Bar karena pengguna kesulitan menggeser durasi maju/mundur.
+4. Ekspansi Kalender Shalat: Data Sholat saat ini membuang array satu bulan penuh karena terfokus hanya hari ini.
+
+C. TODO LIST FASE 8 (Pekerjaan yang Tersisa)
+- [ ] Memperbaiki State Desync UI Bookmark (Load ulang pasca save).
+- [ ] Refaktor Caching Audio URL ke Hive (Simpan hanya basenamenya).
+- [ ] Menerapkan tombol "Coba Lagi" bila koneksi mati di tiap fitur.
+- [ ] Mencegah Spike Jaringan dengan Lazy Load API pada MainNavigation.
+- [ ] Menambahkan Slider Progress Bar & Timer di SurahDetail Murottal Player.
+- [ ] UI/UX Polish (Penyesuaian transisi, margin, ripple effect).
