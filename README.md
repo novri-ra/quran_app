@@ -48,13 +48,14 @@ Proyek ini tidak menyimpan kunci rahasia rawan (_secret key_) sehingga 100% aman
    cd quran_app
    ```
 
-3. **Unduh seluruh dependensi** (proses resolve package dari `pubspec.yaml`):
+3. **_(Sangat Disarankan)_ Sinkronisasi Platform & Dependensi**:
+   Jalankan perintah ini untuk memastikan konfigurasi _native_ (Android/iOS) dibuat ulang dan seluruh dependensi bawaan diunduh menyesuaikan versi OS di PC lokal Anda:
 
    ```bash
-   flutter pub get
+   flutter create . && flutter pub get
    ```
 
-4. _(Opsional namun disarankan)_ Lakukan **Clean Build** untuk meratakan cache sebelumnya:
+4. _(Opsional)_ Lakukan **Clean Build** apabila masih ada sisa cache lama yang memengaruhi eksekusi awal:
 
    ```bash
    flutter clean && flutter pub get
