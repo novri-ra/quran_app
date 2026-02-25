@@ -45,32 +45,25 @@ class ApiService {
 
   // --- API JADWAL SHALAT & IMSAKIYAH ---
 
-  // 1. Ambil daftar provinsi
-  Future<Response> getProvinsi() async {
+  // 1. Ambil daftar semua kabupaten/kota (MyQuran API)
+  Future<Response> getSemuaKota() async {
     try {
-      return await _dio.get('/api/v1/sholat/provinsi');
+      return await _dio.get('https://api.myquran.com/v2/sholat/kota/semua');
     } on DioException catch (e) {
       throw _handleError(e);
     }
   }
 
-  // 2. Ambil daftar kabupaten berdasarkan ID Provinsi
-  Future<Response> getKabupaten(String idProvinsi) async {
-    try {
-      return await _dio.get('/api/v1/sholat/kabupaten/$idProvinsi');
-    } on DioException catch (e) {
-      throw _handleError(e);
-    }
-  }
-
-  // 3. Ambil jadwal shalat bulanan
+  // 2. Ambil jadwal shalat bulanan
   Future<Response> getJadwalSholat(
     String idKabupaten,
     int tahun,
     int bulan,
   ) async {
     try {
-      return await _dio.get('/api/v1/sholat/jadwal/$idKabupaten/$tahun/$bulan');
+      return await _dio.get(
+        'https://api.myquran.com/v2/sholat/jadwal/$idKabupaten/$tahun/$bulan',
+      );
     } on DioException catch (e) {
       throw _handleError(e);
     }

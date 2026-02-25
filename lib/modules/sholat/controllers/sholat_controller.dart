@@ -9,22 +9,21 @@ import '../../../core/network/api_service.dart';
 class SholatController extends GetxController {
   final ApiService _apiService = ApiService();
 
-  var isLoadingProvinsi = true.obs;
-  var isLoadingKabupaten = false.obs;
+  var isLoadingKabupaten = true.obs;
   var isLoadingJadwal = false.obs;
   var isDetectingLocation = false.obs; // Indikator proses GPS
 
-  var listProvinsi = <dynamic>[].obs;
+  var errorMessageKota = ''.obs;
+
   var listKabupaten = <dynamic>[].obs;
   var jadwalHariIni = {}.obs;
 
-  var selectedProvinsi = RxnString();
   var selectedKabupaten = RxnString();
 
   @override
   void onInit() {
     super.onInit();
-    fetchProvinsi();
+    fetchAllKota();
   }
 
   // --- Fungsi Baru: Meminta Izin dan Deteksi Otomatis ---
@@ -88,93 +87,54 @@ class SholatController extends GetxController {
     }
   }
 
-  // Fungsi internal untuk mencocokkan nama GPS dengan database API EQuran
+  // Fungsi internal untuk mencocokkan nama GPS dengan database API
   Future<void> _matchLocationWithApi(String provName, String cityName) async {
     // Bersihkan string agar mudah dicocokkan (misal "Kabupaten Bireuen" -> "bireuen")
-    String cleanProv = provName
-        .toLowerCase()
-        .replaceAll(RegExp(r'provinsi|daerah khusus|di '), '')
-        .trim();
     String cleanCity = cityName
         .toLowerCase()
         .replaceAll(RegExp(r'kabupaten|kota|kab\.|kota '), '')
         .trim();
 
-    // A. Cari ID Provinsi
-    String? matchedProvId;
-    for (var prov in listProvinsi) {
-      if (prov['lokasi'].toString().toLowerCase().contains(cleanProv)) {
-        matchedProvId = prov['id'];
-        selectedProvinsi.value = matchedProvId;
+    // Cari ID Kabupaten/Kota
+    String? matchedCityId;
+    for (var kab in listKabupaten) {
+      if (kab['lokasi'].toString().toLowerCase().contains(cleanCity)) {
+        matchedCityId = kab['id'];
+        selectedKabupaten.value = matchedCityId;
         break;
       }
     }
 
-    if (matchedProvId != null) {
-      // B. Ambil daftar kabupaten berdasarkan provinsi tersebut
-      await fetchKabupaten(matchedProvId);
-
-      // C. Cari ID Kabupaten/Kota
-      String? matchedCityId;
-      for (var kab in listKabupaten) {
-        if (kab['lokasi'].toString().toLowerCase().contains(cleanCity)) {
-          matchedCityId = kab['id'];
-          selectedKabupaten.value = matchedCityId;
-          break;
-        }
-      }
-
-      if (matchedCityId != null) {
-        // D. Jika kota cocok, langsung tampilkan jadwal!
-        await fetchJadwalSholat(matchedCityId);
-        Get.snackbar(
-          'Lokasi Ditemukan',
-          'Jadwal disesuaikan untuk area $cityName',
-          backgroundColor: const Color(0xFF009688),
-          colorText: const Color(0xFFFFFFFF),
-          duration: const Duration(seconds: 3),
-        );
-      } else {
-        Get.snackbar(
-          'Informasi',
-          'Kota $cityName tidak ditemukan di database. Silakan pilih manual.',
-        );
-      }
+    if (matchedCityId != null) {
+      // Jika kota cocok, langsung tampilkan jadwal!
+      await fetchJadwalSholat(matchedCityId);
+      Get.snackbar(
+        'Lokasi Ditemukan',
+        'Jadwal disesuaikan untuk area $cityName',
+        backgroundColor: const Color(0xFF009688),
+        colorText: const Color(0xFFFFFFFF),
+        duration: const Duration(seconds: 3),
+      );
     } else {
       Get.snackbar(
         'Informasi',
-        'Provinsi $provName tidak ditemukan di database.',
+        'Kota $cityName tidak ditemukan di database. Silakan pilih manual.',
       );
     }
   }
 
-  // ... (Sisa fungsi fetchProvinsi, fetchKabupaten, fetchJadwalSholat biarkan sama seperti sebelumnya) ...
-  Future<void> fetchProvinsi() async {
-    try {
-      isLoadingProvinsi(true);
-      final response = await _apiService.getProvinsi();
-      if (response.statusCode == 200) {
-        listProvinsi.value = response.data['data'] ?? [];
-      }
-    } catch (e) {
-      Get.snackbar('Error', 'Gagal memuat provinsi');
-    } finally {
-      isLoadingProvinsi(false);
-    }
-  }
-
-  Future<void> fetchKabupaten(String idProvinsi) async {
+  Future<void> fetchAllKota() async {
     try {
       isLoadingKabupaten(true);
-      selectedKabupaten.value = null;
-      jadwalHariIni.clear();
-      listKabupaten.clear();
-      final response = await _apiService.getKabupaten(idProvinsi);
+      errorMessageKota('');
+      final response = await _apiService.getSemuaKota();
       if (response.statusCode == 200) {
         listKabupaten.value = response.data['data'] ?? [];
+      } else {
+        errorMessageKota('Gagal memuat daftar kota dari server.');
       }
     } catch (e) {
-      Get.snackbar('Error', 'Gagal memuat kabupaten');
+      errorMessageKota('Gagal memuat daftar kota. Periksa koneksi Anda.');
     } finally {
       isLoadingKabupaten(false);
     }
@@ -190,7 +150,7 @@ class SholatController extends GetxController {
         now.month,
       );
       if (response.statusCode == 200) {
-        final allJadwal = response.data['data'] ?? [];
+        final allJadwal = response.data['data']['jadwal'] ?? [];
         int todayIndex = now.day - 1;
         if (allJadwal.isNotEmpty && todayIndex < allJadwal.length) {
           jadwalHariIni.value = allJadwal[todayIndex];

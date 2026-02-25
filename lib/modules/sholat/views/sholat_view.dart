@@ -46,64 +46,61 @@ class SholatView extends StatelessWidget {
 
             const SizedBox(height: 24),
 
-            // --- Dropdown Provinsi ---
-            Obx(
-              () => controller.isLoadingProvinsi.value
-                  ? const Center(child: CircularProgressIndicator())
-                  : DropdownButtonFormField<String>(
-                      decoration: InputDecoration(
-                        labelText: 'Pilih Provinsi',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
+            // --- Dropdown Kabupaten ---
+            Obx(() {
+              if (controller.isLoadingKabupaten.value) {
+                return const Center(child: CircularProgressIndicator());
+              }
+
+              if (controller.errorMessageKota.value.isNotEmpty) {
+                return Center(
+                  child: Column(
+                    children: [
+                      Text(
+                        controller.errorMessageKota.value,
+                        textAlign: TextAlign.center,
+                        style: const TextStyle(color: Colors.red),
+                      ),
+                      const SizedBox(height: 8),
+                      ElevatedButton.icon(
+                        onPressed: controller.fetchAllKota,
+                        icon: const Icon(Icons.refresh),
+                        label: const Text('Coba Lagi'),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.teal,
+                          foregroundColor: Colors.white,
                         ),
                       ),
-                      initialValue: controller.selectedProvinsi.value,
-                      items: controller.listProvinsi.map((prov) {
+                    ],
+                  ),
+                );
+              }
+
+              return DropdownButtonFormField<String>(
+                decoration: InputDecoration(
+                  labelText: 'Pilih Kabupaten/Kota (contoh: Bireuen)',
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                initialValue: controller.selectedKabupaten.value,
+                // Nonaktifkan jika data belum dimuat
+                items: controller.listKabupaten.isEmpty
+                    ? null
+                    : controller.listKabupaten.map((kab) {
                         return DropdownMenuItem<String>(
-                          value: prov['id'],
-                          child: Text(prov['lokasi']),
+                          value: kab['id'],
+                          child: Text(kab['lokasi']),
                         );
                       }).toList(),
-                      onChanged: (value) {
-                        if (value != null) {
-                          controller.selectedProvinsi.value = value;
-                          controller.fetchKabupaten(value);
-                        }
-                      },
-                    ),
-            ),
-
-            const SizedBox(height: 16),
-
-            // --- Dropdown Kabupaten ---
-            Obx(
-              () => controller.isLoadingKabupaten.value
-                  ? const Center(child: CircularProgressIndicator())
-                  : DropdownButtonFormField<String>(
-                      decoration: InputDecoration(
-                        labelText: 'Pilih Kabupaten/Kota (contoh: Bireuen)',
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                      ),
-                      initialValue: controller.selectedKabupaten.value,
-                      // Nonaktifkan jika provinsi belum dipilih
-                      items: controller.listKabupaten.isEmpty
-                          ? null
-                          : controller.listKabupaten.map((kab) {
-                              return DropdownMenuItem<String>(
-                                value: kab['id'],
-                                child: Text(kab['lokasi']),
-                              );
-                            }).toList(),
-                      onChanged: (value) {
-                        if (value != null) {
-                          controller.selectedKabupaten.value = value;
-                          controller.fetchJadwalSholat(value);
-                        }
-                      },
-                    ),
-            ),
+                onChanged: (value) {
+                  if (value != null) {
+                    controller.selectedKabupaten.value = value;
+                    controller.fetchJadwalSholat(value);
+                  }
+                },
+              );
+            }),
 
             const SizedBox(height: 32),
 

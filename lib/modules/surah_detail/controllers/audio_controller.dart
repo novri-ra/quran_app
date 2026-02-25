@@ -24,6 +24,10 @@ class AudioController extends GetxController {
   var downloadProgress = 0.0.obs;
   var downloadingAyatUrl = ''.obs; // Melacak ayat mana yang sedang diunduh
 
+  // State untuk Progress Bar
+  var position = Duration.zero.obs;
+  var duration = Duration.zero.obs;
+
   @override
   void onInit() {
     super.onInit();
@@ -40,6 +44,18 @@ class AudioController extends GetxController {
           // Jika sudah sampai ayat terakhir, hentikan
           stopAudio();
         }
+      }
+    });
+
+    // Mendengarkan perubahan posisi audio
+    _audioPlayer.positionStream.listen((p) {
+      position.value = p;
+    });
+
+    // Mendengarkan perubahan total durasi audio
+    _audioPlayer.durationStream.listen((d) {
+      if (d != null) {
+        duration.value = d;
       }
     });
   }
@@ -79,7 +95,9 @@ class AudioController extends GetxController {
       }
 
       // 1. Cek Hive apakah file ini sudah pernah diunduh
-      String? localPath = _storageService.getDownloadedAudioPath(audioUrl);
+      String? localPath = await _storageService.getDownloadedAudioPath(
+        audioUrl,
+      );
 
       if (localPath != null) {
         // 2a. Putar dari penyimpanan lokal
@@ -110,6 +128,12 @@ class AudioController extends GetxController {
     isPlaying.value = false;
     currentlyPlayingUrl.value = '';
     playingIndex.value = -1; // Reset highlight ayat
+    position.value = Duration.zero;
+  }
+
+  // Fungsi untuk melompat ke posisi tertentu (seek)
+  Future<void> seekAudio(Duration newPosition) async {
+    await _audioPlayer.seek(newPosition);
   }
 
   // Fungsi untuk mengunduh audio per ayat
@@ -130,8 +154,8 @@ class AudioController extends GetxController {
     });
 
     if (savePath != null) {
-      // Simpan path lokal ke Hive
-      await _storageService.markAudioAsDownloaded(url, savePath);
+      // Simpan HANYA NAMA FILE ke Hive, bukan absolute path-nya
+      await _storageService.markAudioAsDownloaded(url, fileName);
       Get.snackbar('Berhasil', 'Audio ayat $nomorAyat berhasil diunduh');
     } else {
       Get.snackbar('Gagal', 'Terjadi kesalahan saat mengunduh audio');

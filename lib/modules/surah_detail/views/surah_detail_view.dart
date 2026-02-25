@@ -65,7 +65,39 @@ class SurahDetailView extends GetView<SurahDetailController> {
         }
 
         if (detailCtrl.errorMessage.value.isNotEmpty) {
-          return Center(child: Text(detailCtrl.errorMessage.value));
+          return Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.wifi_off, size: 64, color: Colors.grey.shade400),
+                const SizedBox(height: 16),
+                Text(
+                  detailCtrl.errorMessage.value,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 16),
+                ),
+                const SizedBox(height: 24),
+                ElevatedButton.icon(
+                  onPressed: () {
+                    detailCtrl.fetchSurahDetail(nomorSurat);
+                  },
+                  icon: const Icon(Icons.refresh),
+                  label: const Text('Coba Lagi'),
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.teal,
+                    foregroundColor: Colors.white,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 24,
+                      vertical: 12,
+                    ),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          );
         }
 
         final surah = detailCtrl.surahDetail;
@@ -197,6 +229,79 @@ class SurahDetailView extends GetView<SurahDetailController> {
                           ),
                         ],
                       ),
+                      // Progress Bar Audio (hanya tampil jika ayat ini yang sedang diputar/dipause)
+                      Obx(() {
+                        bool isPlayingThis =
+                            audioCtrl.currentlyPlayingUrl.value == audioUrl;
+
+                        if (!isPlayingThis) return const SizedBox.shrink();
+
+                        final position = audioCtrl.position.value;
+                        final duration = audioCtrl.duration.value;
+
+                        // Cegah error pembagian dengan nol atau nilai slider tidak valid
+                        double sliderValue = position.inMilliseconds.toDouble();
+                        double sliderMax = duration.inMilliseconds.toDouble();
+
+                        if (sliderValue > sliderMax) {
+                          sliderValue = sliderMax;
+                        }
+
+                        if (sliderMax <= 0) {
+                          sliderMax = 1.0;
+                          sliderValue = 0.0;
+                        }
+
+                        return Column(
+                          children: [
+                            const SizedBox(height: 8),
+                            SliderTheme(
+                              data: SliderTheme.of(context).copyWith(
+                                trackHeight: 4.0,
+                                thumbShape: const RoundSliderThumbShape(
+                                  enabledThumbRadius: 6.0,
+                                ),
+                                overlayShape: const RoundSliderOverlayShape(
+                                  overlayRadius: 14.0,
+                                ),
+                              ),
+                              child: Slider(
+                                value: sliderValue,
+                                min: 0.0,
+                                max: sliderMax,
+                                activeColor: Colors.teal,
+                                inactiveColor: Colors.teal.withValues(
+                                  alpha: 0.3,
+                                ),
+                                onChanged: (value) {
+                                  audioCtrl.seekAudio(
+                                    Duration(milliseconds: value.toInt()),
+                                  );
+                                },
+                              ),
+                            ),
+                            Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  _formatDuration(position),
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                                Text(
+                                  _formatDuration(duration),
+                                  style: const TextStyle(
+                                    fontSize: 12,
+                                    color: Colors.grey,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ],
+                        );
+                      }),
                       const SizedBox(height: 16),
                       // Teks Arab
                       Text(
@@ -240,5 +345,13 @@ class SurahDetailView extends GetView<SurahDetailController> {
         );
       }),
     );
+  }
+
+  // Helper function untuk memformat Duration menjadi menit:detik
+  String _formatDuration(Duration duration) {
+    String twoDigits(int n) => n.toString().padLeft(2, "0");
+    String twoDigitMinutes = twoDigits(duration.inMinutes.remainder(60));
+    String twoDigitSeconds = twoDigits(duration.inSeconds.remainder(60));
+    return "$twoDigitMinutes:$twoDigitSeconds";
   }
 }

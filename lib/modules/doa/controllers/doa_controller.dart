@@ -1,10 +1,9 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-import '../../../core/network/api_service.dart';
-
 class DoaController extends GetxController {
-  final ApiService _apiService = ApiService();
-
   var isLoading = true.obs;
   var doaList = <dynamic>[].obs;
   var filteredDoaList = <dynamic>[].obs;
@@ -21,14 +20,13 @@ class DoaController extends GetxController {
       isLoading(true);
       errorMessage('');
 
-      final response = await _apiService.getDoaList();
+      final String jsonString = await rootBundle.loadString(
+        'assets/data/doa.json',
+      );
+      final Map<String, dynamic> response = jsonDecode(jsonString);
 
-      if (response.statusCode == 200) {
-        // Asumsi data doa langsung berupa array atau berada di dalam key tertentu
-        // Sesuaikan jika format JSON dari API berbeda
-        doaList.value = response.data is List
-            ? response.data
-            : response.data['data'] ?? [];
+      if (response['status'] == 'success') {
+        doaList.value = response['data'] ?? [];
         filteredDoaList.value = doaList;
       } else {
         errorMessage('Gagal mengambil data doa.');

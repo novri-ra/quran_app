@@ -1,10 +1,9 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
-import '../../../core/network/api_service.dart';
-
 class QuranController extends GetxController {
-  final ApiService _apiService = ApiService();
-
   // Reactive variables (State)
   var isLoading = true.obs;
   var surahList = <dynamic>[].obs; // Menyimpan data asli
@@ -17,20 +16,21 @@ class QuranController extends GetxController {
     fetchSurahList(); // Ambil data saat controller diinisialisasi
   }
 
-  // Mengambil daftar surat dari EQuran.id
   Future<void> fetchSurahList() async {
     try {
       isLoading(true);
       errorMessage('');
 
-      final response = await _apiService.getSuratList();
+      final String jsonString = await rootBundle.loadString(
+        'assets/data/surat.json',
+      );
+      final Map<String, dynamic> response = jsonDecode(jsonString);
 
-      if (response.statusCode == 200) {
-        // API EQuran v2 membungkus datanya di dalam key 'data'
-        surahList.value = response.data['data'];
+      if (response['code'] == 200) {
+        surahList.value = response['data'] ?? [];
         filteredSurahList.value = surahList;
       } else {
-        errorMessage('Gagal mengambil data dari server.');
+        errorMessage('Gagal membaca data surat lokal.');
       }
     } catch (e) {
       errorMessage('Terjadi kesalahan: $e');

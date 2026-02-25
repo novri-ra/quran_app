@@ -17,12 +17,22 @@ class MainNavigationView extends GetView<MainNavigationController> {
       () => Scaffold(
         body: IndexedStack(
           index: controller.selectedIndex.value,
-          children: const [
-            SurahListView(),
-            DoaView(),
-            SholatView(),
-            BookmarkView(),
-            SettingsView(),
+          children: [
+            controller.visitedPages[0]
+                ? const SurahListView()
+                : const SizedBox.shrink(),
+            controller.visitedPages[1]
+                ? const DoaView()
+                : const SizedBox.shrink(),
+            controller.visitedPages[2]
+                ? const SholatView()
+                : const SizedBox.shrink(),
+            controller.visitedPages[3]
+                ? const BookmarkView()
+                : const SizedBox.shrink(),
+            controller.visitedPages[4]
+                ? const SettingsView()
+                : const SizedBox.shrink(),
           ],
         ),
         bottomNavigationBar: BottomNavigationBar(

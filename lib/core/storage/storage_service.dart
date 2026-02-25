@@ -1,5 +1,8 @@
+import 'dart:io';
+
 import 'package:get/get.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:path_provider/path_provider.dart';
 
 class StorageService extends GetxService {
   late Box _bookmarkBox;
@@ -36,15 +39,30 @@ class StorageService extends GetxService {
 
   // --- Fungsi Status Unduhan Audio ---
 
-  // Menandai URL audio sebagai sudah diunduh
-  Future<void> markAudioAsDownloaded(String audioUrl, String localPath) async {
-    await _downloadBox.put(audioUrl, localPath);
+  // Menandai URL audio sebagai sudah diunduh dengan menyimpan hanya NAMA FILE (relative path)
+  Future<void> markAudioAsDownloaded(String audioUrl, String fileName) async {
+    await _downloadBox.put(audioUrl, fileName);
   }
 
   // Memeriksa apakah audio sudah ada di penyimpanan lokal
-  // Mengembalikan path lokal jika ada, atau null jika belum diunduh
-  String? getDownloadedAudioPath(String audioUrl) {
-    return _downloadBox.get(audioUrl);
+  // Mengembalikan path absolut, atau null jika belum diunduh (atau file fisik tidak ada)
+  Future<String?> getDownloadedAudioPath(String audioUrl) async {
+    String? fileName = _downloadBox.get(audioUrl);
+    if (fileName != null) {
+      // Rekonstruksi path absolut setiap kali dipanggil (mencegah error storage berubah)
+      Directory appDocDir = await getApplicationDocumentsDirectory();
+      String fullPath = '${appDocDir.path}/$fileName';
+
+      // Jika file mentah ada, kembalikan, kalau tidak null (berarti file terhapus di luar aplikasi)
+      if (File(fullPath).existsSync()) {
+        return fullPath;
+      } else {
+        // Hapus dari caching jika file fisik hilang
+        await _downloadBox.delete(audioUrl);
+        return null;
+      }
+    }
+    return null;
   }
 
   // --- Fungsi Pengaturan Tema ---
