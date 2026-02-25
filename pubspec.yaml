@@ -34,6 +34,9 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/data/doa.json
+    - assets/data/surat.json
   fonts:
     - family: Nabi
       fonts:
