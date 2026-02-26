@@ -74,4 +74,34 @@ class StorageService extends GetxService {
     // Default nilai adalah false (Light Mode) jika belum pernah diset
     return _settingsBox.get('is_dark_mode', defaultValue: false);
   }
+
+  // --- Fungsi Tipografi Font Arab ---
+  Future<void> saveArabicFontSize(double size) async {
+    await _settingsBox.put('arabic_font_size', size);
+  }
+
+  double getArabicFontSize() {
+    // Default nilai 26.0 untuk ukuran font Arab yang proporsional
+    return _settingsBox.get('arabic_font_size', defaultValue: 26.0) as double;
+  }
+
+  // --- Fungsi Tipografi Font Latin & Terjemahan ---
+  Future<void> saveLatinFontSize(double size) async {
+    await _settingsBox.put('latin_font_size', size);
+  }
+
+  double getLatinFontSize() {
+    // Default nilai 14.0 untuk ukuran font Latin & Terjemahan
+    return _settingsBox.get('latin_font_size', defaultValue: 14.0) as double;
+  }
+
+  // --- Fungsi Jenis Font Arab ---
+  Future<void> saveArabicFontFamily(String fontFamily) async {
+    await _settingsBox.put('arabic_font_family', fontFamily);
+  }
+
+  String getArabicFontFamily() {
+    // Default font adalah 'Nabi' (Lokal Uthmani bawaan)
+    return _settingsBox.get('arabic_font_family', defaultValue: 'Nabi') as String;
+  }
 }

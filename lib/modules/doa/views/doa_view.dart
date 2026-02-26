@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 
+import '../../settings/controllers/theme_controller.dart';
 import '../controllers/doa_controller.dart';
 
 class DoaView extends StatelessWidget {
@@ -9,6 +11,9 @@ class DoaView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<DoaController>(); // Mengambil dari Routing
+
+    // Load the controller
+    final themeCtrl = Get.find<ThemeController>();
 
     return Scaffold(
       appBar: AppBar(
@@ -67,34 +72,70 @@ class DoaView extends StatelessWidget {
                             ),
                           ),
                           const Divider(height: 24),
-                          Text(
-                            doa['ar'] ?? '',
-                            textAlign: TextAlign.right,
-                            style: const TextStyle(
-                              fontSize: 24,
-                              fontWeight: FontWeight.normal,
-                              fontFamily: 'Nabi',
-                              height: 2.0,
-                            ),
-                          ),
+                          Obx(() {
+                            // Menentukan style berdasarkan pilihan font
+                            TextStyle arabicStyle;
+                            String fontFamily =
+                                themeCtrl.arabicFontFamily.value;
+                            double fontSize = themeCtrl.arabicFontSize.value;
+
+                            if (fontFamily == 'Amiri') {
+                              arabicStyle = GoogleFonts.amiri(
+                                fontSize: fontSize,
+                                fontWeight: FontWeight.normal,
+                                height: 2.0,
+                              );
+                            } else if (fontFamily == 'Lateef') {
+                              arabicStyle = GoogleFonts.lateef(
+                                fontSize: fontSize,
+                                fontWeight: FontWeight.normal,
+                                height: 2.0,
+                              );
+                            } else if (fontFamily == 'Aref Ruqaa') {
+                              arabicStyle = GoogleFonts.arefRuqaa(
+                                fontSize: fontSize,
+                                fontWeight: FontWeight.normal,
+                                height: 2.0,
+                              );
+                            } else {
+                              // Default: Local Nabi Font
+                              arabicStyle = TextStyle(
+                                fontSize: fontSize,
+                                fontWeight: FontWeight.normal,
+                                fontFamily: 'Nabi',
+                                height: 2.0,
+                              );
+                            }
+
+                            return Text(
+                              doa['ar'] ?? '',
+                              textAlign: TextAlign.right,
+                              style: arabicStyle,
+                            );
+                          }),
                           const SizedBox(height: 12),
-                          Text(
-                            doa['tr'] ?? '',
-                            style: TextStyle(
-                              fontStyle: FontStyle.italic,
-                              color: Get.isDarkMode
-                                  ? Colors.indigoAccent
-                                  : Colors.indigo,
+                          Obx(
+                            () => Text(
+                              doa['tr'] ?? '',
+                              style: TextStyle(
+                                fontStyle: FontStyle.italic,
+                                fontSize: themeCtrl.latinFontSize.value,
+                                color: Get.isDarkMode
+                                    ? Colors.indigoAccent
+                                    : Colors.indigo,
+                              ),
                             ),
                           ),
                           const SizedBox(height: 8),
-                          Text(
-                            doa['idn'] ?? '',
-                            style: TextStyle(
-                              fontSize: 14,
-                              color: Get.isDarkMode
-                                  ? Colors.white70
-                                  : Colors.black87,
+                          Obx(
+                            () => Text(
+                              doa['idn'] ?? '',
+                              style: TextStyle(
+                                fontSize: themeCtrl.latinFontSize.value,
+                                color: Get.isDarkMode
+                                    ? Colors.white70
+                                    : Colors.black87,
+                              ),
                             ),
                           ),
                         ],

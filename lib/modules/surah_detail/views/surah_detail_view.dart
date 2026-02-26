@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
 
+import '../../settings/controllers/theme_controller.dart';
 import '../controllers/audio_controller.dart';
 import '../controllers/surah_detail_controller.dart';
 
@@ -102,6 +104,7 @@ class SurahDetailView extends GetView<SurahDetailController> {
 
         final surah = detailCtrl.surahDetail;
         final ayatList = surah['ayat'] as List<dynamic>;
+        final themeCtrl = Get.find<ThemeController>();
 
         // Mengganti ListView dengan ScrollablePositionedList
         return ScrollablePositionedList.builder(
@@ -303,37 +306,72 @@ class SurahDetailView extends GetView<SurahDetailController> {
                         );
                       }),
                       const SizedBox(height: 16),
-                      // Teks Arab
-                      Text(
-                        ayat['teksArab'],
-                        textAlign: TextAlign.right,
-                        style: const TextStyle(
-                          fontSize: 32,
-                          fontWeight: FontWeight.normal,
-                          fontFamily: 'Nabi',
-                          height: 2.0,
-                        ),
-                      ),
+                      // Teks Arab dengan ukuran tebal dinamis dari Pengaturan
+                      Obx(() {
+                        // Menentukan style berdasarkan pilihan font
+                        TextStyle arabicStyle;
+                        String fontFamily = themeCtrl.arabicFontFamily.value;
+                        double fontSize = themeCtrl.arabicFontSize.value;
+
+                        if (fontFamily == 'Amiri') {
+                          arabicStyle = GoogleFonts.amiri(
+                            fontSize: fontSize,
+                            fontWeight: FontWeight.normal,
+                            height: 2.0,
+                          );
+                        } else if (fontFamily == 'Lateef') {
+                          arabicStyle = GoogleFonts.lateef(
+                            fontSize: fontSize,
+                            fontWeight: FontWeight.normal,
+                            height: 2.0,
+                          );
+                        } else if (fontFamily == 'Aref Ruqaa') {
+                          arabicStyle = GoogleFonts.arefRuqaa(
+                            fontSize: fontSize,
+                            fontWeight: FontWeight.normal,
+                            height: 2.0,
+                          );
+                        } else {
+                          // Default: Local Nabi Font
+                          arabicStyle = TextStyle(
+                            fontSize: fontSize,
+                            fontWeight: FontWeight.normal,
+                            fontFamily: 'Nabi',
+                            height: 2.0,
+                          );
+                        }
+
+                        return Text(
+                          ayat['teksArab'],
+                          textAlign: TextAlign.right,
+                          style: arabicStyle,
+                        );
+                      }),
                       const SizedBox(height: 16),
                       // Transliterasi
-                      Text(
-                        ayat['teksLatin'],
-                        style: TextStyle(
-                          fontStyle: FontStyle.italic,
-                          color: Get.isDarkMode
-                              ? Colors.indigoAccent
-                              : Colors.indigo,
+                      Obx(
+                        () => Text(
+                          ayat['teksLatin'],
+                          style: TextStyle(
+                            fontStyle: FontStyle.italic,
+                            fontSize: themeCtrl.latinFontSize.value,
+                            color: Get.isDarkMode
+                                ? Colors.indigoAccent
+                                : Colors.indigo,
+                          ),
                         ),
                       ),
                       const SizedBox(height: 8),
                       // Terjemahan
-                      Text(
-                        ayat['teksIndonesia'],
-                        style: TextStyle(
-                          fontSize: 14,
-                          color: Get.isDarkMode
-                              ? Colors.white70
-                              : Colors.black87,
+                      Obx(
+                        () => Text(
+                          ayat['teksIndonesia'],
+                          style: TextStyle(
+                            fontSize: themeCtrl.latinFontSize.value,
+                            color: Get.isDarkMode
+                                ? Colors.white70
+                                : Colors.black87,
+                          ),
                         ),
                       ),
                     ],
