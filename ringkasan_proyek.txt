@@ -142,9 +142,9 @@ C. TODO LIST FASE 8 (SELESAI KESELURUHAN)
 - [x] Auto Tracking GPS dan perbaikan MyQuran API Endpoint.
 
 D. TODO LIST FASE 9 (Personalisasi Tampilan & Tipografi)
-- [ ] Menambahkan opsi pengaturan slider ukuran font teks Arab di Settings.
-- [ ] Menambahkan opsi pengaturan slider ukuran font teks Latin & Terjemahan di Settings.
-- [ ] Menambahkan opsi Dropdown pilihan jenis Font Arab (misal: Uthmani, Indopak, Kemenag).
-- [ ] Menyimpan seluruh preferensi kustomisasi ukuran & jenis font secara persisten ke dalam Hive (StorageService).
-- [ ] Menerapkan ukuran dan jenis font reaktif (Reactive State) pada tampilan list ayat di SurahDetailView.
-- [ ] Menerapkan ukuran dan jenis font reaktif pada tampilan list doa di DoaView.
+- [x] Menambahkan opsi pengaturan slider ukuran font teks Arab di Settings.
+- [x] Menambahkan opsi pengaturan slider ukuran font teks Latin & Terjemahan di Settings.
+- [x] Menambahkan opsi Dropdown pilihan jenis Font Arab (misal: Uthmani, Indopak, Kemenag).
+- [x] Menyimpan seluruh preferensi kustomisasi ukuran & jenis font secara persisten ke dalam Hive (StorageService).
+- [x] Menerapkan ukuran dan jenis font reaktif (Reactive State) pada tampilan list ayat di SurahDetailView.
+- [x] Menerapkan ukuran dan jenis font reaktif pada tampilan list doa di DoaView.

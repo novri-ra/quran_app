@@ -12,16 +12,31 @@ class SurahDetailView extends GetView<SurahDetailController> {
 
   @override
   Widget build(BuildContext context) {
-    // Mengambil argumen nomor surat dari navigasi sebelumnya
-    final nomorSurat = Get.arguments as int;
+    // Menangkap argumen navigasi (bisa int atau Map)
+    int nomorSurat;
+    int? targetAyat;
+
+    if (Get.arguments is Map) {
+      nomorSurat = Get.arguments['surat'] as int;
+      targetAyat = Get.arguments['ayat'] as int;
+    } else {
+      nomorSurat = Get.arguments as int;
+    }
 
     // Ambil Controllers (sudah di-inject oleh Router bindigs)
     final detailCtrl = Get.find<SurahDetailController>();
     final audioCtrl = Get.find<AudioController>();
 
     // Panggil API saat halaman dibuka
-    WidgetsBinding.instance.addPostFrameCallback((_) {
-      detailCtrl.fetchSurahDetail(nomorSurat);
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      await detailCtrl.fetchSurahDetail(nomorSurat);
+
+      if (targetAyat != null) {
+        // Index adalah targetAyat - 1. Beri jeda sejenak agar item selesai di-render.
+        Future.delayed(const Duration(milliseconds: 500), () {
+          detailCtrl.scrollToAyat(targetAyat! - 1);
+        });
+      }
     });
 
     return Scaffold(
