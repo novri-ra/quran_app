@@ -39,7 +39,7 @@ Proyek ini tidak menyimpan kunci rahasia rawan (_secret key_) sehingga 100% aman
 1. **Clone repositori** ini ke PC Anda:
 
    ```bash
-   git clone https://github.com/username-anda/quran_app.git
+   git clone https://github.com/novri-ra/quran_app.git
    ```
 
 2. **Masuk ke direktori** repositori:
