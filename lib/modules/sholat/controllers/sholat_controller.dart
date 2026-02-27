@@ -21,6 +21,7 @@ class SholatController extends GetxController {
   var selectedKabupaten = RxnString();
 
   @override
+
   void onInit() {
     super.onInit();
     fetchAllKota();

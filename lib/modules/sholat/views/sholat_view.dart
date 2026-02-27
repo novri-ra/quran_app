@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import '../../../core/widgets/banner_ad_widget.dart';
 import '../controllers/sholat_controller.dart';
 
 class SholatView extends StatelessWidget {
@@ -190,6 +191,7 @@ class SholatView extends StatelessWidget {
           ],
         ),
       ),
+      bottomNavigationBar: const BannerAdWidget(),
     );
   }
 

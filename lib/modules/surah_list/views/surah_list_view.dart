@@ -46,7 +46,22 @@ class SurahListView extends GetView<QuranController> {
 
               return ListView.separated(
                 itemCount: controller.filteredSurahList.length,
-                separatorBuilder: (context, index) => const Divider(),
+                separatorBuilder: (context, index) {
+                  // Menyisipkan Iklan Banner setiap 5 surat
+                  if ((index + 1) % 5 == 0) {
+                    return const Column(
+                      children: [
+                        Divider(),
+                        Padding(
+                          padding: EdgeInsets.symmetric(vertical: 8.0),
+                          child: BannerAdWidget(),
+                        ),
+                        Divider(),
+                      ],
+                    );
+                  }
+                  return const Divider();
+                },
                 itemBuilder: (context, index) {
                   final surah = controller.filteredSurahList[index];
                   return ListTile(
